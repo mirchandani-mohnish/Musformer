@@ -1,6 +1,6 @@
 # Musformer
 
-Mohnish Mirchandani 40301836
+
 
 
 Although misleading, but the name seemed nice. The goal of this project is to try out multiple source separation models in speechbrain. The idea is to replicate building a model in the waveform domain directly. We see that multiple models try to solve the music source separation as a problem and most state-of-the-art models reach an SiSDR ratio of 9 to tackle the same. 

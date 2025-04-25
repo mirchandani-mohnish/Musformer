@@ -1,0 +1,233 @@
+# Generated 2025-04-20 from:
+# /kaggle/working/demucs-hparams.yaml
+# yamllint disable
+# ################################
+# Model: Demucs for source separation
+# https://hal.science/hal-02379796/document
+# Dataset : Musdb
+# ################################
+# Basic parameters
+seed: 1234
+__set_seed: !apply:speechbrain.utils.seed_everything [1234]
+
+# Data params 
+data_folder: db_path
+
+experiment_name: demucs
+output_folder: /kaggle/working/results/demucs/1234
+train_log: /kaggle/working/results/demucs/1234/train_log.txt
+save_folder: /kaggle/working/results/demucs/1234/save
+train_data: /kaggle/working/results/demucs/1234/train.json
+valid_data: /kaggle/working/results/demucs/1234/valid.json
+test_data: /kaggle/working/results/demucs/1234/test.json
+skip_prep: false
+
+# Manually Set This
+db_path: /kaggle/input/musdb18-music-source-separation-dataset
+
+result_file_path: /kaggle/working/metrics.csv
+
+# Experiment params
+precision: fp16
+num_sources: 2
+
+noprogressbar: false
+save_audio: true
+sample_rate: 16000
+n_audio_to_save: 10
+chunk_size: 10
+
+####################### Training Parameters ####################################
+
+N_epochs: 30
+batch_size: 1
+lr: 0.0005
+clip_grad_norm: 5
+loss_upper_lim: 999999
+
+
+
+
+
+####################### WaveDrop Params ########################################
+
+use_wavedrop: true
+# Frequency drop: randomly drops a number of frequency bands to zero.
+drop_freq_low: 0  # Min frequency band dropout probability
+drop_freq_high: 1  # Max frequency band dropout probability
+drop_freq_count_low: 1  # Min number of frequency bands to drop
+drop_freq_count_high: 3  # Max number of frequency bands to drop
+drop_freq_width: 0.05  # Width of frequency bands to drop
+
+drop_freq: !new:speechbrain.augment.time_domain.DropFreq
+  drop_freq_low: 0
+  drop_freq_high: 1
+  drop_freq_count_low: 1
+  drop_freq_count_high: 3
+  drop_freq_width: 0.05
+
+# Time drop: randomly drops a number of temporal chunks.
+drop_chunk_count_low: 1  # Min number of audio chunks to drop
+drop_chunk_count_high: 3  # Max number of audio chunks to drop
+drop_chunk_length_low: 1000  # Min length of audio chunks to drop
+drop_chunk_length_high: 2000  # Max length of audio chunks to drop
+
+drop_chunk: !new:speechbrain.augment.time_domain.DropChunk
+  drop_length_low: 1000
+  drop_length_high: 2000
+  drop_count_low: 1
+  drop_count_high: 3
+threshold_byloss: true
+threshold: -30
+
+
+
+kernel_size: 16
+# kernel_stride: 8
+
+# Dataloader options 
+dataloader_opts:
+  batch_size: 1
+  num_workers: 3
+
+######################## Network Definition ####################################
+
+
+Encoder1: &id001 !new:demucsModels.EncoderBlock
+  in_channels: 1
+  out_channels: 64
+
+
+Encoder2: &id002 !new:demucsModels.EncoderBlock
+  in_channels: 64
+  out_channels: 128
+
+
+Encoder3: &id003 !new:demucsModels.EncoderBlock
+  in_channels: 128
+  out_channels: 256
+
+
+Encoder4: &id004 !new:demucsModels.EncoderBlock
+  in_channels: 256
+  out_channels: 512
+
+
+Encoder5: &id005 !new:demucsModels.EncoderBlock
+  in_channels: 512
+  out_channels: 1024
+
+
+Encoder6: &id006 !new:demucsModels.EncoderBlock
+  in_channels: 1024
+  out_channels: 2048
+
+
+
+
+Decoder6: &id009 !new:demucsModels.DecoderBlock
+  in_channels: 2048
+  out_channels: 1024
+
+
+Decoder5: &id010 !new:demucsModels.DecoderBlock
+  in_channels: 1024
+  out_channels: 512
+
+
+Decoder4: &id011 !new:demucsModels.DecoderBlock
+  in_channels: 512
+  out_channels: 256
+
+
+Decoder3: &id012 !new:demucsModels.DecoderBlock
+  in_channels: 256
+  out_channels: 128
+
+
+Decoder2: &id013 !new:demucsModels.DecoderBlock
+  in_channels: 128
+  out_channels: 64
+
+
+Decoder1: &id014 !new:demucsModels.DecoderBlock
+  in_channels: 64
+  out_channels: 4
+
+
+Linear: &id008 !new:speechbrain.nnet.linear.Linear
+  input_size: 4096
+  bias: false
+  n_neurons: 2048
+
+BiLSTM: &id007 !new:speechbrain.nnet.RNN.LSTM
+  hidden_size: 2048
+  input_size: 2048
+  num_layers: 2
+  bidirectional: true
+    # batch_first: True
+
+LinearSeparator: &id015 !new:demucsModels.SourceSeparator
+
+  in_channels: 4
+  out_channels: 1
+  num_sources: 2
+
+
+######################## Remaining Config ######################################
+optimizer: !name:torch.optim.Adam
+  lr: 0.0005
+  weight_decay: 0
+
+# loss: !name:speechbrain.nnet.losses.mse_loss : another alternative
+# loss: !name:speechbrain.nnet.losses.l1_loss : as used in the demucs official paper
+
+loss: !name:speechbrain.nnet.losses.get_si_snr_with_pitwrapper
+
+lr_scheduler: !new:speechbrain.nnet.schedulers.ReduceLROnPlateau
+  factor: 0.5
+  patience: 2
+  dont_halve_until_epoch: 50
+
+epoch_counter: &id016 !new:speechbrain.utils.epoch_loop.EpochCounter
+
+
+  limit: 30
+
+modules:
+  encoder1: *id001
+  encoder2: *id002
+  encoder3: *id003
+  encoder4: *id004
+  encoder5: *id005
+  encoder6: *id006
+  lstm: *id007
+  linear: *id008
+  decoder6: *id009
+  decoder5: *id010
+  decoder4: *id011
+  decoder3: *id012
+  decoder2: *id013
+  decoder1: *id014
+  linearSeparator: *id015
+checkpointer: !new:speechbrain.utils.checkpoints.Checkpointer
+  checkpoints_dir: /kaggle/working/results/demucs/1234/save
+  recoverables:
+    encoder1: *id001
+    encoder2: *id002
+    encoder3: *id003
+    encoder4: *id004
+    encoder5: *id005
+    encoder6: *id006
+    lstm: *id007
+    linear: *id008
+    decoder6: *id009
+    decoder5: *id010
+    decoder4: *id011
+    decoder3: *id012
+    decoder2: *id013
+    decoder1: *id014
+    linearSeparator: *id015
+    counter: *id016
+train_logger: !new:speechbrain.utils.train_logger.FileTrainLogger
+  save_file: /kaggle/working/results/demucs/1234/train_log.txt

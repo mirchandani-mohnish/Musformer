@@ -88,6 +88,9 @@ SDRi measures how much better (or worse) the model is compared to the original m
 
 
 Ok so with that in mind...(drumroll)... scroll down to see the verdict
+![image](https://github.com/user-attachments/assets/d450286b-1d93-4210-89ec-6f9f819a80fd)
+
+
 
 
 

@@ -1,0 +1,5272 @@
+2025-04-18 21:38:27,741 - speechbrain.utils.quirks - INFO - Applied quirks (see `speechbrain.utils.quirks`): [disable_jit_profiling, allow_tf32]
+2025-04-18 21:38:27,742 - speechbrain.utils.quirks - INFO - Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2025-04-18 21:38:27,742 - speechbrain.core - INFO - Beginning experiment!
+2025-04-18 21:38:27,742 - speechbrain.core - INFO - Experiment folder: /notebooks/results/dprnn/1234
+2025-04-18 21:38:28,896 - speechbrain.utils.superpowers - DEBUG - absl-py==2.1.0
+accelerate==0.24.1
+agate==1.6.3
+agate-dbf==0.2.2
+agate-excel==0.2.5
+agate-sql==0.5.8
+aiofiles==22.1.0
+aiohttp==3.9.1
+aiosignal==1.3.1
+aiosqlite==0.19.0
+antlr4-python3-runtime==4.9.3
+anyio==4.2.0
+appdirs==1.4.4
+argon2-cffi==23.1.0
+argon2-cffi-bindings==21.2.0
+arrow==1.3.0
+asttokens==2.4.1
+astunparse==1.6.3
+attrs==23.1.0
+awscli==1.22.34
+Babel==2.14.0
+beautifulsoup4==4.12.3
+bitsandbytes==0.41.2
+bleach==6.1.0
+blinker==1.4
+blis==0.7.11
+boto3==1.28.51
+botocore==1.31.85
+cachetools==5.3.2
+catalogue==2.0.10
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+click-completion==0.5.2
+click-didyoumean==0.3.0
+click-help-colors==0.9.4
+cloudpickle==2.2.1
+colorama==0.4.3
+comm==0.2.1
+confection==0.1.4
+contourpy==1.2.0
+cryptography==3.4.8
+csvkit==1.0.6
+cupy-cuda12x==12.2.0
+cycler==0.12.1
+cymem==2.0.8
+Cython==3.0.2
+datasets==2.14.5
+dbfread==2.0.7
+dbus-python==1.2.18
+debugpy==1.8.0
+decorator==5.1.1
+deepspeed==0.10.3
+defusedxml==0.7.1
+diffusers==0.21.4
+dill==0.3.7
+distro==1.7.0
+docker-pycreds==0.4.0
+docutils==0.17.1
+entrypoints==0.4
+et-xmlfile==1.0.1
+executing==2.0.1
+fastjsonschema==2.19.1
+fastrlock==0.8.2
+ffmpeg-python==0.2.0
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.47.2
+fqdn==1.5.1
+frozenlist==1.4.1
+fsspec==2023.6.0
+future==0.18.3
+gast==0.5.4
+gdown==4.7.1
+gitdb==4.0.11
+GitPython==3.1.41
+google-auth==2.26.2
+google-auth-oauthlib==1.2.0
+google-pasta==0.2.0
+gql==3.0.0a6
+gradient==2.0.6
+gradient-utils==0.5.0
+graphql-core==3.1.7
+greenlet==1.1.2
+grpcio==1.60.0
+h5py==3.10.0
+halo==0.0.31
+hjson==3.1.0
+httplib2==0.20.2
+huggingface-hub==0.20.3
+HyperPyYAML==1.2.2
+idna==3.3
+imageio==2.33.1
+importlib-metadata==4.6.4
+ipykernel==6.29.0
+ipython==8.20.0
+ipython-genutils==0.2.0
+ipywidgets==8.1.1
+isodate==0.6.1
+isoduration==20.11.0
+jdcal==1.0
+jedi==0.19.1
+jeepney==0.7.1
+Jinja2==3.1.3
+jmespath==0.10.0
+joblib==1.3.2
+json5==0.9.14
+jsonify==0.5
+jsonpointer==2.4
+jsonschema==4.21.1
+jsonschema-specifications==2023.12.1
+jupyter-events==0.9.0
+jupyter-highlight-selected-word==0.2.0
+jupyter-nbextensions-configurator==0.6.3
+jupyter-server-mathjax==0.2.6
+jupyter-ydoc==0.2.5
+jupyter_client==7.4.9
+jupyter_contrib_core==0.4.2
+jupyter_contrib_nbextensions==0.7.0
+jupyter_core==5.7.1
+jupyter_server==2.12.5
+jupyter_server_fileid==0.9.1
+jupyter_server_terminals==0.5.2
+jupyter_server_ydoc==0.8.0
+jupyterlab==3.6.5
+jupyterlab-widgets==3.0.9
+jupyterlab_git==0.43.0
+jupyterlab_pygments==0.3.0
+jupyterlab_server==2.25.2
+kagglehub==0.3.11
+keras==2.15.0
+keyring==23.5.0
+kiwisolver==1.4.5
+langcodes==3.3.0
+launchpadlib==1.10.16
+lazr.restfulclient==0.14.4
+lazr.uri==1.0.6
+lazy_loader==0.3
+leather==0.3.4
+libclang==16.0.6
+log-symbols==0.0.14
+lxml==4.8.0
+Markdown==3.5.2
+MarkupSafe==2.1.4
+marshmallow==2.21.0
+matplotlib==3.7.3
+matplotlib-inline==0.1.6
+mir_eval==0.8.2
+mistune==3.0.2
+ml-dtypes==0.2.0
+more-itertools==8.10.0
+mpmath==1.3.0
+multidict==6.0.4
+multiprocess==0.70.15
+murmurhash==1.0.10
+musdb==0.4.2
+museval==0.4.1
+nbclassic==1.0.0
+nbclient==0.9.0
+nbconvert==7.14.2
+nbdime==3.2.1
+nbformat==5.9.2
+nest-asyncio==1.6.0
+networkx==3.2.1
+ninja==1.11.1.1
+nltk==3.8.1
+notebook==6.5.6
+notebook_shim==0.2.3
+numpy==1.26.3
+oauthlib==3.2.0
+olefile==0.46
+omegaconf==2.3.0
+opencv-python==4.8.0.76
+openpyxl==3.1.2
+opt-einsum==3.3.0
+overrides==7.6.0
+packaging==23.2
+pandas==2.2.0
+pandocfilters==1.5.1
+parsedatetime==2.6
+parso==0.8.3
+pathlib_abc==0.1.1
+pathtools==0.1.2
+pathy==0.11.0
+peft==0.6.2
+pexpect==4.9.0
+Pillow==9.5.0
+platformdirs==4.1.0
+preshed==3.0.9
+progressbar2==4.3.2
+prometheus-client==0.9.0
+prompt-toolkit==3.0.43
+protobuf==4.23.4
+psutil==5.9.8
+ptyprocess==0.7.0
+pure-eval==0.2.2
+py-cpuinfo==9.0.0
+pyaml==25.1.0
+pyarrow==15.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.3.0
+pycparser==2.21
+pydantic==1.10.14
+Pygments==2.17.2
+PyGObject==3.42.1
+PyJWT==2.3.0
+pymongo==3.13.0
+pyparsing==2.4.7
+PySocks==1.7.1
+python-apt==2.4.0+ubuntu2
+python-dateutil==2.8.2
+python-distutils-extra==2.39
+python-json-logger==2.0.7
+python-slugify==4.0.0
+python-utils==3.8.1
+pytimeparse==1.1.5
+pytz==2022.1
+PyWavelets==1.5.0
+PyYAML==5.4.1
+pyzmq==24.0.1
+referencing==0.32.1
+regex==2023.12.25
+requests==2.31.0
+requests-oauthlib==1.3.1
+requests-toolbelt==1.0.0
+rfc3339-validator==0.1.4
+rfc3986-validator==0.1.1
+roman==3.3
+rpds-py==0.17.1
+rsa==4.8
+ruamel.yaml==0.18.10
+ruamel.yaml.clib==0.2.12
+s3transfer==0.6.2
+safetensors==0.4.0
+scikit-image==0.21.0
+scikit-learn==1.3.0
+scipy==1.11.2
+screen-resolution-extra==0.0.0
+seaborn==0.12.2
+SecretStorage==3.3.1
+Send2Trash==1.8.2
+sentence-transformers==2.2.2
+sentencepiece==0.1.99
+sentry-sdk==1.39.2
+setproctitle==1.3.3
+shellingham==1.5.4
+simplejson==3.20.1
+six==1.16.0
+smart-open==6.4.0
+smmap==5.0.1
+sniffio==1.3.0
+soundfile==0.13.1
+soupsieve==2.5
+spacy==3.6.1
+spacy-legacy==3.0.12
+spacy-loggers==1.0.5
+speechbrain @ git+https://github.com/speechbrain/speechbrain.git@eb0532a219cc77efbc7a5c404184302500532226
+spinners==0.0.24
+SQLAlchemy==2.0.21
+srsly==2.4.8
+stack-data==0.6.3
+stempeg==0.2.3
+sympy==1.12
+tabulate==0.9.0
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.35.0
+termcolor==2.4.0
+terminado==0.18.0
+terminaltables==3.1.10
+thinc==8.1.12
+threadpoolctl==3.2.0
+tifffile==2023.12.9
+timm==0.9.7
+tinycss2==1.2.1
+tokenizers==0.15.1
+torch==2.1.1+cu121
+torchaudio==2.1.1+cu121
+torchvision==0.16.1+cu121
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.1
+transformers==4.35.2
+triton==2.1.0
+typer==0.9.0
+types-python-dateutil==2.8.19.20240106
+typing_extensions==4.9.0
+tzdata==2023.4
+Unidecode==1.3.3
+uri-template==1.3.0
+urllib3==2.0.7
+wadllib==1.3.6
+wandb==0.15.10
+wasabi==1.1.2
+wcwidth==0.2.13
+webcolors==1.13
+webencodings==0.5.1
+websocket-client==0.57.0
+Werkzeug==3.0.1
+widgetsnbextension==4.0.9
+wrapt==1.14.1
+xgboost==1.7.6
+xkit==0.0.0
+xlrd==1.2.0
+xxhash==3.4.1
+y-py==0.6.2
+yarl==1.9.4
+ypy-websocket==0.8.4
+zipp==1.0.0
+
+
+2025-04-18 21:38:28,902 - speechbrain.utils.superpowers - DEBUG - d0ecbf7
+
+
+2025-04-18 21:38:28,906 - speechbrain.core - INFO - Info: precision arg from hparam file is used
+2025-04-18 21:38:28,906 - speechbrain.core - INFO - Info: noprogressbar arg from hparam file is used
+2025-04-18 21:38:29,293 - speechbrain.core - INFO - Gradscaler enabled: `True`
+2025-04-18 21:38:29,294 - speechbrain.core - INFO - Using training precision: `--precision=fp16`
+2025-04-18 21:38:29,294 - speechbrain.core - INFO - Using evaluation precision: `--eval_precision=fp32`
+2025-04-18 21:38:29,295 - speechbrain.core - INFO - Separation Model Statistics:
+* Total Number of Trainable Parameters: 14.6M
+* Total Number of Parameters: 14.6M
+* Trainable Parameters represent 100.0000% of the total size.
+2025-04-18 21:38:41,898 - speechbrain.utils.checkpoints - INFO - Would load a checkpoint here, but none found yet.
+2025-04-18 21:38:41,898 - speechbrain.utils.epoch_loop - INFO - Going into epoch 1
+2025-04-18 21:38:48,101 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/notebooks/dprnn-train.py", line 429, in <module>
+    separator.fit(
+  File "/usr/local/lib/python3.11/dist-packages/speechbrain/core.py", line 1585, in fit
+    self._fit_train(train_set=train_set, epoch=epoch, enable=enable)
+  File "/usr/local/lib/python3.11/dist-packages/speechbrain/core.py", line 1410, in _fit_train
+    loss = self.fit_batch(batch)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/notebooks/dprnn-train.py", line 93, in fit_batch
+    predictions, targets = self.compute_forward(
+                           ^^^^^^^^^^^^^^^^^^^^^
+  File "/notebooks/dprnn-train.py", line 55, in compute_forward
+    est_mask = self.hparams.MaskNet(mix_w)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/speechbrain/lobes/models/dual_path.py", line 1067, in forward
+    x = self.dual_mdl[i](x)
+        ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/speechbrain/lobes/models/dual_path.py", line 918, in forward
+    inter = self.inter_mdl(inter)
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/speechbrain/lobes/models/dual_path.py", line 706, in forward
+    return self.mdl(x)[0]
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/speechbrain/nnet/RNN.py", line 296, in forward
+    output, hn = self.rnn(x)
+                 ^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/rnn.py", line 879, in forward
+    result = _VF.lstm(input, hx, self._flat_weights, self.bias, self.num_layers,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 788.00 MiB. GPU 0 has a total capacty of 15.88 GiB of which 333.69 MiB is free. Process 1719944 has 15.55 GiB memory in use. Of the allocated memory 15.08 GiB is allocated by PyTorch, and 354.12 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+2025-04-19 00:04:30,769 - speechbrain.utils.quirks - INFO - Applied quirks (see `speechbrain.utils.quirks`): [allow_tf32, disable_jit_profiling]
+2025-04-19 00:04:30,777 - speechbrain.utils.quirks - INFO - Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2025-04-19 00:04:30,777 - speechbrain.core - INFO - Beginning experiment!
+2025-04-19 00:04:30,777 - speechbrain.core - INFO - Experiment folder: /notebooks/results/dprnn/1234
+2025-04-19 00:04:31,767 - speechbrain.utils.superpowers - DEBUG - absl-py==2.1.0
+accelerate==0.24.1
+agate==1.6.3
+agate-dbf==0.2.2
+agate-excel==0.2.5
+agate-sql==0.5.8
+aiofiles==22.1.0
+aiohttp==3.9.1
+aiosignal==1.3.1
+aiosqlite==0.19.0
+antlr4-python3-runtime==4.9.3
+anyio==4.2.0
+appdirs==1.4.4
+argon2-cffi==23.1.0
+argon2-cffi-bindings==21.2.0
+arrow==1.3.0
+asttokens==2.4.1
+astunparse==1.6.3
+attrs==23.1.0
+awscli==1.22.34
+Babel==2.14.0
+beautifulsoup4==4.12.3
+bitsandbytes==0.41.2
+bleach==6.1.0
+blinker==1.4
+blis==0.7.11
+boto3==1.28.51
+botocore==1.31.85
+cachetools==5.3.2
+catalogue==2.0.10
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+click-completion==0.5.2
+click-didyoumean==0.3.0
+click-help-colors==0.9.4
+cloudpickle==2.2.1
+colorama==0.4.3
+comm==0.2.1
+confection==0.1.4
+contourpy==1.2.0
+cryptography==3.4.8
+csvkit==1.0.6
+cupy-cuda12x==12.2.0
+cycler==0.12.1
+cymem==2.0.8
+Cython==3.0.2
+datasets==2.14.5
+dbfread==2.0.7
+dbus-python==1.2.18
+debugpy==1.8.0
+decorator==5.1.1
+deepspeed==0.10.3
+defusedxml==0.7.1
+diffusers==0.21.4
+dill==0.3.7
+distro==1.7.0
+docker-pycreds==0.4.0
+docutils==0.17.1
+entrypoints==0.4
+et-xmlfile==1.0.1
+executing==2.0.1
+fastjsonschema==2.19.1
+fastrlock==0.8.2
+ffmpeg-python==0.2.0
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.47.2
+fqdn==1.5.1
+frozenlist==1.4.1
+fsspec==2023.6.0
+future==0.18.3
+gast==0.5.4
+gdown==4.7.1
+gitdb==4.0.11
+GitPython==3.1.41
+google-auth==2.26.2
+google-auth-oauthlib==1.2.0
+google-pasta==0.2.0
+gql==3.0.0a6
+gradient==2.0.6
+gradient-utils==0.5.0
+graphql-core==3.1.7
+greenlet==1.1.2
+grpcio==1.60.0
+h5py==3.10.0
+halo==0.0.31
+hjson==3.1.0
+httplib2==0.20.2
+huggingface-hub==0.20.3
+HyperPyYAML==1.2.2
+idna==3.3
+imageio==2.33.1
+importlib-metadata==4.6.4
+ipykernel==6.29.0
+ipython==8.20.0
+ipython-genutils==0.2.0
+ipywidgets==8.1.1
+isodate==0.6.1
+isoduration==20.11.0
+jdcal==1.0
+jedi==0.19.1
+jeepney==0.7.1
+Jinja2==3.1.3
+jmespath==0.10.0
+joblib==1.3.2
+json5==0.9.14
+jsonify==0.5
+jsonpointer==2.4
+jsonschema==4.21.1
+jsonschema-specifications==2023.12.1
+jupyter-events==0.9.0
+jupyter-highlight-selected-word==0.2.0
+jupyter-nbextensions-configurator==0.6.3
+jupyter-server-mathjax==0.2.6
+jupyter-ydoc==0.2.5
+jupyter_client==7.4.9
+jupyter_contrib_core==0.4.2
+jupyter_contrib_nbextensions==0.7.0
+jupyter_core==5.7.1
+jupyter_server==2.12.5
+jupyter_server_fileid==0.9.1
+jupyter_server_terminals==0.5.2
+jupyter_server_ydoc==0.8.0
+jupyterlab==3.6.5
+jupyterlab-widgets==3.0.9
+jupyterlab_git==0.43.0
+jupyterlab_pygments==0.3.0
+jupyterlab_server==2.25.2
+kagglehub==0.3.11
+keras==2.15.0
+keyring==23.5.0
+kiwisolver==1.4.5
+langcodes==3.3.0
+launchpadlib==1.10.16
+lazr.restfulclient==0.14.4
+lazr.uri==1.0.6
+lazy_loader==0.3
+leather==0.3.4
+libclang==16.0.6
+log-symbols==0.0.14
+lxml==4.8.0
+Markdown==3.5.2
+MarkupSafe==2.1.4
+marshmallow==2.21.0
+matplotlib==3.7.3
+matplotlib-inline==0.1.6
+mir_eval==0.8.2
+mistune==3.0.2
+ml-dtypes==0.2.0
+more-itertools==8.10.0
+mpmath==1.3.0
+multidict==6.0.4
+multiprocess==0.70.15
+murmurhash==1.0.10
+musdb==0.4.2
+museval==0.4.1
+nbclassic==1.0.0
+nbclient==0.9.0
+nbconvert==7.14.2
+nbdime==3.2.1
+nbformat==5.9.2
+nest-asyncio==1.6.0
+networkx==3.2.1
+ninja==1.11.1.1
+nltk==3.8.1
+notebook==6.5.6
+notebook_shim==0.2.3
+numpy==1.26.3
+oauthlib==3.2.0
+olefile==0.46
+omegaconf==2.3.0
+opencv-python==4.8.0.76
+openpyxl==3.1.2
+opt-einsum==3.3.0
+overrides==7.6.0
+packaging==23.2
+pandas==2.2.0
+pandocfilters==1.5.1
+parsedatetime==2.6
+parso==0.8.3
+pathlib_abc==0.1.1
+pathtools==0.1.2
+pathy==0.11.0
+peft==0.6.2
+pexpect==4.9.0
+Pillow==9.5.0
+platformdirs==4.1.0
+preshed==3.0.9
+progressbar2==4.3.2
+prometheus-client==0.9.0
+prompt-toolkit==3.0.43
+protobuf==4.23.4
+psutil==5.9.8
+ptyprocess==0.7.0
+pure-eval==0.2.2
+py-cpuinfo==9.0.0
+pyaml==25.1.0
+pyarrow==15.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.3.0
+pycparser==2.21
+pydantic==1.10.14
+Pygments==2.17.2
+PyGObject==3.42.1
+PyJWT==2.3.0
+pymongo==3.13.0
+pyparsing==2.4.7
+PySocks==1.7.1
+python-apt==2.4.0+ubuntu2
+python-dateutil==2.8.2
+python-distutils-extra==2.39
+python-json-logger==2.0.7
+python-slugify==4.0.0
+python-utils==3.8.1
+pytimeparse==1.1.5
+pytz==2022.1
+PyWavelets==1.5.0
+PyYAML==5.4.1
+pyzmq==24.0.1
+referencing==0.32.1
+regex==2023.12.25
+requests==2.31.0
+requests-oauthlib==1.3.1
+requests-toolbelt==1.0.0
+rfc3339-validator==0.1.4
+rfc3986-validator==0.1.1
+roman==3.3
+rpds-py==0.17.1
+rsa==4.8
+ruamel.yaml==0.18.10
+ruamel.yaml.clib==0.2.12
+s3transfer==0.6.2
+safetensors==0.4.0
+scikit-image==0.21.0
+scikit-learn==1.3.0
+scipy==1.11.2
+screen-resolution-extra==0.0.0
+seaborn==0.12.2
+SecretStorage==3.3.1
+Send2Trash==1.8.2
+sentence-transformers==2.2.2
+sentencepiece==0.1.99
+sentry-sdk==1.39.2
+setproctitle==1.3.3
+shellingham==1.5.4
+simplejson==3.20.1
+six==1.16.0
+smart-open==6.4.0
+smmap==5.0.1
+sniffio==1.3.0
+soundfile==0.13.1
+soupsieve==2.5
+spacy==3.6.1
+spacy-legacy==3.0.12
+spacy-loggers==1.0.5
+speechbrain @ git+https://github.com/speechbrain/speechbrain.git@eb0532a219cc77efbc7a5c404184302500532226
+spinners==0.0.24
+SQLAlchemy==2.0.21
+srsly==2.4.8
+stack-data==0.6.3
+stempeg==0.2.3
+sympy==1.12
+tabulate==0.9.0
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.35.0
+termcolor==2.4.0
+terminado==0.18.0
+terminaltables==3.1.10
+thinc==8.1.12
+threadpoolctl==3.2.0
+tifffile==2023.12.9
+timm==0.9.7
+tinycss2==1.2.1
+tokenizers==0.15.1
+torch==2.1.1+cu121
+torchaudio==2.1.1+cu121
+torchvision==0.16.1+cu121
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.1
+transformers==4.35.2
+triton==2.1.0
+typer==0.9.0
+types-python-dateutil==2.8.19.20240106
+typing_extensions==4.9.0
+tzdata==2023.4
+Unidecode==1.3.3
+uri-template==1.3.0
+urllib3==2.0.7
+wadllib==1.3.6
+wandb==0.15.10
+wasabi==1.1.2
+wcwidth==0.2.13
+webcolors==1.13
+webencodings==0.5.1
+websocket-client==0.57.0
+Werkzeug==3.0.1
+widgetsnbextension==4.0.9
+wrapt==1.14.1
+xgboost==1.7.6
+xkit==0.0.0
+xlrd==1.2.0
+xxhash==3.4.1
+y-py==0.6.2
+yarl==1.9.4
+ypy-websocket==0.8.4
+zipp==1.0.0
+
+
+2025-04-19 00:04:31,772 - speechbrain.utils.superpowers - DEBUG - d0ecbf7
+
+
+2025-04-19 00:04:31,776 - speechbrain.core - INFO - Info: precision arg from hparam file is used
+2025-04-19 00:04:31,776 - speechbrain.core - INFO - Info: noprogressbar arg from hparam file is used
+2025-04-19 00:04:32,130 - speechbrain.core - INFO - Gradscaler enabled: `True`
+2025-04-19 00:04:32,133 - speechbrain.core - INFO - Using training precision: `--precision=fp16`
+2025-04-19 00:04:32,133 - speechbrain.core - INFO - Using evaluation precision: `--eval_precision=fp32`
+2025-04-19 00:04:32,133 - speechbrain.core - INFO - Separation Model Statistics:
+* Total Number of Trainable Parameters: 14.6M
+* Total Number of Parameters: 14.6M
+* Trainable Parameters represent 100.0000% of the total size.
+2025-04-19 00:04:44,514 - speechbrain.utils.checkpoints - INFO - Would load a checkpoint here, but none found yet.
+2025-04-19 00:04:44,514 - speechbrain.utils.epoch_loop - INFO - Going into epoch 1
+2025-04-19 00:15:44,073 - speechbrain.utils.train_logger - INFO - epoch: 1, lr: 1.50e-04 - train si-snr: 7.23 - valid si-snr: 5.73
+2025-04-19 00:15:44,516 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+00-15-44+00
+2025-04-19 00:15:44,522 - speechbrain.utils.epoch_loop - INFO - Going into epoch 2
+2025-04-19 00:26:59,253 - speechbrain.utils.train_logger - INFO - epoch: 2, lr: 1.50e-04 - train si-snr: 4.88 - valid si-snr: 5.31
+2025-04-19 00:26:59,536 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+00-26-59+00
+2025-04-19 00:26:59,568 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+00-15-44+00
+2025-04-19 00:26:59,568 - speechbrain.utils.epoch_loop - INFO - Going into epoch 3
+2025-04-19 00:38:12,914 - speechbrain.utils.train_logger - INFO - epoch: 3, lr: 1.50e-04 - train si-snr: 4.49 - valid si-snr: 5.13
+2025-04-19 00:38:13,276 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+00-38-12+00
+2025-04-19 00:38:13,365 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+00-26-59+00
+2025-04-19 00:38:13,365 - speechbrain.utils.epoch_loop - INFO - Going into epoch 4
+2025-04-19 00:49:17,642 - speechbrain.utils.train_logger - INFO - epoch: 4, lr: 1.50e-04 - train si-snr: 4.61 - valid si-snr: 4.98
+2025-04-19 00:49:17,939 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+00-49-17+00
+2025-04-19 00:49:17,976 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+00-38-12+00
+2025-04-19 00:49:17,977 - speechbrain.utils.epoch_loop - INFO - Going into epoch 5
+2025-04-19 01:00:21,137 - speechbrain.utils.train_logger - INFO - epoch: 5, lr: 1.50e-04 - train si-snr: 4.44 - valid si-snr: 4.74
+2025-04-19 01:00:21,426 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+01-00-21+00
+2025-04-19 01:00:21,501 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+00-49-17+00
+2025-04-19 01:00:21,501 - speechbrain.utils.epoch_loop - INFO - Going into epoch 6
+2025-04-19 01:11:25,451 - speechbrain.utils.train_logger - INFO - epoch: 6, lr: 1.50e-04 - train si-snr: 3.93 - valid si-snr: 4.37
+2025-04-19 01:11:25,723 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+01-11-25+00
+2025-04-19 01:11:25,887 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+01-00-21+00
+2025-04-19 01:11:25,888 - speechbrain.utils.epoch_loop - INFO - Going into epoch 7
+2025-04-19 01:22:34,488 - speechbrain.utils.train_logger - INFO - epoch: 7, lr: 1.50e-04 - train si-snr: 3.84 - valid si-snr: 4.53
+2025-04-19 01:22:34,752 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+01-22-34+00
+2025-04-19 01:22:34,771 - speechbrain.utils.epoch_loop - INFO - Going into epoch 8
+2025-04-19 01:33:38,132 - speechbrain.utils.train_logger - INFO - epoch: 8, lr: 1.50e-04 - train si-snr: 3.57 - valid si-snr: 4.50
+2025-04-19 01:33:38,402 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+01-33-38+00
+2025-04-19 01:33:38,455 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+01-22-34+00
+2025-04-19 01:33:38,456 - speechbrain.utils.epoch_loop - INFO - Going into epoch 9
+2025-04-19 01:44:49,732 - speechbrain.utils.train_logger - INFO - epoch: 9, lr: 1.50e-04 - train si-snr: 3.72 - valid si-snr: 4.10
+2025-04-19 01:44:50,021 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+01-44-49+00
+2025-04-19 01:44:50,088 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+01-33-38+00
+2025-04-19 01:44:50,112 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+01-11-25+00
+2025-04-19 01:44:50,112 - speechbrain.utils.epoch_loop - INFO - Going into epoch 10
+2025-04-19 01:56:03,350 - speechbrain.utils.train_logger - INFO - epoch: 10, lr: 1.50e-04 - train si-snr: 3.37 - valid si-snr: 4.08
+2025-04-19 01:56:03,619 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+01-56-03+00
+2025-04-19 01:56:03,671 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+01-44-49+00
+2025-04-19 01:56:03,677 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+01-56-03+00
+2025-04-19 02:01:09,301 - speechbrain.utils.train_logger - INFO - Epoch loaded: 10 - test si-snr: 6.28
+2025-04-19 02:07:29,068 - __main__ - INFO - Mean SISNR is 1.0479332285267966
+2025-04-19 02:07:29,073 - __main__ - INFO - Mean SISNRi is 2.1614613558564866
+2025-04-19 02:07:29,073 - __main__ - INFO - Mean SDR is 4.239010327388755
+2025-04-19 02:07:29,074 - __main__ - INFO - Mean SDRi is 3.6883348081356684
+2025-04-19 14:48:14,178 - speechbrain.utils.quirks - INFO - Applied quirks (see `speechbrain.utils.quirks`): [disable_jit_profiling, allow_tf32]
+2025-04-19 14:48:14,185 - speechbrain.utils.quirks - INFO - Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2025-04-19 14:48:14,185 - speechbrain.core - INFO - Beginning experiment!
+2025-04-19 14:48:14,185 - speechbrain.core - INFO - Experiment folder: /notebooks/results/dprnn/1234
+2025-04-19 14:48:15,495 - speechbrain.utils.superpowers - DEBUG - absl-py==2.1.0
+accelerate==0.24.1
+agate==1.6.3
+agate-dbf==0.2.2
+agate-excel==0.2.5
+agate-sql==0.5.8
+aiofiles==22.1.0
+aiohttp==3.9.1
+aiosignal==1.3.1
+aiosqlite==0.19.0
+antlr4-python3-runtime==4.9.3
+anyio==4.2.0
+appdirs==1.4.4
+argon2-cffi==23.1.0
+argon2-cffi-bindings==21.2.0
+arrow==1.3.0
+asttokens==2.4.1
+astunparse==1.6.3
+attrs==23.1.0
+awscli==1.22.34
+Babel==2.14.0
+beautifulsoup4==4.12.3
+bitsandbytes==0.41.2
+bleach==6.1.0
+blinker==1.4
+blis==0.7.11
+boto3==1.28.51
+botocore==1.31.85
+cachetools==5.3.2
+catalogue==2.0.10
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+click-completion==0.5.2
+click-didyoumean==0.3.0
+click-help-colors==0.9.4
+cloudpickle==2.2.1
+colorama==0.4.3
+comm==0.2.1
+confection==0.1.4
+contourpy==1.2.0
+cryptography==3.4.8
+csvkit==1.0.6
+cupy-cuda12x==12.2.0
+cycler==0.12.1
+cymem==2.0.8
+Cython==3.0.2
+datasets==2.14.5
+dbfread==2.0.7
+dbus-python==1.2.18
+debugpy==1.8.0
+decorator==5.1.1
+deepspeed==0.10.3
+defusedxml==0.7.1
+diffusers==0.21.4
+dill==0.3.7
+distro==1.7.0
+docker-pycreds==0.4.0
+docutils==0.17.1
+entrypoints==0.4
+et-xmlfile==1.0.1
+executing==2.0.1
+fastjsonschema==2.19.1
+fastrlock==0.8.2
+ffmpeg-python==0.2.0
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.47.2
+fqdn==1.5.1
+frozenlist==1.4.1
+fsspec==2023.6.0
+future==0.18.3
+gast==0.5.4
+gdown==4.7.1
+gitdb==4.0.11
+GitPython==3.1.41
+google-auth==2.26.2
+google-auth-oauthlib==1.2.0
+google-pasta==0.2.0
+gql==3.0.0a6
+gradient==2.0.6
+gradient-utils==0.5.0
+graphql-core==3.1.7
+greenlet==1.1.2
+grpcio==1.60.0
+h5py==3.10.0
+halo==0.0.31
+hjson==3.1.0
+httplib2==0.20.2
+huggingface-hub==0.20.3
+HyperPyYAML==1.2.2
+idna==3.3
+imageio==2.33.1
+importlib-metadata==4.6.4
+ipykernel==6.29.0
+ipython==8.20.0
+ipython-genutils==0.2.0
+ipywidgets==8.1.1
+isodate==0.6.1
+isoduration==20.11.0
+jdcal==1.0
+jedi==0.19.1
+jeepney==0.7.1
+Jinja2==3.1.3
+jmespath==0.10.0
+joblib==1.3.2
+json5==0.9.14
+jsonify==0.5
+jsonpointer==2.4
+jsonschema==4.21.1
+jsonschema-specifications==2023.12.1
+jupyter-events==0.9.0
+jupyter-highlight-selected-word==0.2.0
+jupyter-nbextensions-configurator==0.6.3
+jupyter-server-mathjax==0.2.6
+jupyter-ydoc==0.2.5
+jupyter_client==7.4.9
+jupyter_contrib_core==0.4.2
+jupyter_contrib_nbextensions==0.7.0
+jupyter_core==5.7.1
+jupyter_server==2.12.5
+jupyter_server_fileid==0.9.1
+jupyter_server_terminals==0.5.2
+jupyter_server_ydoc==0.8.0
+jupyterlab==3.6.5
+jupyterlab-widgets==3.0.9
+jupyterlab_git==0.43.0
+jupyterlab_pygments==0.3.0
+jupyterlab_server==2.25.2
+keras==2.15.0
+keyring==23.5.0
+kiwisolver==1.4.5
+langcodes==3.3.0
+launchpadlib==1.10.16
+lazr.restfulclient==0.14.4
+lazr.uri==1.0.6
+lazy_loader==0.3
+leather==0.3.4
+libclang==16.0.6
+log-symbols==0.0.14
+lxml==4.8.0
+Markdown==3.5.2
+MarkupSafe==2.1.4
+marshmallow==2.21.0
+matplotlib==3.7.3
+matplotlib-inline==0.1.6
+mir_eval==0.8.2
+mistune==3.0.2
+ml-dtypes==0.2.0
+more-itertools==8.10.0
+mpmath==1.3.0
+multidict==6.0.4
+multiprocess==0.70.15
+murmurhash==1.0.10
+musdb==0.4.2
+museval==0.4.1
+nbclassic==1.0.0
+nbclient==0.9.0
+nbconvert==7.14.2
+nbdime==3.2.1
+nbformat==5.9.2
+nest-asyncio==1.6.0
+networkx==3.2.1
+ninja==1.11.1.1
+nltk==3.8.1
+notebook==6.5.6
+notebook_shim==0.2.3
+numpy==1.26.3
+oauthlib==3.2.0
+olefile==0.46
+omegaconf==2.3.0
+opencv-python==4.8.0.76
+openpyxl==3.1.2
+opt-einsum==3.3.0
+overrides==7.6.0
+packaging==23.2
+pandas==2.2.0
+pandocfilters==1.5.1
+parsedatetime==2.6
+parso==0.8.3
+pathlib_abc==0.1.1
+pathtools==0.1.2
+pathy==0.11.0
+peft==0.6.2
+pexpect==4.9.0
+Pillow==9.5.0
+platformdirs==4.1.0
+preshed==3.0.9
+progressbar2==4.3.2
+prometheus-client==0.9.0
+prompt-toolkit==3.0.43
+protobuf==4.23.4
+psutil==5.9.8
+ptyprocess==0.7.0
+pure-eval==0.2.2
+py-cpuinfo==9.0.0
+pyaml==25.1.0
+pyarrow==15.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.3.0
+pycparser==2.21
+pydantic==1.10.14
+Pygments==2.17.2
+PyGObject==3.42.1
+PyJWT==2.3.0
+pymongo==3.13.0
+pyparsing==2.4.7
+PySocks==1.7.1
+python-apt==2.4.0+ubuntu2
+python-dateutil==2.8.2
+python-distutils-extra==2.39
+python-json-logger==2.0.7
+python-slugify==4.0.0
+python-utils==3.8.1
+pytimeparse==1.1.5
+pytz==2022.1
+PyWavelets==1.5.0
+PyYAML==5.4.1
+pyzmq==24.0.1
+referencing==0.32.1
+regex==2023.12.25
+requests==2.31.0
+requests-oauthlib==1.3.1
+requests-toolbelt==1.0.0
+rfc3339-validator==0.1.4
+rfc3986-validator==0.1.1
+roman==3.3
+rpds-py==0.17.1
+rsa==4.8
+ruamel.yaml==0.18.10
+ruamel.yaml.clib==0.2.12
+s3transfer==0.6.2
+safetensors==0.4.0
+scikit-image==0.21.0
+scikit-learn==1.3.0
+scipy==1.11.2
+screen-resolution-extra==0.0.0
+seaborn==0.12.2
+SecretStorage==3.3.1
+Send2Trash==1.8.2
+sentence-transformers==2.2.2
+sentencepiece==0.1.99
+sentry-sdk==1.39.2
+setproctitle==1.3.3
+shellingham==1.5.4
+simplejson==3.20.1
+six==1.16.0
+smart-open==6.4.0
+smmap==5.0.1
+sniffio==1.3.0
+soundfile==0.13.1
+soupsieve==2.5
+spacy==3.6.1
+spacy-legacy==3.0.12
+spacy-loggers==1.0.5
+speechbrain @ git+https://github.com/speechbrain/speechbrain.git@eb0532a219cc77efbc7a5c404184302500532226
+spinners==0.0.24
+SQLAlchemy==2.0.21
+srsly==2.4.8
+stack-data==0.6.3
+stempeg==0.2.3
+sympy==1.12
+tabulate==0.9.0
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.35.0
+termcolor==2.4.0
+terminado==0.18.0
+terminaltables==3.1.10
+thinc==8.1.12
+threadpoolctl==3.2.0
+tifffile==2023.12.9
+timm==0.9.7
+tinycss2==1.2.1
+tokenizers==0.15.1
+torch==2.1.1+cu121
+torchaudio==2.1.1+cu121
+torchvision==0.16.1+cu121
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.1
+transformers==4.35.2
+triton==2.1.0
+typer==0.9.0
+types-python-dateutil==2.8.19.20240106
+typing_extensions==4.9.0
+tzdata==2023.4
+Unidecode==1.3.3
+uri-template==1.3.0
+urllib3==2.0.7
+wadllib==1.3.6
+wandb==0.15.10
+wasabi==1.1.2
+wcwidth==0.2.13
+webcolors==1.13
+webencodings==0.5.1
+websocket-client==0.57.0
+Werkzeug==3.0.1
+widgetsnbextension==4.0.9
+wrapt==1.14.1
+xgboost==1.7.6
+xkit==0.0.0
+xlrd==1.2.0
+xxhash==3.4.1
+y-py==0.6.2
+yarl==1.9.4
+ypy-websocket==0.8.4
+zipp==1.0.0
+
+
+2025-04-19 14:48:15,531 - speechbrain.utils.superpowers - DEBUG - d0ecbf7
+
+
+2025-04-19 14:48:15,535 - speechbrain.core - INFO - Info: precision arg from hparam file is used
+2025-04-19 14:48:15,535 - speechbrain.core - INFO - Info: noprogressbar arg from hparam file is used
+2025-04-19 14:48:16,027 - speechbrain.core - INFO - Gradscaler enabled: `True`
+2025-04-19 14:48:16,028 - speechbrain.core - INFO - Using training precision: `--precision=fp16`
+2025-04-19 14:48:16,028 - speechbrain.core - INFO - Using evaluation precision: `--eval_precision=fp32`
+2025-04-19 14:48:16,028 - speechbrain.core - INFO - Separation Model Statistics:
+* Total Number of Trainable Parameters: 14.6M
+* Total Number of Parameters: 14.6M
+* Trainable Parameters represent 100.0000% of the total size.
+2025-04-19 14:48:29,045 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+01-56-03+00
+2025-04-19 14:48:30,649 - speechbrain.utils.epoch_loop - INFO - Going into epoch 11
+2025-04-19 14:59:55,496 - speechbrain.utils.train_logger - INFO - epoch: 11, lr: 1.50e-04 - train si-snr: 2.97 - valid si-snr: 3.78
+2025-04-19 14:59:55,777 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+14-59-55+00
+2025-04-19 14:59:55,853 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+01-56-03+00
+2025-04-19 14:59:55,853 - speechbrain.utils.epoch_loop - INFO - Going into epoch 12
+2025-04-19 15:11:06,030 - speechbrain.utils.train_logger - INFO - epoch: 12, lr: 1.50e-04 - train si-snr: 2.70 - valid si-snr: 4.37
+2025-04-19 15:11:06,320 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+15-11-06+00
+2025-04-19 15:11:06,328 - speechbrain.utils.epoch_loop - INFO - Going into epoch 13
+2025-04-19 15:22:19,941 - speechbrain.utils.train_logger - INFO - epoch: 13, lr: 1.50e-04 - train si-snr: 2.54 - valid si-snr: 4.06
+2025-04-19 15:22:20,238 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+15-22-19+00
+2025-04-19 15:22:20,290 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+15-11-06+00
+2025-04-19 15:22:20,290 - speechbrain.utils.epoch_loop - INFO - Going into epoch 14
+2025-04-19 15:33:32,584 - speechbrain.utils.train_logger - INFO - epoch: 14, lr: 1.50e-04 - train si-snr: 3.00 - valid si-snr: 4.18
+2025-04-19 15:33:32,863 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+15-33-32+00
+2025-04-19 15:33:32,938 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+15-22-19+00
+2025-04-19 15:33:32,938 - speechbrain.utils.epoch_loop - INFO - Going into epoch 15
+2025-04-19 15:44:42,371 - speechbrain.utils.train_logger - INFO - epoch: 15, lr: 1.50e-04 - train si-snr: 2.98 - valid si-snr: 3.76
+2025-04-19 15:44:42,692 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+15-44-42+00
+2025-04-19 15:44:42,761 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+14-59-55+00
+2025-04-19 15:44:42,803 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+15-33-32+00
+2025-04-19 15:44:42,803 - speechbrain.utils.epoch_loop - INFO - Going into epoch 16
+2025-04-19 15:56:03,585 - speechbrain.utils.train_logger - INFO - epoch: 16, lr: 1.50e-04 - train si-snr: 2.61 - valid si-snr: 4.29
+2025-04-19 15:56:04,139 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+15-56-03+00
+2025-04-19 15:56:04,161 - speechbrain.utils.epoch_loop - INFO - Going into epoch 17
+2025-04-19 16:07:14,242 - speechbrain.utils.train_logger - INFO - epoch: 17, lr: 1.50e-04 - train si-snr: 2.45 - valid si-snr: 4.48
+2025-04-19 16:07:14,544 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+16-07-14+00
+2025-04-19 16:07:14,603 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+15-56-03+00
+2025-04-19 16:07:14,604 - speechbrain.utils.epoch_loop - INFO - Going into epoch 18
+2025-04-19 16:18:28,107 - speechbrain.utils.train_logger - INFO - epoch: 18, lr: 1.50e-04 - train si-snr: 2.35 - valid si-snr: 4.39
+2025-04-19 16:18:28,437 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+16-18-28+00
+2025-04-19 16:18:28,524 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+16-07-14+00
+2025-04-19 16:18:28,525 - speechbrain.utils.epoch_loop - INFO - Going into epoch 19
+2025-04-19 16:29:45,921 - speechbrain.utils.train_logger - INFO - epoch: 19, lr: 1.50e-04 - train si-snr: 2.49 - valid si-snr: 3.62
+2025-04-19 16:29:46,379 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+16-29-45+00
+2025-04-19 16:29:46,457 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+16-18-28+00
+2025-04-19 16:29:46,492 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+15-44-42+00
+2025-04-19 16:29:46,492 - speechbrain.utils.epoch_loop - INFO - Going into epoch 20
+2025-04-19 16:41:12,524 - speechbrain.utils.train_logger - INFO - epoch: 20, lr: 1.50e-04 - train si-snr: 2.03 - valid si-snr: 3.95
+2025-04-19 16:41:12,896 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+16-41-12+00
+2025-04-19 16:41:12,934 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+16-29-45+00
+2025-04-19 16:46:42,891 - speechbrain.utils.train_logger - INFO - Epoch loaded: 19 - test si-snr: 5.01
+2025-04-19 16:53:07,940 - __main__ - INFO - Mean SISNR is 2.3034763744899203
+2025-04-19 16:53:07,942 - __main__ - INFO - Mean SISNRi is 3.417004472868783
+2025-04-19 16:53:07,942 - __main__ - INFO - Mean SDR is 5.213492483507721
+2025-04-19 16:53:07,942 - __main__ - INFO - Mean SDRi is 4.6628169642546355
+2025-04-20 07:13:46,142 - speechbrain.utils.quirks - INFO - Applied quirks (see `speechbrain.utils.quirks`): [disable_jit_profiling, allow_tf32]
+2025-04-20 07:13:46,154 - speechbrain.utils.quirks - INFO - Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2025-04-20 07:13:46,155 - speechbrain.core - INFO - Beginning experiment!
+2025-04-20 07:13:46,155 - speechbrain.core - INFO - Experiment folder: /notebooks/results/dprnn/1234
+2025-04-20 07:13:47,181 - speechbrain.utils.superpowers - DEBUG - absl-py==2.1.0
+accelerate==0.24.1
+agate==1.6.3
+agate-dbf==0.2.2
+agate-excel==0.2.5
+agate-sql==0.5.8
+aiofiles==22.1.0
+aiohttp==3.9.1
+aiosignal==1.3.1
+aiosqlite==0.19.0
+antlr4-python3-runtime==4.9.3
+anyio==4.2.0
+appdirs==1.4.4
+argon2-cffi==23.1.0
+argon2-cffi-bindings==21.2.0
+arrow==1.3.0
+asttokens==2.4.1
+astunparse==1.6.3
+attrs==23.1.0
+awscli==1.22.34
+Babel==2.14.0
+beautifulsoup4==4.12.3
+bitsandbytes==0.41.2
+bleach==6.1.0
+blinker==1.4
+blis==0.7.11
+boto3==1.28.51
+botocore==1.31.85
+cachetools==5.3.2
+catalogue==2.0.10
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+click-completion==0.5.2
+click-didyoumean==0.3.0
+click-help-colors==0.9.4
+cloudpickle==2.2.1
+colorama==0.4.3
+comm==0.2.1
+confection==0.1.4
+contourpy==1.2.0
+cryptography==3.4.8
+csvkit==1.0.6
+cupy-cuda12x==12.2.0
+cycler==0.12.1
+cymem==2.0.8
+Cython==3.0.2
+datasets==2.14.5
+dbfread==2.0.7
+dbus-python==1.2.18
+debugpy==1.8.0
+decorator==5.1.1
+deepspeed==0.10.3
+defusedxml==0.7.1
+diffusers==0.21.4
+dill==0.3.7
+distro==1.7.0
+docker-pycreds==0.4.0
+docutils==0.17.1
+entrypoints==0.4
+et-xmlfile==1.0.1
+executing==2.0.1
+fastjsonschema==2.19.1
+fastrlock==0.8.2
+ffmpeg-python==0.2.0
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.47.2
+fqdn==1.5.1
+frozenlist==1.4.1
+fsspec==2023.6.0
+future==0.18.3
+gast==0.5.4
+gdown==4.7.1
+gitdb==4.0.11
+GitPython==3.1.41
+google-auth==2.26.2
+google-auth-oauthlib==1.2.0
+google-pasta==0.2.0
+gql==3.0.0a6
+gradient==2.0.6
+gradient-utils==0.5.0
+graphql-core==3.1.7
+greenlet==1.1.2
+grpcio==1.60.0
+h5py==3.10.0
+halo==0.0.31
+hjson==3.1.0
+httplib2==0.20.2
+huggingface-hub==0.20.3
+HyperPyYAML==1.2.2
+idna==3.3
+imageio==2.33.1
+importlib-metadata==4.6.4
+ipykernel==6.29.0
+ipython==8.20.0
+ipython-genutils==0.2.0
+ipywidgets==8.1.1
+isodate==0.6.1
+isoduration==20.11.0
+jdcal==1.0
+jedi==0.19.1
+jeepney==0.7.1
+Jinja2==3.1.3
+jmespath==0.10.0
+joblib==1.3.2
+json5==0.9.14
+jsonify==0.5
+jsonpointer==2.4
+jsonschema==4.21.1
+jsonschema-specifications==2023.12.1
+jupyter-events==0.9.0
+jupyter-highlight-selected-word==0.2.0
+jupyter-nbextensions-configurator==0.6.3
+jupyter-server-mathjax==0.2.6
+jupyter-ydoc==0.2.5
+jupyter_client==7.4.9
+jupyter_contrib_core==0.4.2
+jupyter_contrib_nbextensions==0.7.0
+jupyter_core==5.7.1
+jupyter_server==2.12.5
+jupyter_server_fileid==0.9.1
+jupyter_server_terminals==0.5.2
+jupyter_server_ydoc==0.8.0
+jupyterlab==3.6.5
+jupyterlab-widgets==3.0.9
+jupyterlab_git==0.43.0
+jupyterlab_pygments==0.3.0
+jupyterlab_server==2.25.2
+keras==2.15.0
+keyring==23.5.0
+kiwisolver==1.4.5
+langcodes==3.3.0
+launchpadlib==1.10.16
+lazr.restfulclient==0.14.4
+lazr.uri==1.0.6
+lazy_loader==0.3
+leather==0.3.4
+libclang==16.0.6
+log-symbols==0.0.14
+lxml==4.8.0
+Markdown==3.5.2
+MarkupSafe==2.1.4
+marshmallow==2.21.0
+matplotlib==3.7.3
+matplotlib-inline==0.1.6
+mir_eval==0.8.2
+mistune==3.0.2
+ml-dtypes==0.2.0
+more-itertools==8.10.0
+mpmath==1.3.0
+multidict==6.0.4
+multiprocess==0.70.15
+murmurhash==1.0.10
+musdb==0.4.2
+museval==0.4.1
+nbclassic==1.0.0
+nbclient==0.9.0
+nbconvert==7.14.2
+nbdime==3.2.1
+nbformat==5.9.2
+nest-asyncio==1.6.0
+networkx==3.2.1
+ninja==1.11.1.1
+nltk==3.8.1
+notebook==6.5.6
+notebook_shim==0.2.3
+numpy==1.26.3
+oauthlib==3.2.0
+olefile==0.46
+omegaconf==2.3.0
+opencv-python==4.8.0.76
+openpyxl==3.1.2
+opt-einsum==3.3.0
+overrides==7.6.0
+packaging==23.2
+pandas==2.2.0
+pandocfilters==1.5.1
+parsedatetime==2.6
+parso==0.8.3
+pathlib_abc==0.1.1
+pathtools==0.1.2
+pathy==0.11.0
+peft==0.6.2
+pexpect==4.9.0
+Pillow==9.5.0
+platformdirs==4.1.0
+preshed==3.0.9
+progressbar2==4.3.2
+prometheus-client==0.9.0
+prompt-toolkit==3.0.43
+protobuf==4.23.4
+psutil==5.9.8
+ptyprocess==0.7.0
+pure-eval==0.2.2
+py-cpuinfo==9.0.0
+pyaml==25.1.0
+pyarrow==15.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.3.0
+pycparser==2.21
+pydantic==1.10.14
+Pygments==2.17.2
+PyGObject==3.42.1
+PyJWT==2.3.0
+pymongo==3.13.0
+pyparsing==2.4.7
+PySocks==1.7.1
+python-apt==2.4.0+ubuntu2
+python-dateutil==2.8.2
+python-distutils-extra==2.39
+python-json-logger==2.0.7
+python-slugify==4.0.0
+python-utils==3.8.1
+pytimeparse==1.1.5
+pytz==2022.1
+PyWavelets==1.5.0
+PyYAML==5.4.1
+pyzmq==24.0.1
+referencing==0.32.1
+regex==2023.12.25
+requests==2.31.0
+requests-oauthlib==1.3.1
+requests-toolbelt==1.0.0
+rfc3339-validator==0.1.4
+rfc3986-validator==0.1.1
+roman==3.3
+rpds-py==0.17.1
+rsa==4.8
+ruamel.yaml==0.18.10
+ruamel.yaml.clib==0.2.12
+s3transfer==0.6.2
+safetensors==0.4.0
+scikit-image==0.21.0
+scikit-learn==1.3.0
+scipy==1.11.2
+screen-resolution-extra==0.0.0
+seaborn==0.12.2
+SecretStorage==3.3.1
+Send2Trash==1.8.2
+sentence-transformers==2.2.2
+sentencepiece==0.1.99
+sentry-sdk==1.39.2
+setproctitle==1.3.3
+shellingham==1.5.4
+simplejson==3.20.1
+six==1.16.0
+smart-open==6.4.0
+smmap==5.0.1
+sniffio==1.3.0
+soundfile==0.13.1
+soupsieve==2.5
+spacy==3.6.1
+spacy-legacy==3.0.12
+spacy-loggers==1.0.5
+speechbrain @ git+https://github.com/speechbrain/speechbrain.git@eb0532a219cc77efbc7a5c404184302500532226
+spinners==0.0.24
+SQLAlchemy==2.0.21
+srsly==2.4.8
+stack-data==0.6.3
+stempeg==0.2.3
+sympy==1.12
+tabulate==0.9.0
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.35.0
+termcolor==2.4.0
+terminado==0.18.0
+terminaltables==3.1.10
+thinc==8.1.12
+threadpoolctl==3.2.0
+tifffile==2023.12.9
+timm==0.9.7
+tinycss2==1.2.1
+tokenizers==0.15.1
+torch==2.1.1+cu121
+torchaudio==2.1.1+cu121
+torchvision==0.16.1+cu121
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.1
+transformers==4.35.2
+triton==2.1.0
+typer==0.9.0
+types-python-dateutil==2.8.19.20240106
+typing_extensions==4.9.0
+tzdata==2023.4
+Unidecode==1.3.3
+uri-template==1.3.0
+urllib3==2.0.7
+wadllib==1.3.6
+wandb==0.15.10
+wasabi==1.1.2
+wcwidth==0.2.13
+webcolors==1.13
+webencodings==0.5.1
+websocket-client==0.57.0
+Werkzeug==3.0.1
+widgetsnbextension==4.0.9
+wrapt==1.14.1
+xgboost==1.7.6
+xkit==0.0.0
+xlrd==1.2.0
+xxhash==3.4.1
+y-py==0.6.2
+yarl==1.9.4
+ypy-websocket==0.8.4
+zipp==1.0.0
+
+
+2025-04-20 07:13:47,187 - speechbrain.utils.superpowers - DEBUG - d0ecbf7
+
+
+2025-04-20 07:13:47,194 - speechbrain.core - INFO - Info: precision arg from hparam file is used
+2025-04-20 07:13:47,194 - speechbrain.core - INFO - Info: noprogressbar arg from hparam file is used
+2025-04-20 07:13:47,551 - speechbrain.core - INFO - Gradscaler enabled: `True`
+2025-04-20 07:13:47,551 - speechbrain.core - INFO - Using training precision: `--precision=fp16`
+2025-04-20 07:13:47,551 - speechbrain.core - INFO - Using evaluation precision: `--eval_precision=fp32`
+2025-04-20 07:13:47,552 - speechbrain.core - INFO - Separation Model Statistics:
+* Total Number of Trainable Parameters: 14.6M
+* Total Number of Parameters: 14.6M
+* Trainable Parameters represent 100.0000% of the total size.
+2025-04-20 07:13:59,945 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+16-41-12+00
+2025-04-20 07:14:01,660 - speechbrain.utils.epoch_loop - INFO - Going into epoch 21
+2025-04-20 07:24:57,469 - speechbrain.utils.train_logger - INFO - epoch: 21, lr: 1.50e-04 - train si-snr: 1.81 - valid si-snr: 3.57
+2025-04-20 07:24:57,744 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-20+07-24-57+00
+2025-04-20 07:24:57,780 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+16-41-12+00
+2025-04-20 07:24:57,789 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-19+16-29-45+00
+2025-04-20 07:24:57,789 - speechbrain.utils.epoch_loop - INFO - Going into epoch 22
+2025-04-20 07:35:49,092 - speechbrain.utils.train_logger - INFO - epoch: 22, lr: 1.50e-04 - train si-snr: 1.48 - valid si-snr: 4.42
+2025-04-20 07:35:49,383 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-20+07-35-49+00
+2025-04-20 07:35:49,393 - speechbrain.utils.epoch_loop - INFO - Going into epoch 23
+2025-04-20 07:46:51,438 - speechbrain.utils.train_logger - INFO - epoch: 23, lr: 1.50e-04 - train si-snr: 1.26 - valid si-snr: 4.42
+2025-04-20 07:46:51,768 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-20+07-46-51+00
+2025-04-20 07:46:51,808 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-20+07-35-49+00
+2025-04-20 07:46:51,809 - speechbrain.utils.epoch_loop - INFO - Going into epoch 24
+2025-04-20 07:57:53,312 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00015 to 7.5e-05
+2025-04-20 07:57:53,320 - speechbrain.utils.train_logger - INFO - epoch: 24, lr: 1.50e-04 - train si-snr: 1.90 - valid si-snr: 3.80
+2025-04-20 07:57:53,577 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-20+07-57-53+00
+2025-04-20 07:57:53,618 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-20+07-46-51+00
+2025-04-20 07:57:53,618 - speechbrain.utils.epoch_loop - INFO - Going into epoch 25
+2025-04-20 08:08:54,340 - speechbrain.utils.train_logger - INFO - epoch: 25, lr: 7.50e-05 - train si-snr: 1.58 - valid si-snr: 3.65
+2025-04-20 08:08:54,596 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-20+08-08-54+00
+2025-04-20 08:08:54,725 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-20+07-57-53+00
+2025-04-20 08:08:54,726 - speechbrain.utils.epoch_loop - INFO - Going into epoch 26
+2025-04-20 08:20:02,532 - speechbrain.utils.train_logger - INFO - epoch: 26, lr: 7.50e-05 - train si-snr: 1.31 - valid si-snr: 3.87
+2025-04-20 08:20:02,823 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-20+08-20-02+00
+2025-04-20 08:20:02,885 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-20+08-08-54+00
+2025-04-20 08:20:02,885 - speechbrain.utils.epoch_loop - INFO - Going into epoch 27
+2025-04-20 08:30:57,735 - speechbrain.nnet.schedulers - INFO - Changing lr from 7.5e-05 to 3.7e-05
+2025-04-20 08:30:57,739 - speechbrain.utils.train_logger - INFO - epoch: 27, lr: 7.50e-05 - train si-snr: 1.12 - valid si-snr: 4.03
+2025-04-20 08:30:58,015 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-20+08-30-57+00
+2025-04-20 08:30:58,066 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-20+08-20-02+00
+2025-04-20 08:30:58,067 - speechbrain.utils.epoch_loop - INFO - Going into epoch 28
+2025-04-20 08:41:58,233 - speechbrain.utils.train_logger - INFO - epoch: 28, lr: 3.75e-05 - train si-snr: 9.23e-01 - valid si-snr: 3.83
+2025-04-20 08:41:58,540 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-20+08-41-58+00
+2025-04-20 08:41:58,723 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-20+08-30-57+00
+2025-04-20 08:41:58,724 - speechbrain.utils.epoch_loop - INFO - Going into epoch 29
+2025-04-20 08:52:58,396 - speechbrain.utils.train_logger - INFO - epoch: 29, lr: 3.75e-05 - train si-snr: 1.00 - valid si-snr: 3.53
+2025-04-20 08:52:58,700 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-20+08-52-58+00
+2025-04-20 08:52:58,766 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-20+08-41-58+00
+2025-04-20 08:52:58,791 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-20+07-24-57+00
+2025-04-20 08:52:58,792 - speechbrain.utils.epoch_loop - INFO - Going into epoch 30
+2025-04-20 09:03:57,661 - speechbrain.utils.train_logger - INFO - epoch: 30, lr: 3.75e-05 - train si-snr: 5.29e-01 - valid si-snr: 3.52
+2025-04-20 09:03:57,955 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-20+09-03-57+00
+2025-04-20 09:03:58,025 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-20+08-52-58+00
+2025-04-20 09:03:58,031 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /notebooks/results/dprnn/1234/save/CKPT+2025-04-20+09-03-57+00
+2025-04-20 09:08:53,791 - speechbrain.utils.train_logger - INFO - Epoch loaded: 30 - test si-snr: 4.28
+2025-04-20 09:15:07,249 - __main__ - INFO - Mean SISNR is 3.0180813346590316
+2025-04-20 09:15:07,257 - __main__ - INFO - Mean SISNRi is 4.131609434740884
+2025-04-20 09:15:07,257 - __main__ - INFO - Mean SDR is 5.370713336173553
+2025-04-20 09:15:07,258 - __main__ - INFO - Mean SDRi is 4.820037816920467
+2025-04-20 20:28:59,624 - speechbrain.utils.quirks - INFO - Applied quirks (see `speechbrain.utils.quirks`): [disable_jit_profiling, allow_tf32]
+2025-04-20 20:28:59,632 - speechbrain.utils.quirks - INFO - Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2025-04-20 20:28:59,632 - speechbrain.core - INFO - Beginning experiment!
+2025-04-20 20:28:59,632 - speechbrain.core - INFO - Experiment folder: /notebooks/results/dprnn/1234
+2025-04-20 20:29:00,756 - speechbrain.utils.superpowers - DEBUG - absl-py==2.1.0
+accelerate==0.24.1
+agate==1.6.3
+agate-dbf==0.2.2
+agate-excel==0.2.5
+agate-sql==0.5.8
+aiofiles==22.1.0
+aiohttp==3.9.1
+aiosignal==1.3.1
+aiosqlite==0.19.0
+antlr4-python3-runtime==4.9.3
+anyio==4.2.0
+appdirs==1.4.4
+argon2-cffi==23.1.0
+argon2-cffi-bindings==21.2.0
+arrow==1.3.0
+asttokens==2.4.1
+astunparse==1.6.3
+attrs==23.1.0
+awscli==1.22.34
+Babel==2.14.0
+beautifulsoup4==4.12.3
+bitsandbytes==0.41.2
+bleach==6.1.0
+blinker==1.4
+blis==0.7.11
+boto3==1.28.51
+botocore==1.31.85
+cachetools==5.3.2
+catalogue==2.0.10
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+click-completion==0.5.2
+click-didyoumean==0.3.0
+click-help-colors==0.9.4
+cloudpickle==2.2.1
+colorama==0.4.3
+comm==0.2.1
+confection==0.1.4
+contourpy==1.2.0
+cryptography==3.4.8
+csvkit==1.0.6
+cupy-cuda12x==12.2.0
+cycler==0.12.1
+cymem==2.0.8
+Cython==3.0.2
+datasets==2.14.5
+dbfread==2.0.7
+dbus-python==1.2.18
+debugpy==1.8.0
+decorator==5.1.1
+deepspeed==0.10.3
+defusedxml==0.7.1
+diffusers==0.21.4
+dill==0.3.7
+distro==1.7.0
+docker-pycreds==0.4.0
+docutils==0.17.1
+entrypoints==0.4
+et-xmlfile==1.0.1
+executing==2.0.1
+fastjsonschema==2.19.1
+fastrlock==0.8.2
+ffmpeg-python==0.2.0
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.47.2
+fqdn==1.5.1
+frozenlist==1.4.1
+fsspec==2023.6.0
+future==0.18.3
+gast==0.5.4
+gdown==4.7.1
+gitdb==4.0.11
+GitPython==3.1.41
+google-auth==2.26.2
+google-auth-oauthlib==1.2.0
+google-pasta==0.2.0
+gql==3.0.0a6
+gradient==2.0.6
+gradient-utils==0.5.0
+graphql-core==3.1.7
+greenlet==1.1.2
+grpcio==1.60.0
+h5py==3.10.0
+halo==0.0.31
+hjson==3.1.0
+httplib2==0.20.2
+huggingface-hub==0.20.3
+HyperPyYAML==1.2.2
+idna==3.3
+imageio==2.33.1
+importlib-metadata==4.6.4
+ipykernel==6.29.0
+ipython==8.20.0
+ipython-genutils==0.2.0
+ipywidgets==8.1.1
+isodate==0.6.1
+isoduration==20.11.0
+jdcal==1.0
+jedi==0.19.1
+jeepney==0.7.1
+Jinja2==3.1.3
+jmespath==0.10.0
+joblib==1.3.2
+json5==0.9.14
+jsonify==0.5
+jsonpointer==2.4
+jsonschema==4.21.1
+jsonschema-specifications==2023.12.1
+jupyter-events==0.9.0
+jupyter-highlight-selected-word==0.2.0
+jupyter-nbextensions-configurator==0.6.3
+jupyter-server-mathjax==0.2.6
+jupyter-ydoc==0.2.5
+jupyter_client==7.4.9
+jupyter_contrib_core==0.4.2
+jupyter_contrib_nbextensions==0.7.0
+jupyter_core==5.7.1
+jupyter_server==2.12.5
+jupyter_server_fileid==0.9.1
+jupyter_server_terminals==0.5.2
+jupyter_server_ydoc==0.8.0
+jupyterlab==3.6.5
+jupyterlab-widgets==3.0.9
+jupyterlab_git==0.43.0
+jupyterlab_pygments==0.3.0
+jupyterlab_server==2.25.2
+keras==2.15.0
+keyring==23.5.0
+kiwisolver==1.4.5
+langcodes==3.3.0
+launchpadlib==1.10.16
+lazr.restfulclient==0.14.4
+lazr.uri==1.0.6
+lazy_loader==0.3
+leather==0.3.4
+libclang==16.0.6
+log-symbols==0.0.14
+lxml==4.8.0
+Markdown==3.5.2
+MarkupSafe==2.1.4
+marshmallow==2.21.0
+matplotlib==3.7.3
+matplotlib-inline==0.1.6
+mir_eval==0.8.2
+mistune==3.0.2
+ml-dtypes==0.2.0
+more-itertools==8.10.0
+mpmath==1.3.0
+multidict==6.0.4
+multiprocess==0.70.15
+murmurhash==1.0.10
+musdb==0.4.2
+museval==0.4.1
+nbclassic==1.0.0
+nbclient==0.9.0
+nbconvert==7.14.2
+nbdime==3.2.1
+nbformat==5.9.2
+nest-asyncio==1.6.0
+networkx==3.2.1
+ninja==1.11.1.1
+nltk==3.8.1
+notebook==6.5.6
+notebook_shim==0.2.3
+numpy==1.26.3
+oauthlib==3.2.0
+olefile==0.46
+omegaconf==2.3.0
+opencv-python==4.8.0.76
+openpyxl==3.1.2
+opt-einsum==3.3.0
+overrides==7.6.0
+packaging==23.2
+pandas==2.2.0
+pandocfilters==1.5.1
+parsedatetime==2.6
+parso==0.8.3
+pathlib_abc==0.1.1
+pathtools==0.1.2
+pathy==0.11.0
+peft==0.6.2
+pexpect==4.9.0
+Pillow==9.5.0
+platformdirs==4.1.0
+preshed==3.0.9
+progressbar2==4.3.2
+prometheus-client==0.9.0
+prompt-toolkit==3.0.43
+protobuf==4.23.4
+psutil==5.9.8
+ptyprocess==0.7.0
+pure-eval==0.2.2
+py-cpuinfo==9.0.0
+pyaml==25.1.0
+pyarrow==15.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.3.0
+pycparser==2.21
+pydantic==1.10.14
+Pygments==2.17.2
+PyGObject==3.42.1
+PyJWT==2.3.0
+pymongo==3.13.0
+pyparsing==2.4.7
+PySocks==1.7.1
+python-apt==2.4.0+ubuntu2
+python-dateutil==2.8.2
+python-distutils-extra==2.39
+python-json-logger==2.0.7
+python-slugify==4.0.0
+python-utils==3.8.1
+pytimeparse==1.1.5
+pytz==2022.1
+PyWavelets==1.5.0
+PyYAML==5.4.1
+pyzmq==24.0.1
+referencing==0.32.1
+regex==2023.12.25
+requests==2.31.0
+requests-oauthlib==1.3.1
+requests-toolbelt==1.0.0
+rfc3339-validator==0.1.4
+rfc3986-validator==0.1.1
+roman==3.3
+rpds-py==0.17.1
+rsa==4.8
+ruamel.yaml==0.18.10
+ruamel.yaml.clib==0.2.12
+s3transfer==0.6.2
+safetensors==0.4.0
+scikit-image==0.21.0
+scikit-learn==1.3.0
+scipy==1.11.2
+screen-resolution-extra==0.0.0
+seaborn==0.12.2
+SecretStorage==3.3.1
+Send2Trash==1.8.2
+sentence-transformers==2.2.2
+sentencepiece==0.1.99
+sentry-sdk==1.39.2
+setproctitle==1.3.3
+shellingham==1.5.4
+simplejson==3.20.1
+six==1.16.0
+smart-open==6.4.0
+smmap==5.0.1
+sniffio==1.3.0
+soundfile==0.13.1
+soupsieve==2.5
+spacy==3.6.1
+spacy-legacy==3.0.12
+spacy-loggers==1.0.5
+speechbrain @ git+https://github.com/speechbrain/speechbrain.git@eb0532a219cc77efbc7a5c404184302500532226
+spinners==0.0.24
+SQLAlchemy==2.0.21
+srsly==2.4.8
+stack-data==0.6.3
+stempeg==0.2.3
+sympy==1.12
+tabulate==0.9.0
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.35.0
+termcolor==2.4.0
+terminado==0.18.0
+terminaltables==3.1.10
+thinc==8.1.12
+threadpoolctl==3.2.0
+tifffile==2023.12.9
+timm==0.9.7
+tinycss2==1.2.1
+tokenizers==0.15.1
+torch==2.1.1+cu121
+torchaudio==2.1.1+cu121
+torchvision==0.16.1+cu121
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.1
+transformers==4.35.2
+triton==2.1.0
+typer==0.9.0
+types-python-dateutil==2.8.19.20240106
+typing_extensions==4.9.0
+tzdata==2023.4
+Unidecode==1.3.3
+uri-template==1.3.0
+urllib3==2.0.7
+wadllib==1.3.6
+wandb==0.15.10
+wasabi==1.1.2
+wcwidth==0.2.13
+webcolors==1.13
+webencodings==0.5.1
+websocket-client==0.57.0
+Werkzeug==3.0.1
+widgetsnbextension==4.0.9
+wrapt==1.14.1
+xgboost==1.7.6
+xkit==0.0.0
+xlrd==1.2.0
+xxhash==3.4.1
+y-py==0.6.2
+yarl==1.9.4
+ypy-websocket==0.8.4
+zipp==1.0.0
+
+
+2025-04-20 20:29:00,794 - speechbrain.utils.superpowers - DEBUG - d0ecbf7
+
+
+2025-04-20 20:29:00,797 - speechbrain.core - INFO - Info: precision arg from hparam file is used
+2025-04-20 20:29:00,797 - speechbrain.core - INFO - Info: noprogressbar arg from hparam file is used
+2025-04-20 20:29:01,128 - speechbrain.core - INFO - Gradscaler enabled: `True`
+2025-04-20 20:29:01,129 - speechbrain.core - INFO - Using training precision: `--precision=fp16`
+2025-04-20 20:29:01,129 - speechbrain.core - INFO - Using evaluation precision: `--eval_precision=fp32`
+2025-04-20 20:29:01,129 - speechbrain.core - INFO - Separation Model Statistics:
+* Total Number of Trainable Parameters: 14.6M
+* Total Number of Parameters: 14.6M
+* Trainable Parameters represent 100.0000% of the total size.
+2025-04-20 20:29:13,095 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /notebooks/results/dprnn/1234/save/CKPT+2025-04-20+09-03-57+00
+2025-04-20 20:29:14,723 - speechbrain.utils.epoch_loop - INFO - Going into epoch 31
+2025-04-20 20:40:28,222 - speechbrain.utils.train_logger - INFO - epoch: 31, lr: 3.75e-05 - train si-snr: 2.06e-01 - valid si-snr: 3.75
+2025-04-20 20:40:28,520 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-20+20-40-28+00
+2025-04-20 20:40:28,526 - speechbrain.utils.epoch_loop - INFO - Going into epoch 32
+2025-04-20 20:51:48,594 - speechbrain.utils.train_logger - INFO - epoch: 32, lr: 3.75e-05 - train si-snr: 1.08e-02 - valid si-snr: 3.02
+2025-04-20 20:51:48,908 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-20+20-51-48+00
+2025-04-20 20:51:48,953 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-20+20-40-28+00
+2025-04-20 20:51:48,999 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-20+09-03-57+00
+2025-04-20 20:51:48,999 - speechbrain.utils.epoch_loop - INFO - Going into epoch 33
+2025-04-20 21:03:04,374 - speechbrain.utils.train_logger - INFO - epoch: 33, lr: 3.75e-05 - train si-snr: -9.20e-02 - valid si-snr: 3.29
+2025-04-20 21:03:04,770 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-20+21-03-04+00
+2025-04-20 21:03:04,784 - speechbrain.utils.epoch_loop - INFO - Going into epoch 34
+2025-04-20 21:09:09,018 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/notebooks/dprnn-train.py", line 437, in <module>
+    separator.fit(
+  File "/usr/local/lib/python3.11/dist-packages/speechbrain/core.py", line 1585, in fit
+    self._fit_train(train_set=train_set, epoch=epoch, enable=enable)
+  File "/usr/local/lib/python3.11/dist-packages/speechbrain/core.py", line 1404, in _fit_train
+    for batch in t:
+  File "/usr/local/lib/python3.11/dist-packages/tqdm/std.py", line 1182, in __iter__
+    for obj in iterable:
+  File "/usr/local/lib/python3.11/dist-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/utils/data/dataloader.py", line 674, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "/notebooks/dataset.py", line 92, in __getitem__
+    "inst_sig": load_stem_chunk("accompaniment",random_chunk_start_val),
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/notebooks/dataset.py", line 58, in load_stem_chunk
+    audio = source.audio[start:stop]
+            ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/musdb/audio_classes.py", line 273, in audio
+    audio = source.audio
+            ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/musdb/audio_classes.py", line 227, in audio
+    return self.multitrack.load_audio(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/musdb/audio_classes.py", line 100, in load_audio
+    audio, rate = stempeg.read_stems(
+                  ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/stempeg/read.py", line 304, in read_stems
+    stems = np.array(stems)
+            ^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2025-04-21 03:31:39,197 - speechbrain.utils.quirks - INFO - Applied quirks (see `speechbrain.utils.quirks`): [disable_jit_profiling, allow_tf32]
+2025-04-21 03:31:39,204 - speechbrain.utils.quirks - INFO - Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2025-04-21 03:31:39,204 - speechbrain.core - INFO - Beginning experiment!
+2025-04-21 03:31:39,204 - speechbrain.core - INFO - Experiment folder: /notebooks/results/dprnn/1234
+2025-04-21 03:31:40,243 - speechbrain.utils.superpowers - DEBUG - absl-py==2.1.0
+accelerate==0.24.1
+agate==1.6.3
+agate-dbf==0.2.2
+agate-excel==0.2.5
+agate-sql==0.5.8
+aiofiles==22.1.0
+aiohttp==3.9.1
+aiosignal==1.3.1
+aiosqlite==0.19.0
+antlr4-python3-runtime==4.9.3
+anyio==4.2.0
+appdirs==1.4.4
+argon2-cffi==23.1.0
+argon2-cffi-bindings==21.2.0
+arrow==1.3.0
+asttokens==2.4.1
+astunparse==1.6.3
+attrs==23.1.0
+awscli==1.22.34
+Babel==2.14.0
+beautifulsoup4==4.12.3
+bitsandbytes==0.41.2
+bleach==6.1.0
+blinker==1.4
+blis==0.7.11
+boto3==1.28.51
+botocore==1.31.85
+cachetools==5.3.2
+catalogue==2.0.10
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+click-completion==0.5.2
+click-didyoumean==0.3.0
+click-help-colors==0.9.4
+cloudpickle==2.2.1
+colorama==0.4.3
+comm==0.2.1
+confection==0.1.4
+contourpy==1.2.0
+cryptography==3.4.8
+csvkit==1.0.6
+cupy-cuda12x==12.2.0
+cycler==0.12.1
+cymem==2.0.8
+Cython==3.0.2
+datasets==2.14.5
+dbfread==2.0.7
+dbus-python==1.2.18
+debugpy==1.8.0
+decorator==5.1.1
+deepspeed==0.10.3
+defusedxml==0.7.1
+diffusers==0.21.4
+dill==0.3.7
+distro==1.7.0
+docker-pycreds==0.4.0
+docutils==0.17.1
+entrypoints==0.4
+et-xmlfile==1.0.1
+executing==2.0.1
+fastjsonschema==2.19.1
+fastrlock==0.8.2
+ffmpeg-python==0.2.0
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.47.2
+fqdn==1.5.1
+frozenlist==1.4.1
+fsspec==2023.6.0
+future==0.18.3
+gast==0.5.4
+gdown==4.7.1
+gitdb==4.0.11
+GitPython==3.1.41
+google-auth==2.26.2
+google-auth-oauthlib==1.2.0
+google-pasta==0.2.0
+gql==3.0.0a6
+gradient==2.0.6
+gradient-utils==0.5.0
+graphql-core==3.1.7
+greenlet==1.1.2
+grpcio==1.60.0
+h5py==3.10.0
+halo==0.0.31
+hjson==3.1.0
+httplib2==0.20.2
+huggingface-hub==0.20.3
+HyperPyYAML==1.2.2
+idna==3.3
+imageio==2.33.1
+importlib-metadata==4.6.4
+ipykernel==6.29.0
+ipython==8.20.0
+ipython-genutils==0.2.0
+ipywidgets==8.1.1
+isodate==0.6.1
+isoduration==20.11.0
+jdcal==1.0
+jedi==0.19.1
+jeepney==0.7.1
+Jinja2==3.1.3
+jmespath==0.10.0
+joblib==1.3.2
+json5==0.9.14
+jsonify==0.5
+jsonpointer==2.4
+jsonschema==4.21.1
+jsonschema-specifications==2023.12.1
+jupyter-events==0.9.0
+jupyter-highlight-selected-word==0.2.0
+jupyter-nbextensions-configurator==0.6.3
+jupyter-server-mathjax==0.2.6
+jupyter-ydoc==0.2.5
+jupyter_client==7.4.9
+jupyter_contrib_core==0.4.2
+jupyter_contrib_nbextensions==0.7.0
+jupyter_core==5.7.1
+jupyter_server==2.12.5
+jupyter_server_fileid==0.9.1
+jupyter_server_terminals==0.5.2
+jupyter_server_ydoc==0.8.0
+jupyterlab==3.6.5
+jupyterlab-widgets==3.0.9
+jupyterlab_git==0.43.0
+jupyterlab_pygments==0.3.0
+jupyterlab_server==2.25.2
+keras==2.15.0
+keyring==23.5.0
+kiwisolver==1.4.5
+langcodes==3.3.0
+launchpadlib==1.10.16
+lazr.restfulclient==0.14.4
+lazr.uri==1.0.6
+lazy_loader==0.3
+leather==0.3.4
+libclang==16.0.6
+log-symbols==0.0.14
+lxml==4.8.0
+Markdown==3.5.2
+MarkupSafe==2.1.4
+marshmallow==2.21.0
+matplotlib==3.7.3
+matplotlib-inline==0.1.6
+mir_eval==0.8.2
+mistune==3.0.2
+ml-dtypes==0.2.0
+more-itertools==8.10.0
+mpmath==1.3.0
+multidict==6.0.4
+multiprocess==0.70.15
+murmurhash==1.0.10
+musdb==0.4.2
+museval==0.4.1
+nbclassic==1.0.0
+nbclient==0.9.0
+nbconvert==7.14.2
+nbdime==3.2.1
+nbformat==5.9.2
+nest-asyncio==1.6.0
+networkx==3.2.1
+ninja==1.11.1.1
+nltk==3.8.1
+notebook==6.5.6
+notebook_shim==0.2.3
+numpy==1.26.3
+oauthlib==3.2.0
+olefile==0.46
+omegaconf==2.3.0
+opencv-python==4.8.0.76
+openpyxl==3.1.2
+opt-einsum==3.3.0
+overrides==7.6.0
+packaging==23.2
+pandas==2.2.0
+pandocfilters==1.5.1
+parsedatetime==2.6
+parso==0.8.3
+pathlib_abc==0.1.1
+pathtools==0.1.2
+pathy==0.11.0
+peft==0.6.2
+pexpect==4.9.0
+Pillow==9.5.0
+platformdirs==4.1.0
+preshed==3.0.9
+progressbar2==4.3.2
+prometheus-client==0.9.0
+prompt-toolkit==3.0.43
+protobuf==4.23.4
+psutil==5.9.8
+ptyprocess==0.7.0
+pure-eval==0.2.2
+py-cpuinfo==9.0.0
+pyaml==25.1.0
+pyarrow==15.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.3.0
+pycparser==2.21
+pydantic==1.10.14
+Pygments==2.17.2
+PyGObject==3.42.1
+PyJWT==2.3.0
+pymongo==3.13.0
+pyparsing==2.4.7
+PySocks==1.7.1
+python-apt==2.4.0+ubuntu2
+python-dateutil==2.8.2
+python-distutils-extra==2.39
+python-json-logger==2.0.7
+python-slugify==4.0.0
+python-utils==3.8.1
+pytimeparse==1.1.5
+pytz==2022.1
+PyWavelets==1.5.0
+PyYAML==5.4.1
+pyzmq==24.0.1
+referencing==0.32.1
+regex==2023.12.25
+requests==2.31.0
+requests-oauthlib==1.3.1
+requests-toolbelt==1.0.0
+rfc3339-validator==0.1.4
+rfc3986-validator==0.1.1
+roman==3.3
+rpds-py==0.17.1
+rsa==4.8
+ruamel.yaml==0.18.10
+ruamel.yaml.clib==0.2.12
+s3transfer==0.6.2
+safetensors==0.4.0
+scikit-image==0.21.0
+scikit-learn==1.3.0
+scipy==1.11.2
+screen-resolution-extra==0.0.0
+seaborn==0.12.2
+SecretStorage==3.3.1
+Send2Trash==1.8.2
+sentence-transformers==2.2.2
+sentencepiece==0.1.99
+sentry-sdk==1.39.2
+setproctitle==1.3.3
+shellingham==1.5.4
+simplejson==3.20.1
+six==1.16.0
+smart-open==6.4.0
+smmap==5.0.1
+sniffio==1.3.0
+soundfile==0.13.1
+soupsieve==2.5
+spacy==3.6.1
+spacy-legacy==3.0.12
+spacy-loggers==1.0.5
+speechbrain @ git+https://github.com/speechbrain/speechbrain.git@eb0532a219cc77efbc7a5c404184302500532226
+spinners==0.0.24
+SQLAlchemy==2.0.21
+srsly==2.4.8
+stack-data==0.6.3
+stempeg==0.2.3
+sympy==1.12
+tabulate==0.9.0
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.35.0
+termcolor==2.4.0
+terminado==0.18.0
+terminaltables==3.1.10
+thinc==8.1.12
+threadpoolctl==3.2.0
+tifffile==2023.12.9
+timm==0.9.7
+tinycss2==1.2.1
+tokenizers==0.15.1
+torch==2.1.1+cu121
+torchaudio==2.1.1+cu121
+torchvision==0.16.1+cu121
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.1
+transformers==4.35.2
+triton==2.1.0
+typer==0.9.0
+types-python-dateutil==2.8.19.20240106
+typing_extensions==4.9.0
+tzdata==2023.4
+Unidecode==1.3.3
+uri-template==1.3.0
+urllib3==2.0.7
+wadllib==1.3.6
+wandb==0.15.10
+wasabi==1.1.2
+wcwidth==0.2.13
+webcolors==1.13
+webencodings==0.5.1
+websocket-client==0.57.0
+Werkzeug==3.0.1
+widgetsnbextension==4.0.9
+wrapt==1.14.1
+xgboost==1.7.6
+xkit==0.0.0
+xlrd==1.2.0
+xxhash==3.4.1
+y-py==0.6.2
+yarl==1.9.4
+ypy-websocket==0.8.4
+zipp==1.0.0
+
+
+2025-04-21 03:31:40,352 - speechbrain.utils.superpowers - DEBUG - d0ecbf7
+
+
+2025-04-21 03:31:40,355 - speechbrain.core - INFO - Info: precision arg from hparam file is used
+2025-04-21 03:31:40,355 - speechbrain.core - INFO - Info: noprogressbar arg from hparam file is used
+2025-04-21 03:31:40,769 - speechbrain.core - INFO - Gradscaler enabled: `True`
+2025-04-21 03:31:40,769 - speechbrain.core - INFO - Using training precision: `--precision=fp16`
+2025-04-21 03:31:40,769 - speechbrain.core - INFO - Using evaluation precision: `--eval_precision=fp32`
+2025-04-21 03:31:40,770 - speechbrain.core - INFO - Separation Model Statistics:
+* Total Number of Trainable Parameters: 14.6M
+* Total Number of Parameters: 14.6M
+* Trainable Parameters represent 100.0000% of the total size.
+2025-04-21 03:32:02,964 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /notebooks/results/dprnn/1234/save/CKPT+2025-04-20+21-03-04+00
+2025-04-21 03:32:04,528 - speechbrain.utils.epoch_loop - INFO - Going into epoch 34
+2025-04-21 03:43:43,136 - speechbrain.utils.train_logger - INFO - epoch: 34, lr: 3.75e-05 - train si-snr: -1.34e-01 - valid si-snr: 2.62
+2025-04-21 03:43:43,435 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+03-43-43+00
+2025-04-21 03:43:43,452 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-20+20-51-48+00
+2025-04-21 03:43:43,478 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-20+21-03-04+00
+2025-04-21 03:43:43,479 - speechbrain.utils.epoch_loop - INFO - Going into epoch 35
+2025-04-21 03:55:08,865 - speechbrain.utils.train_logger - INFO - epoch: 35, lr: 3.75e-05 - train si-snr: -3.11e-01 - valid si-snr: 2.98
+2025-04-21 03:55:09,164 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+03-55-08+00
+2025-04-21 03:55:09,174 - speechbrain.utils.epoch_loop - INFO - Going into epoch 36
+2025-04-21 04:06:26,811 - speechbrain.utils.train_logger - INFO - epoch: 36, lr: 3.75e-05 - train si-snr: -3.66e-01 - valid si-snr: 3.17
+2025-04-21 04:06:27,099 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+04-06-26+00
+2025-04-21 04:06:27,142 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+03-55-08+00
+2025-04-21 04:06:27,143 - speechbrain.utils.epoch_loop - INFO - Going into epoch 37
+2025-04-21 04:17:41,118 - speechbrain.nnet.schedulers - INFO - Changing lr from 3.7e-05 to 1.9e-05
+2025-04-21 04:17:41,143 - speechbrain.utils.train_logger - INFO - epoch: 37, lr: 3.75e-05 - train si-snr: 3.71e-01 - valid si-snr: 3.24
+2025-04-21 04:17:41,435 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+04-17-41+00
+2025-04-21 04:17:41,495 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+04-06-26+00
+2025-04-21 04:17:41,496 - speechbrain.utils.epoch_loop - INFO - Going into epoch 38
+2025-04-21 04:29:02,968 - speechbrain.utils.train_logger - INFO - epoch: 38, lr: 1.87e-05 - train si-snr: 2.25e-01 - valid si-snr: 3.16
+2025-04-21 04:29:03,269 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+04-29-02+00
+2025-04-21 04:29:03,316 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+04-17-41+00
+2025-04-21 04:29:03,317 - speechbrain.utils.epoch_loop - INFO - Going into epoch 39
+2025-04-21 04:40:29,565 - speechbrain.utils.train_logger - INFO - epoch: 39, lr: 1.87e-05 - train si-snr: -3.31e-02 - valid si-snr: 3.15
+2025-04-21 04:40:29,887 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+04-40-29+00
+2025-04-21 04:40:29,948 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+04-29-02+00
+2025-04-21 04:40:29,948 - speechbrain.utils.epoch_loop - INFO - Going into epoch 40
+2025-04-21 04:51:44,191 - speechbrain.nnet.schedulers - INFO - Changing lr from 1.9e-05 to 9.4e-06
+2025-04-21 04:51:44,198 - speechbrain.utils.train_logger - INFO - epoch: 40, lr: 1.87e-05 - train si-snr: -2.42e-01 - valid si-snr: 2.89
+2025-04-21 04:51:44,487 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+04-51-44+00
+2025-04-21 04:51:44,555 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+04-40-29+00
+2025-04-21 04:51:44,561 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+03-43-43+00
+2025-04-21 04:57:17,295 - speechbrain.utils.train_logger - INFO - Epoch loaded: 34 - test si-snr: 4.28
+2025-04-21 05:04:21,789 - __main__ - INFO - Mean SISNR is 2.9819670753819603
+2025-04-21 05:04:21,791 - __main__ - INFO - Mean SISNRi is 4.095495218038559
+2025-04-21 05:04:21,792 - __main__ - INFO - Mean SDR is 5.088329370040779
+2025-04-21 05:04:21,792 - __main__ - INFO - Mean SDRi is 4.537653850787692
+2025-04-21 15:21:46,314 - speechbrain.utils.quirks - INFO - Applied quirks (see `speechbrain.utils.quirks`): [allow_tf32, disable_jit_profiling]
+2025-04-21 15:21:46,327 - speechbrain.utils.quirks - INFO - Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2025-04-21 15:21:46,328 - speechbrain.core - INFO - Beginning experiment!
+2025-04-21 15:21:46,328 - speechbrain.core - INFO - Experiment folder: /notebooks/results/dprnn/1234
+2025-04-21 15:21:47,426 - speechbrain.utils.superpowers - DEBUG - absl-py==2.1.0
+accelerate==0.24.1
+agate==1.6.3
+agate-dbf==0.2.2
+agate-excel==0.2.5
+agate-sql==0.5.8
+aiofiles==22.1.0
+aiohttp==3.9.1
+aiosignal==1.3.1
+aiosqlite==0.19.0
+antlr4-python3-runtime==4.9.3
+anyio==4.2.0
+appdirs==1.4.4
+argon2-cffi==23.1.0
+argon2-cffi-bindings==21.2.0
+arrow==1.3.0
+asttokens==2.4.1
+astunparse==1.6.3
+attrs==23.1.0
+awscli==1.22.34
+Babel==2.14.0
+beautifulsoup4==4.12.3
+bitsandbytes==0.41.2
+bleach==6.1.0
+blinker==1.4
+blis==0.7.11
+boto3==1.28.51
+botocore==1.31.85
+cachetools==5.3.2
+catalogue==2.0.10
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+click-completion==0.5.2
+click-didyoumean==0.3.0
+click-help-colors==0.9.4
+cloudpickle==2.2.1
+colorama==0.4.3
+comm==0.2.1
+confection==0.1.4
+contourpy==1.2.0
+cryptography==3.4.8
+csvkit==1.0.6
+cupy-cuda12x==12.2.0
+cycler==0.12.1
+cymem==2.0.8
+Cython==3.0.2
+datasets==2.14.5
+dbfread==2.0.7
+dbus-python==1.2.18
+debugpy==1.8.0
+decorator==5.1.1
+deepspeed==0.10.3
+defusedxml==0.7.1
+diffusers==0.21.4
+dill==0.3.7
+distro==1.7.0
+docker-pycreds==0.4.0
+docutils==0.17.1
+entrypoints==0.4
+et-xmlfile==1.0.1
+executing==2.0.1
+fastjsonschema==2.19.1
+fastrlock==0.8.2
+ffmpeg-python==0.2.0
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.47.2
+fqdn==1.5.1
+frozenlist==1.4.1
+fsspec==2023.6.0
+future==0.18.3
+gast==0.5.4
+gdown==4.7.1
+gitdb==4.0.11
+GitPython==3.1.41
+google-auth==2.26.2
+google-auth-oauthlib==1.2.0
+google-pasta==0.2.0
+gql==3.0.0a6
+gradient==2.0.6
+gradient-utils==0.5.0
+graphql-core==3.1.7
+greenlet==1.1.2
+grpcio==1.60.0
+h5py==3.10.0
+halo==0.0.31
+hjson==3.1.0
+httplib2==0.20.2
+huggingface-hub==0.20.3
+HyperPyYAML==1.2.2
+idna==3.3
+imageio==2.33.1
+importlib-metadata==4.6.4
+ipykernel==6.29.0
+ipython==8.20.0
+ipython-genutils==0.2.0
+ipywidgets==8.1.1
+isodate==0.6.1
+isoduration==20.11.0
+jdcal==1.0
+jedi==0.19.1
+jeepney==0.7.1
+Jinja2==3.1.3
+jmespath==0.10.0
+joblib==1.3.2
+json5==0.9.14
+jsonify==0.5
+jsonpointer==2.4
+jsonschema==4.21.1
+jsonschema-specifications==2023.12.1
+jupyter-events==0.9.0
+jupyter-highlight-selected-word==0.2.0
+jupyter-nbextensions-configurator==0.6.3
+jupyter-server-mathjax==0.2.6
+jupyter-ydoc==0.2.5
+jupyter_client==7.4.9
+jupyter_contrib_core==0.4.2
+jupyter_contrib_nbextensions==0.7.0
+jupyter_core==5.7.1
+jupyter_server==2.12.5
+jupyter_server_fileid==0.9.1
+jupyter_server_terminals==0.5.2
+jupyter_server_ydoc==0.8.0
+jupyterlab==3.6.5
+jupyterlab-widgets==3.0.9
+jupyterlab_git==0.43.0
+jupyterlab_pygments==0.3.0
+jupyterlab_server==2.25.2
+keras==2.15.0
+keyring==23.5.0
+kiwisolver==1.4.5
+langcodes==3.3.0
+launchpadlib==1.10.16
+lazr.restfulclient==0.14.4
+lazr.uri==1.0.6
+lazy_loader==0.3
+leather==0.3.4
+libclang==16.0.6
+log-symbols==0.0.14
+lxml==4.8.0
+Markdown==3.5.2
+MarkupSafe==2.1.4
+marshmallow==2.21.0
+matplotlib==3.7.3
+matplotlib-inline==0.1.6
+mir_eval==0.8.2
+mistune==3.0.2
+ml-dtypes==0.2.0
+more-itertools==8.10.0
+mpmath==1.3.0
+multidict==6.0.4
+multiprocess==0.70.15
+murmurhash==1.0.10
+musdb==0.4.2
+museval==0.4.1
+nbclassic==1.0.0
+nbclient==0.9.0
+nbconvert==7.14.2
+nbdime==3.2.1
+nbformat==5.9.2
+nest-asyncio==1.6.0
+networkx==3.2.1
+ninja==1.11.1.1
+nltk==3.8.1
+notebook==6.5.6
+notebook_shim==0.2.3
+numpy==1.26.3
+oauthlib==3.2.0
+olefile==0.46
+omegaconf==2.3.0
+opencv-python==4.8.0.76
+openpyxl==3.1.2
+opt-einsum==3.3.0
+overrides==7.6.0
+packaging==23.2
+pandas==2.2.0
+pandocfilters==1.5.1
+parsedatetime==2.6
+parso==0.8.3
+pathlib_abc==0.1.1
+pathtools==0.1.2
+pathy==0.11.0
+peft==0.6.2
+pexpect==4.9.0
+Pillow==9.5.0
+platformdirs==4.1.0
+preshed==3.0.9
+progressbar2==4.3.2
+prometheus-client==0.9.0
+prompt-toolkit==3.0.43
+protobuf==4.23.4
+psutil==5.9.8
+ptyprocess==0.7.0
+pure-eval==0.2.2
+py-cpuinfo==9.0.0
+pyaml==25.1.0
+pyarrow==15.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.3.0
+pycparser==2.21
+pydantic==1.10.14
+Pygments==2.17.2
+PyGObject==3.42.1
+PyJWT==2.3.0
+pymongo==3.13.0
+pyparsing==2.4.7
+PySocks==1.7.1
+python-apt==2.4.0+ubuntu2
+python-dateutil==2.8.2
+python-distutils-extra==2.39
+python-json-logger==2.0.7
+python-slugify==4.0.0
+python-utils==3.8.1
+pytimeparse==1.1.5
+pytz==2022.1
+PyWavelets==1.5.0
+PyYAML==5.4.1
+pyzmq==24.0.1
+referencing==0.32.1
+regex==2023.12.25
+requests==2.31.0
+requests-oauthlib==1.3.1
+requests-toolbelt==1.0.0
+rfc3339-validator==0.1.4
+rfc3986-validator==0.1.1
+roman==3.3
+rpds-py==0.17.1
+rsa==4.8
+ruamel.yaml==0.18.10
+ruamel.yaml.clib==0.2.12
+s3transfer==0.6.2
+safetensors==0.4.0
+scikit-image==0.21.0
+scikit-learn==1.3.0
+scipy==1.11.2
+screen-resolution-extra==0.0.0
+seaborn==0.12.2
+SecretStorage==3.3.1
+Send2Trash==1.8.2
+sentence-transformers==2.2.2
+sentencepiece==0.1.99
+sentry-sdk==1.39.2
+setproctitle==1.3.3
+shellingham==1.5.4
+simplejson==3.20.1
+six==1.16.0
+smart-open==6.4.0
+smmap==5.0.1
+sniffio==1.3.0
+soundfile==0.13.1
+soupsieve==2.5
+spacy==3.6.1
+spacy-legacy==3.0.12
+spacy-loggers==1.0.5
+speechbrain @ git+https://github.com/speechbrain/speechbrain.git@eb0532a219cc77efbc7a5c404184302500532226
+spinners==0.0.24
+SQLAlchemy==2.0.21
+srsly==2.4.8
+stack-data==0.6.3
+stempeg==0.2.3
+sympy==1.12
+tabulate==0.9.0
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.35.0
+termcolor==2.4.0
+terminado==0.18.0
+terminaltables==3.1.10
+thinc==8.1.12
+threadpoolctl==3.2.0
+tifffile==2023.12.9
+timm==0.9.7
+tinycss2==1.2.1
+tokenizers==0.15.1
+torch==2.1.1+cu121
+torchaudio==2.1.1+cu121
+torchvision==0.16.1+cu121
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.1
+transformers==4.35.2
+triton==2.1.0
+typer==0.9.0
+types-python-dateutil==2.8.19.20240106
+typing_extensions==4.9.0
+tzdata==2023.4
+Unidecode==1.3.3
+uri-template==1.3.0
+urllib3==2.0.7
+wadllib==1.3.6
+wandb==0.15.10
+wasabi==1.1.2
+wcwidth==0.2.13
+webcolors==1.13
+webencodings==0.5.1
+websocket-client==0.57.0
+Werkzeug==3.0.1
+widgetsnbextension==4.0.9
+wrapt==1.14.1
+xgboost==1.7.6
+xkit==0.0.0
+xlrd==1.2.0
+xxhash==3.4.1
+y-py==0.6.2
+yarl==1.9.4
+ypy-websocket==0.8.4
+zipp==1.0.0
+
+
+2025-04-21 15:21:47,435 - speechbrain.utils.superpowers - DEBUG - d0ecbf7
+
+
+2025-04-21 15:21:47,445 - speechbrain.core - INFO - Info: precision arg from hparam file is used
+2025-04-21 15:21:47,446 - speechbrain.core - INFO - Info: noprogressbar arg from hparam file is used
+2025-04-21 15:21:47,848 - speechbrain.core - INFO - Gradscaler enabled: `True`
+2025-04-21 15:21:47,848 - speechbrain.core - INFO - Using training precision: `--precision=fp16`
+2025-04-21 15:21:47,848 - speechbrain.core - INFO - Using evaluation precision: `--eval_precision=fp32`
+2025-04-21 15:21:47,849 - speechbrain.core - INFO - Separation Model Statistics:
+* Total Number of Trainable Parameters: 14.6M
+* Total Number of Parameters: 14.6M
+* Trainable Parameters represent 100.0000% of the total size.
+2025-04-21 15:21:59,982 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+04-51-44+00
+2025-04-21 15:22:02,023 - speechbrain.utils.epoch_loop - INFO - Going into epoch 41
+2025-04-21 15:33:16,201 - speechbrain.utils.train_logger - INFO - epoch: 41, lr: 9.37e-06 - train si-snr: -6.37e-01 - valid si-snr: 3.45
+2025-04-21 15:33:16,486 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+15-33-16+00
+2025-04-21 15:33:16,519 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+04-51-44+00
+2025-04-21 15:33:16,520 - speechbrain.utils.epoch_loop - INFO - Going into epoch 42
+2025-04-21 15:44:25,888 - speechbrain.utils.train_logger - INFO - epoch: 42, lr: 9.37e-06 - train si-snr: -7.60e-01 - valid si-snr: 3.29
+2025-04-21 15:44:26,178 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+15-44-25+00
+2025-04-21 15:44:26,221 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+15-33-16+00
+2025-04-21 15:44:26,221 - speechbrain.utils.epoch_loop - INFO - Going into epoch 43
+2025-04-21 15:55:33,714 - speechbrain.nnet.schedulers - INFO - Changing lr from 9.4e-06 to 4.7e-06
+2025-04-21 15:55:33,718 - speechbrain.utils.train_logger - INFO - epoch: 43, lr: 9.37e-06 - train si-snr: -8.01e-01 - valid si-snr: 3.18
+2025-04-21 15:55:34,012 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+15-55-33+00
+2025-04-21 15:55:34,089 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+15-44-25+00
+2025-04-21 15:55:34,090 - speechbrain.utils.epoch_loop - INFO - Going into epoch 44
+2025-04-21 16:06:42,941 - speechbrain.utils.train_logger - INFO - epoch: 44, lr: 4.69e-06 - train si-snr: -1.26e-01 - valid si-snr: 3.07
+2025-04-21 16:06:43,241 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+16-06-42+00
+2025-04-21 16:06:43,303 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+15-55-33+00
+2025-04-21 16:06:43,304 - speechbrain.utils.epoch_loop - INFO - Going into epoch 45
+2025-04-21 16:17:49,898 - speechbrain.utils.train_logger - INFO - epoch: 45, lr: 4.69e-06 - train si-snr: -1.91e-01 - valid si-snr: 3.14
+2025-04-21 16:17:50,188 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+16-17-49+00
+2025-04-21 16:17:50,265 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+16-06-42+00
+2025-04-21 16:17:50,265 - speechbrain.utils.epoch_loop - INFO - Going into epoch 46
+2025-04-21 16:28:54,012 - speechbrain.nnet.schedulers - INFO - Changing lr from 4.7e-06 to 2.3e-06
+2025-04-21 16:28:54,017 - speechbrain.utils.train_logger - INFO - epoch: 46, lr: 4.69e-06 - train si-snr: -3.41e-01 - valid si-snr: 3.38
+2025-04-21 16:28:54,294 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+16-28-54+00
+2025-04-21 16:28:54,348 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+16-17-49+00
+2025-04-21 16:28:54,348 - speechbrain.utils.epoch_loop - INFO - Going into epoch 47
+2025-04-21 16:39:57,522 - speechbrain.utils.train_logger - INFO - epoch: 47, lr: 2.34e-06 - train si-snr: -5.57e-01 - valid si-snr: 3.83
+2025-04-21 16:39:57,829 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+16-39-57+00
+2025-04-21 16:39:57,878 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+16-28-54+00
+2025-04-21 16:39:57,878 - speechbrain.utils.epoch_loop - INFO - Going into epoch 48
+2025-04-21 16:51:02,051 - speechbrain.utils.train_logger - INFO - epoch: 48, lr: 2.34e-06 - train si-snr: -3.40e-01 - valid si-snr: 3.88
+2025-04-21 16:51:02,343 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+16-51-02+00
+2025-04-21 16:51:02,401 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+16-39-57+00
+2025-04-21 16:51:02,402 - speechbrain.utils.epoch_loop - INFO - Going into epoch 49
+2025-04-21 17:02:10,201 - speechbrain.nnet.schedulers - INFO - Changing lr from 2.3e-06 to 1.2e-06
+2025-04-21 17:02:10,210 - speechbrain.utils.train_logger - INFO - epoch: 49, lr: 2.34e-06 - train si-snr: -1.28e-01 - valid si-snr: 3.36
+2025-04-21 17:02:10,593 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+17-02-10+00
+2025-04-21 17:02:10,689 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+16-51-02+00
+2025-04-21 17:02:10,689 - speechbrain.utils.epoch_loop - INFO - Going into epoch 50
+2025-04-21 17:13:16,858 - speechbrain.utils.train_logger - INFO - epoch: 50, lr: 1.17e-06 - train si-snr: -5.05e-01 - valid si-snr: 3.56
+2025-04-21 17:13:17,177 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+17-13-16+00
+2025-04-21 17:13:17,272 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+17-02-10+00
+2025-04-21 17:13:17,277 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+03-43-43+00
+2025-04-21 17:18:20,160 - speechbrain.utils.train_logger - INFO - Epoch loaded: 34 - test si-snr: 4.28
+2025-04-21 17:24:59,497 - __main__ - INFO - Mean SISNR is 2.9819670753819603
+2025-04-21 17:24:59,499 - __main__ - INFO - Mean SISNRi is 4.095495218038559
+2025-04-21 17:24:59,499 - __main__ - INFO - Mean SDR is 5.088329370040779
+2025-04-21 17:24:59,500 - __main__ - INFO - Mean SDRi is 4.537653850787692
+2025-04-23 16:41:30,897 - speechbrain.utils.quirks - INFO - Applied quirks (see `speechbrain.utils.quirks`): [allow_tf32, disable_jit_profiling]
+2025-04-23 16:41:30,905 - speechbrain.utils.quirks - INFO - Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2025-04-23 16:41:30,906 - speechbrain.core - INFO - Beginning experiment!
+2025-04-23 16:41:30,906 - speechbrain.core - INFO - Experiment folder: /notebooks/results/dprnn/1234
+2025-04-23 16:41:31,987 - speechbrain.utils.superpowers - DEBUG - absl-py==2.1.0
+accelerate==0.24.1
+agate==1.6.3
+agate-dbf==0.2.2
+agate-excel==0.2.5
+agate-sql==0.5.8
+aiofiles==22.1.0
+aiohttp==3.9.1
+aiosignal==1.3.1
+aiosqlite==0.19.0
+antlr4-python3-runtime==4.9.3
+anyio==4.2.0
+appdirs==1.4.4
+argon2-cffi==23.1.0
+argon2-cffi-bindings==21.2.0
+arrow==1.3.0
+asttokens==2.4.1
+astunparse==1.6.3
+attrs==23.1.0
+awscli==1.22.34
+Babel==2.14.0
+beautifulsoup4==4.12.3
+bitsandbytes==0.41.2
+bleach==6.1.0
+blinker==1.4
+blis==0.7.11
+boto3==1.28.51
+botocore==1.31.85
+cachetools==5.3.2
+catalogue==2.0.10
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+click-completion==0.5.2
+click-didyoumean==0.3.0
+click-help-colors==0.9.4
+cloudpickle==2.2.1
+colorama==0.4.3
+comm==0.2.1
+confection==0.1.4
+contourpy==1.2.0
+cryptography==3.4.8
+csvkit==1.0.6
+cupy-cuda12x==12.2.0
+cycler==0.12.1
+cymem==2.0.8
+Cython==3.0.2
+datasets==2.14.5
+dbfread==2.0.7
+dbus-python==1.2.18
+debugpy==1.8.0
+decorator==5.1.1
+deepspeed==0.10.3
+defusedxml==0.7.1
+diffusers==0.21.4
+dill==0.3.7
+distro==1.7.0
+docker-pycreds==0.4.0
+docutils==0.17.1
+entrypoints==0.4
+et-xmlfile==1.0.1
+executing==2.0.1
+fastjsonschema==2.19.1
+fastrlock==0.8.2
+ffmpeg-python==0.2.0
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.47.2
+fqdn==1.5.1
+frozenlist==1.4.1
+fsspec==2023.6.0
+future==0.18.3
+gast==0.5.4
+gdown==4.7.1
+gitdb==4.0.11
+GitPython==3.1.41
+google-auth==2.26.2
+google-auth-oauthlib==1.2.0
+google-pasta==0.2.0
+gql==3.0.0a6
+gradient==2.0.6
+gradient-utils==0.5.0
+graphql-core==3.1.7
+greenlet==1.1.2
+grpcio==1.60.0
+h5py==3.10.0
+halo==0.0.31
+hjson==3.1.0
+httplib2==0.20.2
+huggingface-hub==0.20.3
+HyperPyYAML==1.2.2
+idna==3.3
+imageio==2.33.1
+importlib-metadata==4.6.4
+ipykernel==6.29.0
+ipython==8.20.0
+ipython-genutils==0.2.0
+ipywidgets==8.1.1
+isodate==0.6.1
+isoduration==20.11.0
+jdcal==1.0
+jedi==0.19.1
+jeepney==0.7.1
+Jinja2==3.1.3
+jmespath==0.10.0
+joblib==1.3.2
+json5==0.9.14
+jsonify==0.5
+jsonpointer==2.4
+jsonschema==4.21.1
+jsonschema-specifications==2023.12.1
+jupyter-events==0.9.0
+jupyter-highlight-selected-word==0.2.0
+jupyter-nbextensions-configurator==0.6.3
+jupyter-server-mathjax==0.2.6
+jupyter-ydoc==0.2.5
+jupyter_client==7.4.9
+jupyter_contrib_core==0.4.2
+jupyter_contrib_nbextensions==0.7.0
+jupyter_core==5.7.1
+jupyter_server==2.12.5
+jupyter_server_fileid==0.9.1
+jupyter_server_terminals==0.5.2
+jupyter_server_ydoc==0.8.0
+jupyterlab==3.6.5
+jupyterlab-widgets==3.0.9
+jupyterlab_git==0.43.0
+jupyterlab_pygments==0.3.0
+jupyterlab_server==2.25.2
+keras==2.15.0
+keyring==23.5.0
+kiwisolver==1.4.5
+langcodes==3.3.0
+launchpadlib==1.10.16
+lazr.restfulclient==0.14.4
+lazr.uri==1.0.6
+lazy_loader==0.3
+leather==0.3.4
+libclang==16.0.6
+log-symbols==0.0.14
+lxml==4.8.0
+Markdown==3.5.2
+MarkupSafe==2.1.4
+marshmallow==2.21.0
+matplotlib==3.7.3
+matplotlib-inline==0.1.6
+mir_eval==0.8.2
+mistune==3.0.2
+ml-dtypes==0.2.0
+more-itertools==8.10.0
+mpmath==1.3.0
+multidict==6.0.4
+multiprocess==0.70.15
+murmurhash==1.0.10
+musdb==0.4.2
+museval==0.4.1
+nbclassic==1.0.0
+nbclient==0.9.0
+nbconvert==7.14.2
+nbdime==3.2.1
+nbformat==5.9.2
+nest-asyncio==1.6.0
+networkx==3.2.1
+ninja==1.11.1.1
+nltk==3.8.1
+notebook==6.5.6
+notebook_shim==0.2.3
+numpy==1.26.3
+oauthlib==3.2.0
+olefile==0.46
+omegaconf==2.3.0
+opencv-python==4.8.0.76
+openpyxl==3.1.2
+opt-einsum==3.3.0
+overrides==7.6.0
+packaging==23.2
+pandas==2.2.0
+pandocfilters==1.5.1
+parsedatetime==2.6
+parso==0.8.3
+pathlib_abc==0.1.1
+pathtools==0.1.2
+pathy==0.11.0
+peft==0.6.2
+pexpect==4.9.0
+Pillow==9.5.0
+platformdirs==4.1.0
+preshed==3.0.9
+progressbar2==4.3.2
+prometheus-client==0.9.0
+prompt-toolkit==3.0.43
+protobuf==4.23.4
+psutil==5.9.8
+ptyprocess==0.7.0
+pure-eval==0.2.2
+py-cpuinfo==9.0.0
+pyaml==25.1.0
+pyarrow==15.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.3.0
+pycparser==2.21
+pydantic==1.10.14
+Pygments==2.17.2
+PyGObject==3.42.1
+PyJWT==2.3.0
+pymongo==3.13.0
+pyparsing==2.4.7
+PySocks==1.7.1
+python-apt==2.4.0+ubuntu2
+python-dateutil==2.8.2
+python-distutils-extra==2.39
+python-json-logger==2.0.7
+python-slugify==4.0.0
+python-utils==3.8.1
+pytimeparse==1.1.5
+pytz==2022.1
+PyWavelets==1.5.0
+PyYAML==5.4.1
+pyzmq==24.0.1
+referencing==0.32.1
+regex==2023.12.25
+requests==2.31.0
+requests-oauthlib==1.3.1
+requests-toolbelt==1.0.0
+rfc3339-validator==0.1.4
+rfc3986-validator==0.1.1
+roman==3.3
+rpds-py==0.17.1
+rsa==4.8
+ruamel.yaml==0.18.10
+ruamel.yaml.clib==0.2.12
+s3transfer==0.6.2
+safetensors==0.4.0
+scikit-image==0.21.0
+scikit-learn==1.3.0
+scipy==1.11.2
+screen-resolution-extra==0.0.0
+seaborn==0.12.2
+SecretStorage==3.3.1
+Send2Trash==1.8.2
+sentence-transformers==2.2.2
+sentencepiece==0.1.99
+sentry-sdk==1.39.2
+setproctitle==1.3.3
+shellingham==1.5.4
+simplejson==3.20.1
+six==1.16.0
+smart-open==6.4.0
+smmap==5.0.1
+sniffio==1.3.0
+soundfile==0.13.1
+soupsieve==2.5
+spacy==3.6.1
+spacy-legacy==3.0.12
+spacy-loggers==1.0.5
+speechbrain @ git+https://github.com/speechbrain/speechbrain.git@eb0532a219cc77efbc7a5c404184302500532226
+spinners==0.0.24
+SQLAlchemy==2.0.21
+srsly==2.4.8
+stack-data==0.6.3
+stempeg==0.2.3
+sympy==1.12
+tabulate==0.9.0
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.35.0
+termcolor==2.4.0
+terminado==0.18.0
+terminaltables==3.1.10
+thinc==8.1.12
+threadpoolctl==3.2.0
+tifffile==2023.12.9
+timm==0.9.7
+tinycss2==1.2.1
+tokenizers==0.15.1
+torch==2.1.1+cu121
+torchaudio==2.1.1+cu121
+torchvision==0.16.1+cu121
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.1
+transformers==4.35.2
+triton==2.1.0
+typer==0.9.0
+types-python-dateutil==2.8.19.20240106
+typing_extensions==4.9.0
+tzdata==2023.4
+Unidecode==1.3.3
+uri-template==1.3.0
+urllib3==2.0.7
+wadllib==1.3.6
+wandb==0.15.10
+wasabi==1.1.2
+wcwidth==0.2.13
+webcolors==1.13
+webencodings==0.5.1
+websocket-client==0.57.0
+Werkzeug==3.0.1
+widgetsnbextension==4.0.9
+wrapt==1.14.1
+xgboost==1.7.6
+xkit==0.0.0
+xlrd==1.2.0
+xxhash==3.4.1
+y-py==0.6.2
+yarl==1.9.4
+ypy-websocket==0.8.4
+zipp==1.0.0
+
+
+2025-04-23 16:41:31,994 - speechbrain.utils.superpowers - DEBUG - d0ecbf7
+
+
+2025-04-23 16:41:32,001 - speechbrain.core - INFO - Info: precision arg from hparam file is used
+2025-04-23 16:41:32,002 - speechbrain.core - INFO - Info: noprogressbar arg from hparam file is used
+2025-04-23 16:41:32,429 - speechbrain.core - INFO - Gradscaler enabled: `True`
+2025-04-23 16:41:32,430 - speechbrain.core - INFO - Using training precision: `--precision=fp16`
+2025-04-23 16:41:32,430 - speechbrain.core - INFO - Using evaluation precision: `--eval_precision=fp32`
+2025-04-23 16:41:32,431 - speechbrain.core - INFO - Separation Model Statistics:
+* Total Number of Trainable Parameters: 14.6M
+* Total Number of Parameters: 14.6M
+* Trainable Parameters represent 100.0000% of the total size.
+2025-04-23 16:41:45,152 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+17-13-16+00
+2025-04-23 16:41:45,733 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/speechbrain/utils/checkpoints.py", line 1153, in _call_load_hooks
+    loadpath = checkpoint.paramfiles[name]
+               ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'lr_scheduler'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/notebooks/dprnn-train.py", line 437, in <module>
+    separator.fit(
+  File "/usr/local/lib/python3.11/dist-packages/speechbrain/core.py", line 1575, in fit
+    self.on_fit_start()
+  File "/usr/local/lib/python3.11/dist-packages/speechbrain/core.py", line 1120, in on_fit_start
+    self.checkpointer.recover_if_possible()
+  File "/usr/local/lib/python3.11/dist-packages/speechbrain/utils/checkpoints.py", line 1018, in recover_if_possible
+    self.load_checkpoint(chosen_ckpt)
+  File "/usr/local/lib/python3.11/dist-packages/speechbrain/utils/checkpoints.py", line 1031, in load_checkpoint
+    self._call_load_hooks(checkpoint)
+  File "/usr/local/lib/python3.11/dist-packages/speechbrain/utils/checkpoints.py", line 1163, in _call_load_hooks
+    if self.optional_recoverables[name]:
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'lr_scheduler'
+2025-04-23 16:46:02,991 - speechbrain.utils.quirks - INFO - Applied quirks (see `speechbrain.utils.quirks`): [disable_jit_profiling, allow_tf32]
+2025-04-23 16:46:02,992 - speechbrain.utils.quirks - INFO - Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2025-04-23 16:46:02,992 - speechbrain.core - INFO - Beginning experiment!
+2025-04-23 16:46:02,992 - speechbrain.core - INFO - Experiment folder: /notebooks/results/dprnn/1234
+2025-04-23 16:46:04,073 - speechbrain.utils.superpowers - DEBUG - absl-py==2.1.0
+accelerate==0.24.1
+agate==1.6.3
+agate-dbf==0.2.2
+agate-excel==0.2.5
+agate-sql==0.5.8
+aiofiles==22.1.0
+aiohttp==3.9.1
+aiosignal==1.3.1
+aiosqlite==0.19.0
+antlr4-python3-runtime==4.9.3
+anyio==4.2.0
+appdirs==1.4.4
+argon2-cffi==23.1.0
+argon2-cffi-bindings==21.2.0
+arrow==1.3.0
+asttokens==2.4.1
+astunparse==1.6.3
+attrs==23.1.0
+awscli==1.22.34
+Babel==2.14.0
+beautifulsoup4==4.12.3
+bitsandbytes==0.41.2
+bleach==6.1.0
+blinker==1.4
+blis==0.7.11
+boto3==1.28.51
+botocore==1.31.85
+cachetools==5.3.2
+catalogue==2.0.10
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+click-completion==0.5.2
+click-didyoumean==0.3.0
+click-help-colors==0.9.4
+cloudpickle==2.2.1
+colorama==0.4.3
+comm==0.2.1
+confection==0.1.4
+contourpy==1.2.0
+cryptography==3.4.8
+csvkit==1.0.6
+cupy-cuda12x==12.2.0
+cycler==0.12.1
+cymem==2.0.8
+Cython==3.0.2
+datasets==2.14.5
+dbfread==2.0.7
+dbus-python==1.2.18
+debugpy==1.8.0
+decorator==5.1.1
+deepspeed==0.10.3
+defusedxml==0.7.1
+diffusers==0.21.4
+dill==0.3.7
+distro==1.7.0
+docker-pycreds==0.4.0
+docutils==0.17.1
+entrypoints==0.4
+et-xmlfile==1.0.1
+executing==2.0.1
+fastjsonschema==2.19.1
+fastrlock==0.8.2
+ffmpeg-python==0.2.0
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.47.2
+fqdn==1.5.1
+frozenlist==1.4.1
+fsspec==2023.6.0
+future==0.18.3
+gast==0.5.4
+gdown==4.7.1
+gitdb==4.0.11
+GitPython==3.1.41
+google-auth==2.26.2
+google-auth-oauthlib==1.2.0
+google-pasta==0.2.0
+gql==3.0.0a6
+gradient==2.0.6
+gradient-utils==0.5.0
+graphql-core==3.1.7
+greenlet==1.1.2
+grpcio==1.60.0
+h5py==3.10.0
+halo==0.0.31
+hjson==3.1.0
+httplib2==0.20.2
+huggingface-hub==0.20.3
+HyperPyYAML==1.2.2
+idna==3.3
+imageio==2.33.1
+importlib-metadata==4.6.4
+ipykernel==6.29.0
+ipython==8.20.0
+ipython-genutils==0.2.0
+ipywidgets==8.1.1
+isodate==0.6.1
+isoduration==20.11.0
+jdcal==1.0
+jedi==0.19.1
+jeepney==0.7.1
+Jinja2==3.1.3
+jmespath==0.10.0
+joblib==1.3.2
+json5==0.9.14
+jsonify==0.5
+jsonpointer==2.4
+jsonschema==4.21.1
+jsonschema-specifications==2023.12.1
+jupyter-events==0.9.0
+jupyter-highlight-selected-word==0.2.0
+jupyter-nbextensions-configurator==0.6.3
+jupyter-server-mathjax==0.2.6
+jupyter-ydoc==0.2.5
+jupyter_client==7.4.9
+jupyter_contrib_core==0.4.2
+jupyter_contrib_nbextensions==0.7.0
+jupyter_core==5.7.1
+jupyter_server==2.12.5
+jupyter_server_fileid==0.9.1
+jupyter_server_terminals==0.5.2
+jupyter_server_ydoc==0.8.0
+jupyterlab==3.6.5
+jupyterlab-widgets==3.0.9
+jupyterlab_git==0.43.0
+jupyterlab_pygments==0.3.0
+jupyterlab_server==2.25.2
+keras==2.15.0
+keyring==23.5.0
+kiwisolver==1.4.5
+langcodes==3.3.0
+launchpadlib==1.10.16
+lazr.restfulclient==0.14.4
+lazr.uri==1.0.6
+lazy_loader==0.3
+leather==0.3.4
+libclang==16.0.6
+log-symbols==0.0.14
+lxml==4.8.0
+Markdown==3.5.2
+MarkupSafe==2.1.4
+marshmallow==2.21.0
+matplotlib==3.7.3
+matplotlib-inline==0.1.6
+mir_eval==0.8.2
+mistune==3.0.2
+ml-dtypes==0.2.0
+more-itertools==8.10.0
+mpmath==1.3.0
+multidict==6.0.4
+multiprocess==0.70.15
+murmurhash==1.0.10
+musdb==0.4.2
+museval==0.4.1
+nbclassic==1.0.0
+nbclient==0.9.0
+nbconvert==7.14.2
+nbdime==3.2.1
+nbformat==5.9.2
+nest-asyncio==1.6.0
+networkx==3.2.1
+ninja==1.11.1.1
+nltk==3.8.1
+notebook==6.5.6
+notebook_shim==0.2.3
+numpy==1.26.3
+oauthlib==3.2.0
+olefile==0.46
+omegaconf==2.3.0
+opencv-python==4.8.0.76
+openpyxl==3.1.2
+opt-einsum==3.3.0
+overrides==7.6.0
+packaging==23.2
+pandas==2.2.0
+pandocfilters==1.5.1
+parsedatetime==2.6
+parso==0.8.3
+pathlib_abc==0.1.1
+pathtools==0.1.2
+pathy==0.11.0
+peft==0.6.2
+pexpect==4.9.0
+Pillow==9.5.0
+platformdirs==4.1.0
+preshed==3.0.9
+progressbar2==4.3.2
+prometheus-client==0.9.0
+prompt-toolkit==3.0.43
+protobuf==4.23.4
+psutil==5.9.8
+ptyprocess==0.7.0
+pure-eval==0.2.2
+py-cpuinfo==9.0.0
+pyaml==25.1.0
+pyarrow==15.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.3.0
+pycparser==2.21
+pydantic==1.10.14
+Pygments==2.17.2
+PyGObject==3.42.1
+PyJWT==2.3.0
+pymongo==3.13.0
+pyparsing==2.4.7
+PySocks==1.7.1
+python-apt==2.4.0+ubuntu2
+python-dateutil==2.8.2
+python-distutils-extra==2.39
+python-json-logger==2.0.7
+python-slugify==4.0.0
+python-utils==3.8.1
+pytimeparse==1.1.5
+pytz==2022.1
+PyWavelets==1.5.0
+PyYAML==5.4.1
+pyzmq==24.0.1
+referencing==0.32.1
+regex==2023.12.25
+requests==2.31.0
+requests-oauthlib==1.3.1
+requests-toolbelt==1.0.0
+rfc3339-validator==0.1.4
+rfc3986-validator==0.1.1
+roman==3.3
+rpds-py==0.17.1
+rsa==4.8
+ruamel.yaml==0.18.10
+ruamel.yaml.clib==0.2.12
+s3transfer==0.6.2
+safetensors==0.4.0
+scikit-image==0.21.0
+scikit-learn==1.3.0
+scipy==1.11.2
+screen-resolution-extra==0.0.0
+seaborn==0.12.2
+SecretStorage==3.3.1
+Send2Trash==1.8.2
+sentence-transformers==2.2.2
+sentencepiece==0.1.99
+sentry-sdk==1.39.2
+setproctitle==1.3.3
+shellingham==1.5.4
+simplejson==3.20.1
+six==1.16.0
+smart-open==6.4.0
+smmap==5.0.1
+sniffio==1.3.0
+soundfile==0.13.1
+soupsieve==2.5
+spacy==3.6.1
+spacy-legacy==3.0.12
+spacy-loggers==1.0.5
+speechbrain @ git+https://github.com/speechbrain/speechbrain.git@eb0532a219cc77efbc7a5c404184302500532226
+spinners==0.0.24
+SQLAlchemy==2.0.21
+srsly==2.4.8
+stack-data==0.6.3
+stempeg==0.2.3
+sympy==1.12
+tabulate==0.9.0
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.35.0
+termcolor==2.4.0
+terminado==0.18.0
+terminaltables==3.1.10
+thinc==8.1.12
+threadpoolctl==3.2.0
+tifffile==2023.12.9
+timm==0.9.7
+tinycss2==1.2.1
+tokenizers==0.15.1
+torch==2.1.1+cu121
+torchaudio==2.1.1+cu121
+torchvision==0.16.1+cu121
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.1
+transformers==4.35.2
+triton==2.1.0
+typer==0.9.0
+types-python-dateutil==2.8.19.20240106
+typing_extensions==4.9.0
+tzdata==2023.4
+Unidecode==1.3.3
+uri-template==1.3.0
+urllib3==2.0.7
+wadllib==1.3.6
+wandb==0.15.10
+wasabi==1.1.2
+wcwidth==0.2.13
+webcolors==1.13
+webencodings==0.5.1
+websocket-client==0.57.0
+Werkzeug==3.0.1
+widgetsnbextension==4.0.9
+wrapt==1.14.1
+xgboost==1.7.6
+xkit==0.0.0
+xlrd==1.2.0
+xxhash==3.4.1
+y-py==0.6.2
+yarl==1.9.4
+ypy-websocket==0.8.4
+zipp==1.0.0
+
+
+2025-04-23 16:46:04,077 - speechbrain.utils.superpowers - DEBUG - d0ecbf7
+
+
+2025-04-23 16:46:04,080 - speechbrain.core - INFO - Info: precision arg from hparam file is used
+2025-04-23 16:46:04,081 - speechbrain.core - INFO - Info: noprogressbar arg from hparam file is used
+2025-04-23 16:46:04,491 - speechbrain.core - INFO - Gradscaler enabled: `True`
+2025-04-23 16:46:04,491 - speechbrain.core - INFO - Using training precision: `--precision=fp16`
+2025-04-23 16:46:04,491 - speechbrain.core - INFO - Using evaluation precision: `--eval_precision=fp32`
+2025-04-23 16:46:04,492 - speechbrain.core - INFO - Separation Model Statistics:
+* Total Number of Trainable Parameters: 14.6M
+* Total Number of Parameters: 14.6M
+* Trainable Parameters represent 100.0000% of the total size.
+2025-04-23 16:46:16,755 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+17-13-16+00
+2025-04-23 16:46:17,915 - speechbrain.utils.epoch_loop - INFO - Going into epoch 51
+2025-04-23 16:48:06,272 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/notebooks/dprnn-train.py", line 437, in <module>
+    separator.fit(
+  File "/usr/local/lib/python3.11/dist-packages/speechbrain/core.py", line 1585, in fit
+    self._fit_train(train_set=train_set, epoch=epoch, enable=enable)
+  File "/usr/local/lib/python3.11/dist-packages/speechbrain/core.py", line 1404, in _fit_train
+    for batch in t:
+  File "/usr/local/lib/python3.11/dist-packages/tqdm/std.py", line 1182, in __iter__
+    for obj in iterable:
+  File "/usr/local/lib/python3.11/dist-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/utils/data/dataloader.py", line 674, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "/notebooks/dataset.py", line 90, in __getitem__
+    "mix_sig": load_stem_chunk("mix", random_chunk_start_val),
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/notebooks/dataset.py", line 62, in load_stem_chunk
+    return torchaudio.functional.resample(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torchaudio/functional/functional.py", line 1528, in resample
+    resampled = _apply_sinc_resample_kernel(waveform, orig_freq, new_freq, gcd, kernel, width)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torchaudio/functional/functional.py", line 1460, in _apply_sinc_resample_kernel
+    waveform = waveform.view(-1, shape[-1])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: cannot reshape tensor of 0 elements into shape [-1, 0] because the unspecified dimension size -1 can be any value and is ambiguous
+2025-04-23 16:58:19,203 - speechbrain.utils.quirks - INFO - Applied quirks (see `speechbrain.utils.quirks`): [disable_jit_profiling, allow_tf32]
+2025-04-23 16:58:19,207 - speechbrain.utils.quirks - INFO - Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2025-04-23 16:58:19,207 - speechbrain.core - INFO - Beginning experiment!
+2025-04-23 16:58:19,207 - speechbrain.core - INFO - Experiment folder: /notebooks/results/dprnn/1234
+2025-04-23 16:58:20,152 - speechbrain.utils.superpowers - DEBUG - absl-py==2.1.0
+accelerate==0.24.1
+agate==1.6.3
+agate-dbf==0.2.2
+agate-excel==0.2.5
+agate-sql==0.5.8
+aiofiles==22.1.0
+aiohttp==3.9.1
+aiosignal==1.3.1
+aiosqlite==0.19.0
+antlr4-python3-runtime==4.9.3
+anyio==4.2.0
+appdirs==1.4.4
+argon2-cffi==23.1.0
+argon2-cffi-bindings==21.2.0
+arrow==1.3.0
+asttokens==2.4.1
+astunparse==1.6.3
+attrs==23.1.0
+awscli==1.22.34
+Babel==2.14.0
+beautifulsoup4==4.12.3
+bitsandbytes==0.41.2
+bleach==6.1.0
+blinker==1.4
+blis==0.7.11
+boto3==1.28.51
+botocore==1.31.85
+cachetools==5.3.2
+catalogue==2.0.10
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+click-completion==0.5.2
+click-didyoumean==0.3.0
+click-help-colors==0.9.4
+cloudpickle==2.2.1
+colorama==0.4.3
+comm==0.2.1
+confection==0.1.4
+contourpy==1.2.0
+cryptography==3.4.8
+csvkit==1.0.6
+cupy-cuda12x==12.2.0
+cycler==0.12.1
+cymem==2.0.8
+Cython==3.0.2
+datasets==2.14.5
+dbfread==2.0.7
+dbus-python==1.2.18
+debugpy==1.8.0
+decorator==5.1.1
+deepspeed==0.10.3
+defusedxml==0.7.1
+diffusers==0.21.4
+dill==0.3.7
+distro==1.7.0
+docker-pycreds==0.4.0
+docutils==0.17.1
+entrypoints==0.4
+et-xmlfile==1.0.1
+executing==2.0.1
+fastjsonschema==2.19.1
+fastrlock==0.8.2
+ffmpeg-python==0.2.0
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.47.2
+fqdn==1.5.1
+frozenlist==1.4.1
+fsspec==2023.6.0
+future==0.18.3
+gast==0.5.4
+gdown==4.7.1
+gitdb==4.0.11
+GitPython==3.1.41
+google-auth==2.26.2
+google-auth-oauthlib==1.2.0
+google-pasta==0.2.0
+gql==3.0.0a6
+gradient==2.0.6
+gradient-utils==0.5.0
+graphql-core==3.1.7
+greenlet==1.1.2
+grpcio==1.60.0
+h5py==3.10.0
+halo==0.0.31
+hjson==3.1.0
+httplib2==0.20.2
+huggingface-hub==0.20.3
+HyperPyYAML==1.2.2
+idna==3.3
+imageio==2.33.1
+importlib-metadata==4.6.4
+ipykernel==6.29.0
+ipython==8.20.0
+ipython-genutils==0.2.0
+ipywidgets==8.1.1
+isodate==0.6.1
+isoduration==20.11.0
+jdcal==1.0
+jedi==0.19.1
+jeepney==0.7.1
+Jinja2==3.1.3
+jmespath==0.10.0
+joblib==1.3.2
+json5==0.9.14
+jsonify==0.5
+jsonpointer==2.4
+jsonschema==4.21.1
+jsonschema-specifications==2023.12.1
+jupyter-events==0.9.0
+jupyter-highlight-selected-word==0.2.0
+jupyter-nbextensions-configurator==0.6.3
+jupyter-server-mathjax==0.2.6
+jupyter-ydoc==0.2.5
+jupyter_client==7.4.9
+jupyter_contrib_core==0.4.2
+jupyter_contrib_nbextensions==0.7.0
+jupyter_core==5.7.1
+jupyter_server==2.12.5
+jupyter_server_fileid==0.9.1
+jupyter_server_terminals==0.5.2
+jupyter_server_ydoc==0.8.0
+jupyterlab==3.6.5
+jupyterlab-widgets==3.0.9
+jupyterlab_git==0.43.0
+jupyterlab_pygments==0.3.0
+jupyterlab_server==2.25.2
+keras==2.15.0
+keyring==23.5.0
+kiwisolver==1.4.5
+langcodes==3.3.0
+launchpadlib==1.10.16
+lazr.restfulclient==0.14.4
+lazr.uri==1.0.6
+lazy_loader==0.3
+leather==0.3.4
+libclang==16.0.6
+log-symbols==0.0.14
+lxml==4.8.0
+Markdown==3.5.2
+MarkupSafe==2.1.4
+marshmallow==2.21.0
+matplotlib==3.7.3
+matplotlib-inline==0.1.6
+mir_eval==0.8.2
+mistune==3.0.2
+ml-dtypes==0.2.0
+more-itertools==8.10.0
+mpmath==1.3.0
+multidict==6.0.4
+multiprocess==0.70.15
+murmurhash==1.0.10
+musdb==0.4.2
+museval==0.4.1
+nbclassic==1.0.0
+nbclient==0.9.0
+nbconvert==7.14.2
+nbdime==3.2.1
+nbformat==5.9.2
+nest-asyncio==1.6.0
+networkx==3.2.1
+ninja==1.11.1.1
+nltk==3.8.1
+notebook==6.5.6
+notebook_shim==0.2.3
+numpy==1.26.3
+oauthlib==3.2.0
+olefile==0.46
+omegaconf==2.3.0
+opencv-python==4.8.0.76
+openpyxl==3.1.2
+opt-einsum==3.3.0
+overrides==7.6.0
+packaging==23.2
+pandas==2.2.0
+pandocfilters==1.5.1
+parsedatetime==2.6
+parso==0.8.3
+pathlib_abc==0.1.1
+pathtools==0.1.2
+pathy==0.11.0
+peft==0.6.2
+pexpect==4.9.0
+Pillow==9.5.0
+platformdirs==4.1.0
+preshed==3.0.9
+progressbar2==4.3.2
+prometheus-client==0.9.0
+prompt-toolkit==3.0.43
+protobuf==4.23.4
+psutil==5.9.8
+ptyprocess==0.7.0
+pure-eval==0.2.2
+py-cpuinfo==9.0.0
+pyaml==25.1.0
+pyarrow==15.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.3.0
+pycparser==2.21
+pydantic==1.10.14
+Pygments==2.17.2
+PyGObject==3.42.1
+PyJWT==2.3.0
+pymongo==3.13.0
+pyparsing==2.4.7
+PySocks==1.7.1
+python-apt==2.4.0+ubuntu2
+python-dateutil==2.8.2
+python-distutils-extra==2.39
+python-json-logger==2.0.7
+python-slugify==4.0.0
+python-utils==3.8.1
+pytimeparse==1.1.5
+pytz==2022.1
+PyWavelets==1.5.0
+PyYAML==5.4.1
+pyzmq==24.0.1
+referencing==0.32.1
+regex==2023.12.25
+requests==2.31.0
+requests-oauthlib==1.3.1
+requests-toolbelt==1.0.0
+rfc3339-validator==0.1.4
+rfc3986-validator==0.1.1
+roman==3.3
+rpds-py==0.17.1
+rsa==4.8
+ruamel.yaml==0.18.10
+ruamel.yaml.clib==0.2.12
+s3transfer==0.6.2
+safetensors==0.4.0
+scikit-image==0.21.0
+scikit-learn==1.3.0
+scipy==1.11.2
+screen-resolution-extra==0.0.0
+seaborn==0.12.2
+SecretStorage==3.3.1
+Send2Trash==1.8.2
+sentence-transformers==2.2.2
+sentencepiece==0.1.99
+sentry-sdk==1.39.2
+setproctitle==1.3.3
+shellingham==1.5.4
+simplejson==3.20.1
+six==1.16.0
+smart-open==6.4.0
+smmap==5.0.1
+sniffio==1.3.0
+soundfile==0.13.1
+soupsieve==2.5
+spacy==3.6.1
+spacy-legacy==3.0.12
+spacy-loggers==1.0.5
+speechbrain @ git+https://github.com/speechbrain/speechbrain.git@eb0532a219cc77efbc7a5c404184302500532226
+spinners==0.0.24
+SQLAlchemy==2.0.21
+srsly==2.4.8
+stack-data==0.6.3
+stempeg==0.2.3
+sympy==1.12
+tabulate==0.9.0
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.35.0
+termcolor==2.4.0
+terminado==0.18.0
+terminaltables==3.1.10
+thinc==8.1.12
+threadpoolctl==3.2.0
+tifffile==2023.12.9
+timm==0.9.7
+tinycss2==1.2.1
+tokenizers==0.15.1
+torch==2.1.1+cu121
+torchaudio==2.1.1+cu121
+torchvision==0.16.1+cu121
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.1
+transformers==4.35.2
+triton==2.1.0
+typer==0.9.0
+types-python-dateutil==2.8.19.20240106
+typing_extensions==4.9.0
+tzdata==2023.4
+Unidecode==1.3.3
+uri-template==1.3.0
+urllib3==2.0.7
+wadllib==1.3.6
+wandb==0.15.10
+wasabi==1.1.2
+wcwidth==0.2.13
+webcolors==1.13
+webencodings==0.5.1
+websocket-client==0.57.0
+Werkzeug==3.0.1
+widgetsnbextension==4.0.9
+wrapt==1.14.1
+xgboost==1.7.6
+xkit==0.0.0
+xlrd==1.2.0
+xxhash==3.4.1
+y-py==0.6.2
+yarl==1.9.4
+ypy-websocket==0.8.4
+zipp==1.0.0
+
+
+2025-04-23 16:58:20,156 - speechbrain.utils.superpowers - DEBUG - d0ecbf7
+
+
+2025-04-23 16:58:20,161 - speechbrain.core - INFO - Info: precision arg from hparam file is used
+2025-04-23 16:58:20,161 - speechbrain.core - INFO - Info: noprogressbar arg from hparam file is used
+2025-04-23 16:58:20,556 - speechbrain.core - INFO - Gradscaler enabled: `True`
+2025-04-23 16:58:20,556 - speechbrain.core - INFO - Using training precision: `--precision=fp16`
+2025-04-23 16:58:20,556 - speechbrain.core - INFO - Using evaluation precision: `--eval_precision=fp32`
+2025-04-23 16:58:20,557 - speechbrain.core - INFO - Separation Model Statistics:
+* Total Number of Trainable Parameters: 14.6M
+* Total Number of Parameters: 14.6M
+* Trainable Parameters represent 100.0000% of the total size.
+2025-04-23 16:58:32,648 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+17-13-16+00
+2025-04-23 16:58:33,006 - speechbrain.utils.epoch_loop - INFO - Going into epoch 51
+2025-04-23 17:18:33,953 - speechbrain.utils.train_logger - INFO - epoch: 51, lr: 1.17e-06 - train si-snr: -1.72e+00 - valid si-snr: -2.23e+00
+2025-04-23 17:18:34,223 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+17-18-33+00
+2025-04-23 17:18:34,244 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+03-43-43+00
+2025-04-23 17:18:34,417 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-21+17-13-16+00
+2025-04-23 17:18:34,417 - speechbrain.utils.epoch_loop - INFO - Going into epoch 52
+2025-04-23 17:38:49,931 - speechbrain.utils.train_logger - INFO - epoch: 52, lr: 1.17e-06 - train si-snr: -1.66e+00 - valid si-snr: -2.23e+00
+2025-04-23 17:38:50,189 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+17-38-49+00
+2025-04-23 17:38:50,198 - speechbrain.utils.epoch_loop - INFO - Going into epoch 53
+2025-04-23 17:47:52,163 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/notebooks/dprnn-train.py", line 437, in <module>
+    separator.fit(
+  File "/usr/local/lib/python3.11/dist-packages/speechbrain/core.py", line 1585, in fit
+    self._fit_train(train_set=train_set, epoch=epoch, enable=enable)
+  File "/usr/local/lib/python3.11/dist-packages/speechbrain/core.py", line 1404, in _fit_train
+    for batch in t:
+  File "/usr/local/lib/python3.11/dist-packages/tqdm/std.py", line 1182, in __iter__
+    for obj in iterable:
+  File "/usr/local/lib/python3.11/dist-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/utils/data/dataloader.py", line 674, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "/notebooks/dataset.py", line 99, in __getitem__
+    "inst_sig": load_stem_chunk("accompaniment",random_chunk_start_val),
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/notebooks/dataset.py", line 57, in load_stem_chunk
+    max_samples = source.audio.shape[0]  # Total samples in track
+                  ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/musdb/audio_classes.py", line 273, in audio
+    audio = source.audio
+            ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/musdb/audio_classes.py", line 227, in audio
+    return self.multitrack.load_audio(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/musdb/audio_classes.py", line 100, in load_audio
+    audio, rate = stempeg.read_stems(
+                  ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/stempeg/read.py", line 284, in read_stems
+    stems = [
+            ^
+  File "/usr/local/lib/python3.11/dist-packages/stempeg/read.py", line 285, in <listcomp>
+    _read_ffmpeg(
+  File "/usr/local/lib/python3.11/dist-packages/stempeg/read.py", line 92, in _read_ffmpeg
+    buffer, _ = process.communicate()
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/subprocess.py", line 2128, in _communicate
+    data = os.read(key.fd, 32768)
+           ^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2025-04-23 18:51:00,253 - speechbrain.utils.quirks - INFO - Applied quirks (see `speechbrain.utils.quirks`): [disable_jit_profiling, allow_tf32]
+2025-04-23 18:51:00,260 - speechbrain.utils.quirks - INFO - Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2025-04-23 18:51:00,261 - speechbrain.core - INFO - Beginning experiment!
+2025-04-23 18:51:00,261 - speechbrain.core - INFO - Experiment folder: /notebooks/results/dprnn/1234
+2025-04-23 18:51:01,341 - speechbrain.utils.superpowers - DEBUG - absl-py==2.1.0
+accelerate==0.24.1
+agate==1.6.3
+agate-dbf==0.2.2
+agate-excel==0.2.5
+agate-sql==0.5.8
+aiofiles==22.1.0
+aiohttp==3.9.1
+aiosignal==1.3.1
+aiosqlite==0.19.0
+antlr4-python3-runtime==4.9.3
+anyio==4.2.0
+appdirs==1.4.4
+argon2-cffi==23.1.0
+argon2-cffi-bindings==21.2.0
+arrow==1.3.0
+asttokens==2.4.1
+astunparse==1.6.3
+attrs==23.1.0
+awscli==1.22.34
+Babel==2.14.0
+beautifulsoup4==4.12.3
+bitsandbytes==0.41.2
+bleach==6.1.0
+blinker==1.4
+blis==0.7.11
+boto3==1.28.51
+botocore==1.31.85
+cachetools==5.3.2
+catalogue==2.0.10
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+click-completion==0.5.2
+click-didyoumean==0.3.0
+click-help-colors==0.9.4
+cloudpickle==2.2.1
+colorama==0.4.3
+comm==0.2.1
+confection==0.1.4
+contourpy==1.2.0
+cryptography==3.4.8
+csvkit==1.0.6
+cupy-cuda12x==12.2.0
+cycler==0.12.1
+cymem==2.0.8
+Cython==3.0.2
+datasets==2.14.5
+dbfread==2.0.7
+dbus-python==1.2.18
+debugpy==1.8.0
+decorator==5.1.1
+deepspeed==0.10.3
+defusedxml==0.7.1
+diffusers==0.21.4
+dill==0.3.7
+distro==1.7.0
+docker-pycreds==0.4.0
+docutils==0.17.1
+entrypoints==0.4
+et-xmlfile==1.0.1
+executing==2.0.1
+fastjsonschema==2.19.1
+fastrlock==0.8.2
+ffmpeg-python==0.2.0
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.47.2
+fqdn==1.5.1
+frozenlist==1.4.1
+fsspec==2023.6.0
+future==0.18.3
+gast==0.5.4
+gdown==4.7.1
+gitdb==4.0.11
+GitPython==3.1.41
+google-auth==2.26.2
+google-auth-oauthlib==1.2.0
+google-pasta==0.2.0
+gql==3.0.0a6
+gradient==2.0.6
+gradient-utils==0.5.0
+graphql-core==3.1.7
+greenlet==1.1.2
+grpcio==1.60.0
+h5py==3.10.0
+halo==0.0.31
+hjson==3.1.0
+httplib2==0.20.2
+huggingface-hub==0.20.3
+HyperPyYAML==1.2.2
+idna==3.3
+imageio==2.33.1
+importlib-metadata==4.6.4
+ipykernel==6.29.0
+ipython==8.20.0
+ipython-genutils==0.2.0
+ipywidgets==8.1.1
+isodate==0.6.1
+isoduration==20.11.0
+jdcal==1.0
+jedi==0.19.1
+jeepney==0.7.1
+Jinja2==3.1.3
+jmespath==0.10.0
+joblib==1.3.2
+json5==0.9.14
+jsonify==0.5
+jsonpointer==2.4
+jsonschema==4.21.1
+jsonschema-specifications==2023.12.1
+jupyter-events==0.9.0
+jupyter-highlight-selected-word==0.2.0
+jupyter-nbextensions-configurator==0.6.3
+jupyter-server-mathjax==0.2.6
+jupyter-ydoc==0.2.5
+jupyter_client==7.4.9
+jupyter_contrib_core==0.4.2
+jupyter_contrib_nbextensions==0.7.0
+jupyter_core==5.7.1
+jupyter_server==2.12.5
+jupyter_server_fileid==0.9.1
+jupyter_server_terminals==0.5.2
+jupyter_server_ydoc==0.8.0
+jupyterlab==3.6.5
+jupyterlab-widgets==3.0.9
+jupyterlab_git==0.43.0
+jupyterlab_pygments==0.3.0
+jupyterlab_server==2.25.2
+keras==2.15.0
+keyring==23.5.0
+kiwisolver==1.4.5
+langcodes==3.3.0
+launchpadlib==1.10.16
+lazr.restfulclient==0.14.4
+lazr.uri==1.0.6
+lazy_loader==0.3
+leather==0.3.4
+libclang==16.0.6
+log-symbols==0.0.14
+lxml==4.8.0
+Markdown==3.5.2
+MarkupSafe==2.1.4
+marshmallow==2.21.0
+matplotlib==3.7.3
+matplotlib-inline==0.1.6
+mir_eval==0.8.2
+mistune==3.0.2
+ml-dtypes==0.2.0
+more-itertools==8.10.0
+mpmath==1.3.0
+multidict==6.0.4
+multiprocess==0.70.15
+murmurhash==1.0.10
+musdb==0.4.2
+museval==0.4.1
+nbclassic==1.0.0
+nbclient==0.9.0
+nbconvert==7.14.2
+nbdime==3.2.1
+nbformat==5.9.2
+nest-asyncio==1.6.0
+networkx==3.2.1
+ninja==1.11.1.1
+nltk==3.8.1
+notebook==6.5.6
+notebook_shim==0.2.3
+numpy==1.26.3
+oauthlib==3.2.0
+olefile==0.46
+omegaconf==2.3.0
+opencv-python==4.8.0.76
+openpyxl==3.1.2
+opt-einsum==3.3.0
+overrides==7.6.0
+packaging==23.2
+pandas==2.2.0
+pandocfilters==1.5.1
+parsedatetime==2.6
+parso==0.8.3
+pathlib_abc==0.1.1
+pathtools==0.1.2
+pathy==0.11.0
+peft==0.6.2
+pexpect==4.9.0
+Pillow==9.5.0
+platformdirs==4.1.0
+preshed==3.0.9
+progressbar2==4.3.2
+prometheus-client==0.9.0
+prompt-toolkit==3.0.43
+protobuf==4.23.4
+psutil==5.9.8
+ptyprocess==0.7.0
+pure-eval==0.2.2
+py-cpuinfo==9.0.0
+pyaml==25.1.0
+pyarrow==15.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.3.0
+pycparser==2.21
+pydantic==1.10.14
+Pygments==2.17.2
+PyGObject==3.42.1
+PyJWT==2.3.0
+pymongo==3.13.0
+pyparsing==2.4.7
+PySocks==1.7.1
+python-apt==2.4.0+ubuntu2
+python-dateutil==2.8.2
+python-distutils-extra==2.39
+python-json-logger==2.0.7
+python-slugify==4.0.0
+python-utils==3.8.1
+pytimeparse==1.1.5
+pytz==2022.1
+PyWavelets==1.5.0
+PyYAML==5.4.1
+pyzmq==24.0.1
+referencing==0.32.1
+regex==2023.12.25
+requests==2.31.0
+requests-oauthlib==1.3.1
+requests-toolbelt==1.0.0
+rfc3339-validator==0.1.4
+rfc3986-validator==0.1.1
+roman==3.3
+rpds-py==0.17.1
+rsa==4.8
+ruamel.yaml==0.18.10
+ruamel.yaml.clib==0.2.12
+s3transfer==0.6.2
+safetensors==0.4.0
+scikit-image==0.21.0
+scikit-learn==1.3.0
+scipy==1.11.2
+screen-resolution-extra==0.0.0
+seaborn==0.12.2
+SecretStorage==3.3.1
+Send2Trash==1.8.2
+sentence-transformers==2.2.2
+sentencepiece==0.1.99
+sentry-sdk==1.39.2
+setproctitle==1.3.3
+shellingham==1.5.4
+simplejson==3.20.1
+six==1.16.0
+smart-open==6.4.0
+smmap==5.0.1
+sniffio==1.3.0
+soundfile==0.13.1
+soupsieve==2.5
+spacy==3.6.1
+spacy-legacy==3.0.12
+spacy-loggers==1.0.5
+speechbrain @ git+https://github.com/speechbrain/speechbrain.git@eb0532a219cc77efbc7a5c404184302500532226
+spinners==0.0.24
+SQLAlchemy==2.0.21
+srsly==2.4.8
+stack-data==0.6.3
+stempeg==0.2.3
+sympy==1.12
+tabulate==0.9.0
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.35.0
+termcolor==2.4.0
+terminado==0.18.0
+terminaltables==3.1.10
+thinc==8.1.12
+threadpoolctl==3.2.0
+tifffile==2023.12.9
+timm==0.9.7
+tinycss2==1.2.1
+tokenizers==0.15.1
+torch==2.1.1+cu121
+torchaudio==2.1.1+cu121
+torchvision==0.16.1+cu121
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.1
+transformers==4.35.2
+triton==2.1.0
+typer==0.9.0
+types-python-dateutil==2.8.19.20240106
+typing_extensions==4.9.0
+tzdata==2023.4
+Unidecode==1.3.3
+uri-template==1.3.0
+urllib3==2.0.7
+wadllib==1.3.6
+wandb==0.15.10
+wasabi==1.1.2
+wcwidth==0.2.13
+webcolors==1.13
+webencodings==0.5.1
+websocket-client==0.57.0
+Werkzeug==3.0.1
+widgetsnbextension==4.0.9
+wrapt==1.14.1
+xgboost==1.7.6
+xkit==0.0.0
+xlrd==1.2.0
+xxhash==3.4.1
+y-py==0.6.2
+yarl==1.9.4
+ypy-websocket==0.8.4
+zipp==1.0.0
+
+
+2025-04-23 18:51:01,383 - speechbrain.utils.superpowers - DEBUG - d0ecbf7
+
+
+2025-04-23 18:51:01,386 - speechbrain.core - INFO - Info: precision arg from hparam file is used
+2025-04-23 18:51:01,386 - speechbrain.core - INFO - Info: noprogressbar arg from hparam file is used
+2025-04-23 18:51:01,847 - speechbrain.core - INFO - Gradscaler enabled: `True`
+2025-04-23 18:51:01,847 - speechbrain.core - INFO - Using training precision: `--precision=fp16`
+2025-04-23 18:51:01,848 - speechbrain.core - INFO - Using evaluation precision: `--eval_precision=fp32`
+2025-04-23 18:51:01,848 - speechbrain.core - INFO - Separation Model Statistics:
+* Total Number of Trainable Parameters: 14.6M
+* Total Number of Parameters: 14.6M
+* Trainable Parameters represent 100.0000% of the total size.
+2025-04-23 18:51:22,632 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+17-38-49+00
+2025-04-23 18:51:23,884 - speechbrain.utils.epoch_loop - INFO - Going into epoch 53
+2025-04-23 18:54:39,525 - speechbrain.utils.quirks - INFO - Applied quirks (see `speechbrain.utils.quirks`): [allow_tf32, disable_jit_profiling]
+2025-04-23 18:54:39,526 - speechbrain.utils.quirks - INFO - Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2025-04-23 18:54:39,526 - speechbrain.core - INFO - Beginning experiment!
+2025-04-23 18:54:39,527 - speechbrain.core - INFO - Experiment folder: /notebooks/results/dprnn/1234
+2025-04-23 18:54:40,531 - speechbrain.utils.superpowers - DEBUG - absl-py==2.1.0
+accelerate==0.24.1
+agate==1.6.3
+agate-dbf==0.2.2
+agate-excel==0.2.5
+agate-sql==0.5.8
+aiofiles==22.1.0
+aiohttp==3.9.1
+aiosignal==1.3.1
+aiosqlite==0.19.0
+antlr4-python3-runtime==4.9.3
+anyio==4.2.0
+appdirs==1.4.4
+argon2-cffi==23.1.0
+argon2-cffi-bindings==21.2.0
+arrow==1.3.0
+asttokens==2.4.1
+astunparse==1.6.3
+attrs==23.1.0
+awscli==1.22.34
+Babel==2.14.0
+beautifulsoup4==4.12.3
+bitsandbytes==0.41.2
+bleach==6.1.0
+blinker==1.4
+blis==0.7.11
+boto3==1.28.51
+botocore==1.31.85
+cachetools==5.3.2
+catalogue==2.0.10
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+click-completion==0.5.2
+click-didyoumean==0.3.0
+click-help-colors==0.9.4
+cloudpickle==2.2.1
+colorama==0.4.3
+comm==0.2.1
+confection==0.1.4
+contourpy==1.2.0
+cryptography==3.4.8
+csvkit==1.0.6
+cupy-cuda12x==12.2.0
+cycler==0.12.1
+cymem==2.0.8
+Cython==3.0.2
+datasets==2.14.5
+dbfread==2.0.7
+dbus-python==1.2.18
+debugpy==1.8.0
+decorator==5.1.1
+deepspeed==0.10.3
+defusedxml==0.7.1
+diffusers==0.21.4
+dill==0.3.7
+distro==1.7.0
+docker-pycreds==0.4.0
+docutils==0.17.1
+entrypoints==0.4
+et-xmlfile==1.0.1
+executing==2.0.1
+fastjsonschema==2.19.1
+fastrlock==0.8.2
+ffmpeg-python==0.2.0
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.47.2
+fqdn==1.5.1
+frozenlist==1.4.1
+fsspec==2023.6.0
+future==0.18.3
+gast==0.5.4
+gdown==4.7.1
+gitdb==4.0.11
+GitPython==3.1.41
+google-auth==2.26.2
+google-auth-oauthlib==1.2.0
+google-pasta==0.2.0
+gql==3.0.0a6
+gradient==2.0.6
+gradient-utils==0.5.0
+graphql-core==3.1.7
+greenlet==1.1.2
+grpcio==1.60.0
+h5py==3.10.0
+halo==0.0.31
+hjson==3.1.0
+httplib2==0.20.2
+huggingface-hub==0.20.3
+HyperPyYAML==1.2.2
+idna==3.3
+imageio==2.33.1
+importlib-metadata==4.6.4
+ipykernel==6.29.0
+ipython==8.20.0
+ipython-genutils==0.2.0
+ipywidgets==8.1.1
+isodate==0.6.1
+isoduration==20.11.0
+jdcal==1.0
+jedi==0.19.1
+jeepney==0.7.1
+Jinja2==3.1.3
+jmespath==0.10.0
+joblib==1.3.2
+json5==0.9.14
+jsonify==0.5
+jsonpointer==2.4
+jsonschema==4.21.1
+jsonschema-specifications==2023.12.1
+jupyter-events==0.9.0
+jupyter-highlight-selected-word==0.2.0
+jupyter-nbextensions-configurator==0.6.3
+jupyter-server-mathjax==0.2.6
+jupyter-ydoc==0.2.5
+jupyter_client==7.4.9
+jupyter_contrib_core==0.4.2
+jupyter_contrib_nbextensions==0.7.0
+jupyter_core==5.7.1
+jupyter_server==2.12.5
+jupyter_server_fileid==0.9.1
+jupyter_server_terminals==0.5.2
+jupyter_server_ydoc==0.8.0
+jupyterlab==3.6.5
+jupyterlab-widgets==3.0.9
+jupyterlab_git==0.43.0
+jupyterlab_pygments==0.3.0
+jupyterlab_server==2.25.2
+keras==2.15.0
+keyring==23.5.0
+kiwisolver==1.4.5
+langcodes==3.3.0
+launchpadlib==1.10.16
+lazr.restfulclient==0.14.4
+lazr.uri==1.0.6
+lazy_loader==0.3
+leather==0.3.4
+libclang==16.0.6
+log-symbols==0.0.14
+lxml==4.8.0
+Markdown==3.5.2
+MarkupSafe==2.1.4
+marshmallow==2.21.0
+matplotlib==3.7.3
+matplotlib-inline==0.1.6
+mir_eval==0.8.2
+mistune==3.0.2
+ml-dtypes==0.2.0
+more-itertools==8.10.0
+mpmath==1.3.0
+multidict==6.0.4
+multiprocess==0.70.15
+murmurhash==1.0.10
+musdb==0.4.2
+museval==0.4.1
+nbclassic==1.0.0
+nbclient==0.9.0
+nbconvert==7.14.2
+nbdime==3.2.1
+nbformat==5.9.2
+nest-asyncio==1.6.0
+networkx==3.2.1
+ninja==1.11.1.1
+nltk==3.8.1
+notebook==6.5.6
+notebook_shim==0.2.3
+numpy==1.26.3
+oauthlib==3.2.0
+olefile==0.46
+omegaconf==2.3.0
+opencv-python==4.8.0.76
+openpyxl==3.1.2
+opt-einsum==3.3.0
+overrides==7.6.0
+packaging==23.2
+pandas==2.2.0
+pandocfilters==1.5.1
+parsedatetime==2.6
+parso==0.8.3
+pathlib_abc==0.1.1
+pathtools==0.1.2
+pathy==0.11.0
+peft==0.6.2
+pexpect==4.9.0
+Pillow==9.5.0
+platformdirs==4.1.0
+preshed==3.0.9
+progressbar2==4.3.2
+prometheus-client==0.9.0
+prompt-toolkit==3.0.43
+protobuf==4.23.4
+psutil==5.9.8
+ptyprocess==0.7.0
+pure-eval==0.2.2
+py-cpuinfo==9.0.0
+pyaml==25.1.0
+pyarrow==15.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.3.0
+pycparser==2.21
+pydantic==1.10.14
+Pygments==2.17.2
+PyGObject==3.42.1
+PyJWT==2.3.0
+pymongo==3.13.0
+pyparsing==2.4.7
+PySocks==1.7.1
+python-apt==2.4.0+ubuntu2
+python-dateutil==2.8.2
+python-distutils-extra==2.39
+python-json-logger==2.0.7
+python-slugify==4.0.0
+python-utils==3.8.1
+pytimeparse==1.1.5
+pytz==2022.1
+PyWavelets==1.5.0
+PyYAML==5.4.1
+pyzmq==24.0.1
+referencing==0.32.1
+regex==2023.12.25
+requests==2.31.0
+requests-oauthlib==1.3.1
+requests-toolbelt==1.0.0
+rfc3339-validator==0.1.4
+rfc3986-validator==0.1.1
+roman==3.3
+rpds-py==0.17.1
+rsa==4.8
+ruamel.yaml==0.18.10
+ruamel.yaml.clib==0.2.12
+s3transfer==0.6.2
+safetensors==0.4.0
+scikit-image==0.21.0
+scikit-learn==1.3.0
+scipy==1.11.2
+screen-resolution-extra==0.0.0
+seaborn==0.12.2
+SecretStorage==3.3.1
+Send2Trash==1.8.2
+sentence-transformers==2.2.2
+sentencepiece==0.1.99
+sentry-sdk==1.39.2
+setproctitle==1.3.3
+shellingham==1.5.4
+simplejson==3.20.1
+six==1.16.0
+smart-open==6.4.0
+smmap==5.0.1
+sniffio==1.3.0
+soundfile==0.13.1
+soupsieve==2.5
+spacy==3.6.1
+spacy-legacy==3.0.12
+spacy-loggers==1.0.5
+speechbrain @ git+https://github.com/speechbrain/speechbrain.git@eb0532a219cc77efbc7a5c404184302500532226
+spinners==0.0.24
+SQLAlchemy==2.0.21
+srsly==2.4.8
+stack-data==0.6.3
+stempeg==0.2.3
+sympy==1.12
+tabulate==0.9.0
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.35.0
+termcolor==2.4.0
+terminado==0.18.0
+terminaltables==3.1.10
+thinc==8.1.12
+threadpoolctl==3.2.0
+tifffile==2023.12.9
+timm==0.9.7
+tinycss2==1.2.1
+tokenizers==0.15.1
+torch==2.1.1+cu121
+torchaudio==2.1.1+cu121
+torchvision==0.16.1+cu121
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.1
+transformers==4.35.2
+triton==2.1.0
+typer==0.9.0
+types-python-dateutil==2.8.19.20240106
+typing_extensions==4.9.0
+tzdata==2023.4
+Unidecode==1.3.3
+uri-template==1.3.0
+urllib3==2.0.7
+wadllib==1.3.6
+wandb==0.15.10
+wasabi==1.1.2
+wcwidth==0.2.13
+webcolors==1.13
+webencodings==0.5.1
+websocket-client==0.57.0
+Werkzeug==3.0.1
+widgetsnbextension==4.0.9
+wrapt==1.14.1
+xgboost==1.7.6
+xkit==0.0.0
+xlrd==1.2.0
+xxhash==3.4.1
+y-py==0.6.2
+yarl==1.9.4
+ypy-websocket==0.8.4
+zipp==1.0.0
+
+
+2025-04-23 18:54:40,563 - speechbrain.utils.superpowers - DEBUG - d0ecbf7
+
+
+2025-04-23 18:54:40,572 - speechbrain.core - INFO - Info: precision arg from hparam file is used
+2025-04-23 18:54:40,572 - speechbrain.core - INFO - Info: noprogressbar arg from hparam file is used
+2025-04-23 18:54:40,967 - speechbrain.core - INFO - Gradscaler enabled: `True`
+2025-04-23 18:54:40,968 - speechbrain.core - INFO - Using training precision: `--precision=fp16`
+2025-04-23 18:54:40,968 - speechbrain.core - INFO - Using evaluation precision: `--eval_precision=fp32`
+2025-04-23 18:54:40,969 - speechbrain.core - INFO - Separation Model Statistics:
+* Total Number of Trainable Parameters: 14.6M
+* Total Number of Parameters: 14.6M
+* Trainable Parameters represent 100.0000% of the total size.
+2025-04-23 18:54:52,351 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+17-38-49+00
+2025-04-23 18:54:52,639 - speechbrain.utils.epoch_loop - INFO - Going into epoch 53
+2025-04-23 19:14:31,502 - speechbrain.utils.train_logger - INFO - epoch: 53, lr: 1.17e-06 - train si-snr: -1.90e+00 - valid si-snr: -2.24e+00
+2025-04-23 19:14:31,774 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+19-14-31+00
+2025-04-23 19:14:31,810 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+17-38-49+00
+2025-04-23 19:14:31,839 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+17-18-33+00
+2025-04-23 19:14:31,839 - speechbrain.utils.epoch_loop - INFO - Going into epoch 54
+2025-04-23 19:33:50,899 - speechbrain.utils.train_logger - INFO - epoch: 54, lr: 1.17e-06 - train si-snr: -1.74e+00 - valid si-snr: -2.25e+00
+2025-04-23 19:33:51,231 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+19-33-50+00
+2025-04-23 19:33:51,269 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+19-14-31+00
+2025-04-23 19:33:51,269 - speechbrain.utils.epoch_loop - INFO - Going into epoch 55
+2025-04-23 19:53:07,083 - speechbrain.utils.train_logger - INFO - epoch: 55, lr: 1.17e-06 - train si-snr: -1.87e+00 - valid si-snr: -2.27e+00
+2025-04-23 19:53:07,381 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+19-53-07+00
+2025-04-23 19:53:07,420 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+19-33-50+00
+2025-04-23 19:53:07,421 - speechbrain.utils.epoch_loop - INFO - Going into epoch 56
+2025-04-23 20:12:24,373 - speechbrain.utils.train_logger - INFO - epoch: 56, lr: 1.17e-06 - train si-snr: -1.40e+00 - valid si-snr: -2.28e+00
+2025-04-23 20:12:24,670 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+20-12-24+00
+2025-04-23 20:12:24,712 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+19-53-07+00
+2025-04-23 20:12:24,712 - speechbrain.utils.epoch_loop - INFO - Going into epoch 57
+2025-04-23 20:31:45,317 - speechbrain.utils.train_logger - INFO - epoch: 57, lr: 1.17e-06 - train si-snr: -1.46e+00 - valid si-snr: -2.33e+00
+2025-04-23 20:31:45,627 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+20-31-45+00
+2025-04-23 20:31:45,666 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+20-12-24+00
+2025-04-23 20:31:45,667 - speechbrain.utils.epoch_loop - INFO - Going into epoch 58
+2025-04-23 20:51:01,896 - speechbrain.utils.train_logger - INFO - epoch: 58, lr: 1.17e-06 - train si-snr: -1.62e+00 - valid si-snr: -2.33e+00
+2025-04-23 20:51:02,202 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+20-51-01+00
+2025-04-23 20:51:02,255 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+20-31-45+00
+2025-04-23 20:51:02,255 - speechbrain.utils.epoch_loop - INFO - Going into epoch 59
+2025-04-23 21:10:15,155 - speechbrain.utils.train_logger - INFO - epoch: 59, lr: 1.17e-06 - train si-snr: -1.71e+00 - valid si-snr: -2.33e+00
+2025-04-23 21:10:15,431 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+21-10-15+00
+2025-04-23 21:10:15,507 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+20-51-01+00
+2025-04-23 21:10:15,508 - speechbrain.utils.epoch_loop - INFO - Going into epoch 60
+2025-04-23 21:29:26,009 - speechbrain.utils.train_logger - INFO - epoch: 60, lr: 1.17e-06 - train si-snr: -1.65e+00 - valid si-snr: -2.34e+00
+2025-04-23 21:29:26,298 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+21-29-26+00
+2025-04-23 21:29:26,351 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+21-10-15+00
+2025-04-23 21:29:26,352 - speechbrain.utils.epoch_loop - INFO - Going into epoch 61
+2025-04-23 21:48:45,028 - speechbrain.utils.train_logger - INFO - epoch: 61, lr: 1.17e-06 - train si-snr: -1.32e+00 - valid si-snr: -2.34e+00
+2025-04-23 21:48:45,359 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+21-48-45+00
+2025-04-23 21:48:45,400 - speechbrain.utils.epoch_loop - INFO - Going into epoch 62
+2025-04-23 22:08:10,819 - speechbrain.utils.train_logger - INFO - epoch: 62, lr: 1.17e-06 - train si-snr: -1.56e+00 - valid si-snr: -2.33e+00
+2025-04-23 22:08:11,091 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+22-08-10+00
+2025-04-23 22:08:11,160 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+21-48-45+00
+2025-04-23 22:08:11,160 - speechbrain.utils.epoch_loop - INFO - Going into epoch 63
+2025-04-23 22:27:51,892 - speechbrain.utils.train_logger - INFO - epoch: 63, lr: 1.17e-06 - train si-snr: -1.90e+00 - valid si-snr: -2.34e+00
+2025-04-23 22:27:52,178 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+22-27-51+00
+2025-04-23 22:27:52,265 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+22-08-10+00
+2025-04-23 22:27:52,266 - speechbrain.utils.epoch_loop - INFO - Going into epoch 64
+2025-04-23 22:47:55,461 - speechbrain.utils.train_logger - INFO - epoch: 64, lr: 1.17e-06 - train si-snr: -1.18e+00 - valid si-snr: -2.34e+00
+2025-04-23 22:47:55,760 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+22-47-55+00
+2025-04-23 22:47:55,828 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+22-27-51+00
+2025-04-23 22:47:55,829 - speechbrain.utils.epoch_loop - INFO - Going into epoch 65
+2025-04-23 23:07:58,980 - speechbrain.utils.train_logger - INFO - epoch: 65, lr: 1.17e-06 - train si-snr: -1.96e+00 - valid si-snr: -2.35e+00
+2025-04-23 23:07:59,381 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+23-07-58+00
+2025-04-23 23:07:59,498 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+21-29-26+00
+2025-04-23 23:07:59,534 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+22-47-55+00
+2025-04-23 23:07:59,535 - speechbrain.utils.epoch_loop - INFO - Going into epoch 66
+2025-04-23 23:22:17,805 - speechbrain.utils.quirks - INFO - Applied quirks (see `speechbrain.utils.quirks`): [disable_jit_profiling, allow_tf32]
+2025-04-23 23:22:17,812 - speechbrain.utils.quirks - INFO - Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2025-04-23 23:22:17,812 - speechbrain.core - INFO - Beginning experiment!
+2025-04-23 23:22:17,812 - speechbrain.core - INFO - Experiment folder: /notebooks/results/dprnn/1234
+2025-04-23 23:22:18,807 - speechbrain.utils.superpowers - DEBUG - absl-py==2.1.0
+accelerate==0.24.1
+agate==1.6.3
+agate-dbf==0.2.2
+agate-excel==0.2.5
+agate-sql==0.5.8
+aiofiles==22.1.0
+aiohttp==3.9.1
+aiosignal==1.3.1
+aiosqlite==0.19.0
+antlr4-python3-runtime==4.9.3
+anyio==4.2.0
+appdirs==1.4.4
+argon2-cffi==23.1.0
+argon2-cffi-bindings==21.2.0
+arrow==1.3.0
+asttokens==2.4.1
+astunparse==1.6.3
+attrs==23.1.0
+awscli==1.22.34
+Babel==2.14.0
+beautifulsoup4==4.12.3
+bitsandbytes==0.41.2
+bleach==6.1.0
+blinker==1.4
+blis==0.7.11
+boto3==1.28.51
+botocore==1.31.85
+cachetools==5.3.2
+catalogue==2.0.10
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+click-completion==0.5.2
+click-didyoumean==0.3.0
+click-help-colors==0.9.4
+cloudpickle==2.2.1
+colorama==0.4.3
+comm==0.2.1
+confection==0.1.4
+contourpy==1.2.0
+cryptography==3.4.8
+csvkit==1.0.6
+cupy-cuda12x==12.2.0
+cycler==0.12.1
+cymem==2.0.8
+Cython==3.0.2
+datasets==2.14.5
+dbfread==2.0.7
+dbus-python==1.2.18
+debugpy==1.8.0
+decorator==5.1.1
+deepspeed==0.10.3
+defusedxml==0.7.1
+diffusers==0.21.4
+dill==0.3.7
+distro==1.7.0
+docker-pycreds==0.4.0
+docutils==0.17.1
+entrypoints==0.4
+et-xmlfile==1.0.1
+executing==2.0.1
+fastjsonschema==2.19.1
+fastrlock==0.8.2
+ffmpeg-python==0.2.0
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.47.2
+fqdn==1.5.1
+frozenlist==1.4.1
+fsspec==2023.6.0
+future==0.18.3
+gast==0.5.4
+gdown==4.7.1
+gitdb==4.0.11
+GitPython==3.1.41
+google-auth==2.26.2
+google-auth-oauthlib==1.2.0
+google-pasta==0.2.0
+gql==3.0.0a6
+gradient==2.0.6
+gradient-utils==0.5.0
+graphql-core==3.1.7
+greenlet==1.1.2
+grpcio==1.60.0
+h5py==3.10.0
+halo==0.0.31
+hjson==3.1.0
+httplib2==0.20.2
+huggingface-hub==0.20.3
+HyperPyYAML==1.2.2
+idna==3.3
+imageio==2.33.1
+importlib-metadata==4.6.4
+ipykernel==6.29.0
+ipython==8.20.0
+ipython-genutils==0.2.0
+ipywidgets==8.1.1
+isodate==0.6.1
+isoduration==20.11.0
+jdcal==1.0
+jedi==0.19.1
+jeepney==0.7.1
+Jinja2==3.1.3
+jmespath==0.10.0
+joblib==1.3.2
+json5==0.9.14
+jsonify==0.5
+jsonpointer==2.4
+jsonschema==4.21.1
+jsonschema-specifications==2023.12.1
+jupyter-events==0.9.0
+jupyter-highlight-selected-word==0.2.0
+jupyter-nbextensions-configurator==0.6.3
+jupyter-server-mathjax==0.2.6
+jupyter-ydoc==0.2.5
+jupyter_client==7.4.9
+jupyter_contrib_core==0.4.2
+jupyter_contrib_nbextensions==0.7.0
+jupyter_core==5.7.1
+jupyter_server==2.12.5
+jupyter_server_fileid==0.9.1
+jupyter_server_terminals==0.5.2
+jupyter_server_ydoc==0.8.0
+jupyterlab==3.6.5
+jupyterlab-widgets==3.0.9
+jupyterlab_git==0.43.0
+jupyterlab_pygments==0.3.0
+jupyterlab_server==2.25.2
+keras==2.15.0
+keyring==23.5.0
+kiwisolver==1.4.5
+langcodes==3.3.0
+launchpadlib==1.10.16
+lazr.restfulclient==0.14.4
+lazr.uri==1.0.6
+lazy_loader==0.3
+leather==0.3.4
+libclang==16.0.6
+log-symbols==0.0.14
+lxml==4.8.0
+Markdown==3.5.2
+MarkupSafe==2.1.4
+marshmallow==2.21.0
+matplotlib==3.7.3
+matplotlib-inline==0.1.6
+mir_eval==0.8.2
+mistune==3.0.2
+ml-dtypes==0.2.0
+more-itertools==8.10.0
+mpmath==1.3.0
+multidict==6.0.4
+multiprocess==0.70.15
+murmurhash==1.0.10
+musdb==0.4.2
+museval==0.4.1
+nbclassic==1.0.0
+nbclient==0.9.0
+nbconvert==7.14.2
+nbdime==3.2.1
+nbformat==5.9.2
+nest-asyncio==1.6.0
+networkx==3.2.1
+ninja==1.11.1.1
+nltk==3.8.1
+notebook==6.5.6
+notebook_shim==0.2.3
+numpy==1.26.3
+oauthlib==3.2.0
+olefile==0.46
+omegaconf==2.3.0
+opencv-python==4.8.0.76
+openpyxl==3.1.2
+opt-einsum==3.3.0
+overrides==7.6.0
+packaging==23.2
+pandas==2.2.0
+pandocfilters==1.5.1
+parsedatetime==2.6
+parso==0.8.3
+pathlib_abc==0.1.1
+pathtools==0.1.2
+pathy==0.11.0
+peft==0.6.2
+pexpect==4.9.0
+Pillow==9.5.0
+platformdirs==4.1.0
+preshed==3.0.9
+progressbar2==4.3.2
+prometheus-client==0.9.0
+prompt-toolkit==3.0.43
+protobuf==4.23.4
+psutil==5.9.8
+ptyprocess==0.7.0
+pure-eval==0.2.2
+py-cpuinfo==9.0.0
+pyaml==25.1.0
+pyarrow==15.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.3.0
+pycparser==2.21
+pydantic==1.10.14
+Pygments==2.17.2
+PyGObject==3.42.1
+PyJWT==2.3.0
+pymongo==3.13.0
+pyparsing==2.4.7
+PySocks==1.7.1
+python-apt==2.4.0+ubuntu2
+python-dateutil==2.8.2
+python-distutils-extra==2.39
+python-json-logger==2.0.7
+python-slugify==4.0.0
+python-utils==3.8.1
+pytimeparse==1.1.5
+pytz==2022.1
+PyWavelets==1.5.0
+PyYAML==5.4.1
+pyzmq==24.0.1
+referencing==0.32.1
+regex==2023.12.25
+requests==2.31.0
+requests-oauthlib==1.3.1
+requests-toolbelt==1.0.0
+rfc3339-validator==0.1.4
+rfc3986-validator==0.1.1
+roman==3.3
+rpds-py==0.17.1
+rsa==4.8
+ruamel.yaml==0.18.10
+ruamel.yaml.clib==0.2.12
+s3transfer==0.6.2
+safetensors==0.4.0
+scikit-image==0.21.0
+scikit-learn==1.3.0
+scipy==1.11.2
+screen-resolution-extra==0.0.0
+seaborn==0.12.2
+SecretStorage==3.3.1
+Send2Trash==1.8.2
+sentence-transformers==2.2.2
+sentencepiece==0.1.99
+sentry-sdk==1.39.2
+setproctitle==1.3.3
+shellingham==1.5.4
+simplejson==3.20.1
+six==1.16.0
+smart-open==6.4.0
+smmap==5.0.1
+sniffio==1.3.0
+soundfile==0.13.1
+soupsieve==2.5
+spacy==3.6.1
+spacy-legacy==3.0.12
+spacy-loggers==1.0.5
+speechbrain @ git+https://github.com/speechbrain/speechbrain.git@eb0532a219cc77efbc7a5c404184302500532226
+spinners==0.0.24
+SQLAlchemy==2.0.21
+srsly==2.4.8
+stack-data==0.6.3
+stempeg==0.2.3
+sympy==1.12
+tabulate==0.9.0
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.35.0
+termcolor==2.4.0
+terminado==0.18.0
+terminaltables==3.1.10
+thinc==8.1.12
+threadpoolctl==3.2.0
+tifffile==2023.12.9
+timm==0.9.7
+tinycss2==1.2.1
+tokenizers==0.15.1
+torch==2.1.1+cu121
+torchaudio==2.1.1+cu121
+torchvision==0.16.1+cu121
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.1
+transformers==4.35.2
+triton==2.1.0
+typer==0.9.0
+types-python-dateutil==2.8.19.20240106
+typing_extensions==4.9.0
+tzdata==2023.4
+Unidecode==1.3.3
+uri-template==1.3.0
+urllib3==2.0.7
+wadllib==1.3.6
+wandb==0.15.10
+wasabi==1.1.2
+wcwidth==0.2.13
+webcolors==1.13
+webencodings==0.5.1
+websocket-client==0.57.0
+Werkzeug==3.0.1
+widgetsnbextension==4.0.9
+wrapt==1.14.1
+xgboost==1.7.6
+xkit==0.0.0
+xlrd==1.2.0
+xxhash==3.4.1
+y-py==0.6.2
+yarl==1.9.4
+ypy-websocket==0.8.4
+zipp==1.0.0
+
+
+2025-04-23 23:22:18,933 - speechbrain.utils.superpowers - DEBUG - d0ecbf7
+
+
+2025-04-23 23:22:19,079 - speechbrain.core - INFO - Info: precision arg from hparam file is used
+2025-04-23 23:22:19,079 - speechbrain.core - INFO - Info: noprogressbar arg from hparam file is used
+2025-04-23 23:22:19,485 - speechbrain.core - INFO - Gradscaler enabled: `True`
+2025-04-23 23:22:19,485 - speechbrain.core - INFO - Using training precision: `--precision=fp16`
+2025-04-23 23:22:19,485 - speechbrain.core - INFO - Using evaluation precision: `--eval_precision=fp32`
+2025-04-23 23:22:19,486 - speechbrain.core - INFO - Separation Model Statistics:
+* Total Number of Trainable Parameters: 14.6M
+* Total Number of Parameters: 14.6M
+* Trainable Parameters represent 100.0000% of the total size.
+2025-04-23 23:22:41,353 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+23-07-58+00
+2025-04-23 23:22:42,734 - speechbrain.utils.epoch_loop - INFO - Going into epoch 66
+2025-04-23 23:28:14,145 - speechbrain.utils.train_logger - INFO - epoch: 66, lr: 1.17e-06 - train si-snr: -9.82e-01 - valid si-snr: -2.36e+00
+2025-04-23 23:28:14,452 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+23-28-14+00
+2025-04-23 23:28:14,533 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+23-07-58+00
+2025-04-23 23:28:14,534 - speechbrain.utils.epoch_loop - INFO - Going into epoch 67
+2025-04-23 23:41:43,927 - speechbrain.utils.train_logger - INFO - epoch: 66, lr: 1.17e-06 - train si-snr: -2.13e+00 - valid si-snr: -2.36e+00
+2025-04-23 23:41:44,297 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+23-41-43+00
+2025-04-23 23:41:44,371 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+23-28-14+00
+2025-04-23 23:41:44,372 - speechbrain.utils.epoch_loop - INFO - Going into epoch 67
+2025-04-23 23:48:39,112 - speechbrain.utils.train_logger - INFO - epoch: 67, lr: 1.17e-06 - train si-snr: -1.84e+00 - valid si-snr: -2.37e+00
+2025-04-23 23:48:39,505 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+23-48-39+00
+2025-04-23 23:48:39,577 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+23-41-43+00
+2025-04-23 23:48:39,578 - speechbrain.utils.epoch_loop - INFO - Going into epoch 68
+2025-04-24 00:00:22,375 - speechbrain.utils.train_logger - INFO - epoch: 67, lr: 1.17e-06 - train si-snr: -1.90e+00 - valid si-snr: -2.36e+00
+2025-04-24 00:00:22,649 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-24+00-00-22+00
+2025-04-24 00:00:22,671 - speechbrain.utils.epoch_loop - INFO - Going into epoch 68
+2025-04-24 00:09:20,457 - speechbrain.utils.train_logger - INFO - epoch: 68, lr: 1.17e-06 - train si-snr: -1.78e+00 - valid si-snr: -2.38e+00
+2025-04-24 00:09:20,802 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-24+00-09-20+00
+2025-04-24 00:09:20,973 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-24+00-00-22+00
+2025-04-24 00:09:21,013 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-23+23-48-39+00
+2025-04-24 00:09:21,013 - speechbrain.utils.epoch_loop - INFO - Going into epoch 69
+2025-04-24 00:19:05,926 - speechbrain.utils.train_logger - INFO - epoch: 68, lr: 1.17e-06 - train si-snr: -2.07e+00 - valid si-snr: -2.37e+00
+2025-04-24 00:19:06,214 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-24+00-19-05+00
+2025-04-24 00:19:06,234 - speechbrain.utils.epoch_loop - INFO - Going into epoch 69
+2025-04-24 00:30:23,481 - speechbrain.utils.train_logger - INFO - epoch: 69, lr: 1.17e-06 - train si-snr: -1.58e+00 - valid si-snr: -2.38e+00
+2025-04-24 00:30:23,835 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-24+00-30-23+00
+2025-04-24 00:30:23,936 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-24+00-09-20+00
+2025-04-24 00:30:23,975 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-24+00-19-05+00
+2025-04-24 00:30:23,975 - speechbrain.utils.epoch_loop - INFO - Going into epoch 70
+2025-04-24 00:37:41,721 - speechbrain.utils.train_logger - INFO - epoch: 69, lr: 1.17e-06 - train si-snr: -1.58e+00 - valid si-snr: -2.37e+00
+2025-04-24 00:37:41,983 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-24+00-37-41+00
+2025-04-24 00:37:42,006 - speechbrain.utils.epoch_loop - INFO - Going into epoch 70
+2025-04-24 00:51:33,480 - speechbrain.utils.train_logger - INFO - epoch: 70, lr: 1.17e-06 - train si-snr: -1.80e+00 - valid si-snr: -2.38e+00
+2025-04-24 00:51:33,837 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-24+00-51-33+00
+2025-04-24 00:51:33,965 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-24+00-37-41+00
+2025-04-24 00:51:33,966 - speechbrain.utils.epoch_loop - INFO - Going into epoch 71
+2025-04-24 00:56:18,386 - speechbrain.utils.train_logger - INFO - epoch: 70, lr: 1.17e-06 - train si-snr: -1.64e+00 - valid si-snr: -2.40e+00
+2025-04-24 00:56:18,655 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-24+00-56-18+00
+2025-04-24 00:56:18,720 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-24+00-30-23+00
+2025-04-24 00:56:18,759 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-24+00-51-33+00
+2025-04-24 00:56:18,759 - speechbrain.utils.epoch_loop - INFO - Going into epoch 71
+2025-04-24 01:14:59,405 - speechbrain.utils.train_logger - INFO - epoch: 71, lr: 1.17e-06 - train si-snr: -1.77e+00 - valid si-snr: -2.39e+00
+2025-04-24 01:14:59,710 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-24+01-14-59+00
+2025-04-24 01:14:59,729 - speechbrain.utils.epoch_loop - INFO - Going into epoch 72
+2025-04-24 01:33:37,301 - speechbrain.utils.train_logger - INFO - epoch: 72, lr: 1.17e-06 - train si-snr: -1.87e+00 - valid si-snr: -2.40e+00
+2025-04-24 01:33:37,577 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-24+01-33-37+00
+2025-04-24 01:33:37,642 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-24+00-56-18+00
+2025-04-24 01:33:37,664 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-24+01-14-59+00
+2025-04-24 01:33:37,665 - speechbrain.utils.epoch_loop - INFO - Going into epoch 73
+2025-04-24 01:52:18,027 - speechbrain.utils.train_logger - INFO - epoch: 73, lr: 1.17e-06 - train si-snr: -1.80e+00 - valid si-snr: -2.40e+00
+2025-04-24 01:52:18,280 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-24+01-52-18+00
+2025-04-24 01:52:18,326 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-24+01-33-37+00
+2025-04-24 01:52:18,327 - speechbrain.utils.epoch_loop - INFO - Going into epoch 74
+2025-04-24 02:11:06,513 - speechbrain.utils.train_logger - INFO - epoch: 74, lr: 1.17e-06 - train si-snr: -1.48e+00 - valid si-snr: -2.40e+00
+2025-04-24 02:11:06,778 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-24+02-11-06+00
+2025-04-24 02:11:06,820 - speechbrain.utils.epoch_loop - INFO - Going into epoch 75
+2025-04-24 02:18:29,214 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/notebooks/dprnn-train.py", line 437, in <module>
+    separator.fit(
+  File "/usr/local/lib/python3.11/dist-packages/speechbrain/core.py", line 1585, in fit
+    self._fit_train(train_set=train_set, epoch=epoch, enable=enable)
+  File "/usr/local/lib/python3.11/dist-packages/speechbrain/core.py", line 1404, in _fit_train
+    for batch in t:
+  File "/usr/local/lib/python3.11/dist-packages/tqdm/std.py", line 1182, in __iter__
+    for obj in iterable:
+  File "/usr/local/lib/python3.11/dist-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/utils/data/dataloader.py", line 674, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "/notebooks/dataset.py", line 98, in __getitem__
+    "voc_sig": load_stem_chunk("vocals",random_chunk_start_val),
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/notebooks/dataset.py", line 65, in load_stem_chunk
+    audio = source.audio[start:stop]
+            ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/musdb/audio_classes.py", line 273, in audio
+    audio = source.audio
+            ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/musdb/audio_classes.py", line 227, in audio
+    return self.multitrack.load_audio(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/musdb/audio_classes.py", line 100, in load_audio
+    audio, rate = stempeg.read_stems(
+                  ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/stempeg/read.py", line 284, in read_stems
+    stems = [
+            ^
+  File "/usr/local/lib/python3.11/dist-packages/stempeg/read.py", line 285, in <listcomp>
+    _read_ffmpeg(
+  File "/usr/local/lib/python3.11/dist-packages/stempeg/read.py", line 92, in _read_ffmpeg
+    buffer, _ = process.communicate()
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/subprocess.py", line 2108, in _communicate
+    ready = selector.select(timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2025-04-24 02:18:58,759 - speechbrain.utils.quirks - INFO - Applied quirks (see `speechbrain.utils.quirks`): [allow_tf32, disable_jit_profiling]
+2025-04-24 02:18:58,764 - speechbrain.utils.quirks - INFO - Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2025-04-24 02:18:58,764 - speechbrain.core - INFO - Beginning experiment!
+2025-04-24 02:18:58,764 - speechbrain.core - INFO - Experiment folder: /notebooks/results/dprnn/1234
+2025-04-24 02:18:59,777 - speechbrain.utils.superpowers - DEBUG - absl-py==2.1.0
+accelerate==0.24.1
+agate==1.6.3
+agate-dbf==0.2.2
+agate-excel==0.2.5
+agate-sql==0.5.8
+aiofiles==22.1.0
+aiohttp==3.9.1
+aiosignal==1.3.1
+aiosqlite==0.19.0
+antlr4-python3-runtime==4.9.3
+anyio==4.2.0
+appdirs==1.4.4
+argon2-cffi==23.1.0
+argon2-cffi-bindings==21.2.0
+arrow==1.3.0
+asttokens==2.4.1
+astunparse==1.6.3
+attrs==23.1.0
+awscli==1.22.34
+Babel==2.14.0
+beautifulsoup4==4.12.3
+bitsandbytes==0.41.2
+bleach==6.1.0
+blinker==1.4
+blis==0.7.11
+boto3==1.28.51
+botocore==1.31.85
+cachetools==5.3.2
+catalogue==2.0.10
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+click-completion==0.5.2
+click-didyoumean==0.3.0
+click-help-colors==0.9.4
+cloudpickle==2.2.1
+colorama==0.4.3
+comm==0.2.1
+confection==0.1.4
+contourpy==1.2.0
+cryptography==3.4.8
+csvkit==1.0.6
+cupy-cuda12x==12.2.0
+cycler==0.12.1
+cymem==2.0.8
+Cython==3.0.2
+datasets==2.14.5
+dbfread==2.0.7
+dbus-python==1.2.18
+debugpy==1.8.0
+decorator==5.1.1
+deepspeed==0.10.3
+defusedxml==0.7.1
+diffusers==0.21.4
+dill==0.3.7
+distro==1.7.0
+docker-pycreds==0.4.0
+docutils==0.17.1
+entrypoints==0.4
+et-xmlfile==1.0.1
+executing==2.0.1
+fastjsonschema==2.19.1
+fastrlock==0.8.2
+ffmpeg-python==0.2.0
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.47.2
+fqdn==1.5.1
+frozenlist==1.4.1
+fsspec==2023.6.0
+future==0.18.3
+gast==0.5.4
+gdown==4.7.1
+gitdb==4.0.11
+GitPython==3.1.41
+google-auth==2.26.2
+google-auth-oauthlib==1.2.0
+google-pasta==0.2.0
+gql==3.0.0a6
+gradient==2.0.6
+gradient-utils==0.5.0
+graphql-core==3.1.7
+greenlet==1.1.2
+grpcio==1.60.0
+h5py==3.10.0
+halo==0.0.31
+hjson==3.1.0
+httplib2==0.20.2
+huggingface-hub==0.20.3
+HyperPyYAML==1.2.2
+idna==3.3
+imageio==2.33.1
+importlib-metadata==4.6.4
+ipykernel==6.29.0
+ipython==8.20.0
+ipython-genutils==0.2.0
+ipywidgets==8.1.1
+isodate==0.6.1
+isoduration==20.11.0
+jdcal==1.0
+jedi==0.19.1
+jeepney==0.7.1
+Jinja2==3.1.3
+jmespath==0.10.0
+joblib==1.3.2
+json5==0.9.14
+jsonify==0.5
+jsonpointer==2.4
+jsonschema==4.21.1
+jsonschema-specifications==2023.12.1
+jupyter-events==0.9.0
+jupyter-highlight-selected-word==0.2.0
+jupyter-nbextensions-configurator==0.6.3
+jupyter-server-mathjax==0.2.6
+jupyter-ydoc==0.2.5
+jupyter_client==7.4.9
+jupyter_contrib_core==0.4.2
+jupyter_contrib_nbextensions==0.7.0
+jupyter_core==5.7.1
+jupyter_server==2.12.5
+jupyter_server_fileid==0.9.1
+jupyter_server_terminals==0.5.2
+jupyter_server_ydoc==0.8.0
+jupyterlab==3.6.5
+jupyterlab-widgets==3.0.9
+jupyterlab_git==0.43.0
+jupyterlab_pygments==0.3.0
+jupyterlab_server==2.25.2
+keras==2.15.0
+keyring==23.5.0
+kiwisolver==1.4.5
+langcodes==3.3.0
+launchpadlib==1.10.16
+lazr.restfulclient==0.14.4
+lazr.uri==1.0.6
+lazy_loader==0.3
+leather==0.3.4
+libclang==16.0.6
+log-symbols==0.0.14
+lxml==4.8.0
+Markdown==3.5.2
+MarkupSafe==2.1.4
+marshmallow==2.21.0
+matplotlib==3.7.3
+matplotlib-inline==0.1.6
+mir_eval==0.8.2
+mistune==3.0.2
+ml-dtypes==0.2.0
+more-itertools==8.10.0
+mpmath==1.3.0
+multidict==6.0.4
+multiprocess==0.70.15
+murmurhash==1.0.10
+musdb==0.4.2
+museval==0.4.1
+nbclassic==1.0.0
+nbclient==0.9.0
+nbconvert==7.14.2
+nbdime==3.2.1
+nbformat==5.9.2
+nest-asyncio==1.6.0
+networkx==3.2.1
+ninja==1.11.1.1
+nltk==3.8.1
+notebook==6.5.6
+notebook_shim==0.2.3
+numpy==1.26.3
+oauthlib==3.2.0
+olefile==0.46
+omegaconf==2.3.0
+opencv-python==4.8.0.76
+openpyxl==3.1.2
+opt-einsum==3.3.0
+overrides==7.6.0
+packaging==23.2
+pandas==2.2.0
+pandocfilters==1.5.1
+parsedatetime==2.6
+parso==0.8.3
+pathlib_abc==0.1.1
+pathtools==0.1.2
+pathy==0.11.0
+peft==0.6.2
+pexpect==4.9.0
+Pillow==9.5.0
+platformdirs==4.1.0
+preshed==3.0.9
+progressbar2==4.3.2
+prometheus-client==0.9.0
+prompt-toolkit==3.0.43
+protobuf==4.23.4
+psutil==5.9.8
+ptyprocess==0.7.0
+pure-eval==0.2.2
+py-cpuinfo==9.0.0
+pyaml==25.1.0
+pyarrow==15.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.3.0
+pycparser==2.21
+pydantic==1.10.14
+Pygments==2.17.2
+PyGObject==3.42.1
+PyJWT==2.3.0
+pymongo==3.13.0
+pyparsing==2.4.7
+PySocks==1.7.1
+python-apt==2.4.0+ubuntu2
+python-dateutil==2.8.2
+python-distutils-extra==2.39
+python-json-logger==2.0.7
+python-slugify==4.0.0
+python-utils==3.8.1
+pytimeparse==1.1.5
+pytz==2022.1
+PyWavelets==1.5.0
+PyYAML==5.4.1
+pyzmq==24.0.1
+referencing==0.32.1
+regex==2023.12.25
+requests==2.31.0
+requests-oauthlib==1.3.1
+requests-toolbelt==1.0.0
+rfc3339-validator==0.1.4
+rfc3986-validator==0.1.1
+roman==3.3
+rpds-py==0.17.1
+rsa==4.8
+ruamel.yaml==0.18.10
+ruamel.yaml.clib==0.2.12
+s3transfer==0.6.2
+safetensors==0.4.0
+scikit-image==0.21.0
+scikit-learn==1.3.0
+scipy==1.11.2
+screen-resolution-extra==0.0.0
+seaborn==0.12.2
+SecretStorage==3.3.1
+Send2Trash==1.8.2
+sentence-transformers==2.2.2
+sentencepiece==0.1.99
+sentry-sdk==1.39.2
+setproctitle==1.3.3
+shellingham==1.5.4
+simplejson==3.20.1
+six==1.16.0
+smart-open==6.4.0
+smmap==5.0.1
+sniffio==1.3.0
+soundfile==0.13.1
+soupsieve==2.5
+spacy==3.6.1
+spacy-legacy==3.0.12
+spacy-loggers==1.0.5
+speechbrain @ git+https://github.com/speechbrain/speechbrain.git@eb0532a219cc77efbc7a5c404184302500532226
+spinners==0.0.24
+SQLAlchemy==2.0.21
+srsly==2.4.8
+stack-data==0.6.3
+stempeg==0.2.3
+sympy==1.12
+tabulate==0.9.0
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.35.0
+termcolor==2.4.0
+terminado==0.18.0
+terminaltables==3.1.10
+thinc==8.1.12
+threadpoolctl==3.2.0
+tifffile==2023.12.9
+timm==0.9.7
+tinycss2==1.2.1
+tokenizers==0.15.1
+torch==2.1.1+cu121
+torchaudio==2.1.1+cu121
+torchvision==0.16.1+cu121
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.1
+transformers==4.35.2
+triton==2.1.0
+typer==0.9.0
+types-python-dateutil==2.8.19.20240106
+typing_extensions==4.9.0
+tzdata==2023.4
+Unidecode==1.3.3
+uri-template==1.3.0
+urllib3==2.0.7
+wadllib==1.3.6
+wandb==0.15.10
+wasabi==1.1.2
+wcwidth==0.2.13
+webcolors==1.13
+webencodings==0.5.1
+websocket-client==0.57.0
+Werkzeug==3.0.1
+widgetsnbextension==4.0.9
+wrapt==1.14.1
+xgboost==1.7.6
+xkit==0.0.0
+xlrd==1.2.0
+xxhash==3.4.1
+y-py==0.6.2
+yarl==1.9.4
+ypy-websocket==0.8.4
+zipp==1.0.0
+
+
+2025-04-24 02:18:59,782 - speechbrain.utils.superpowers - DEBUG - d0ecbf7
+
+
+2025-04-24 02:18:59,789 - speechbrain.core - INFO - Info: precision arg from hparam file is used
+2025-04-24 02:18:59,789 - speechbrain.core - INFO - Info: noprogressbar arg from hparam file is used
+2025-04-24 02:19:00,159 - speechbrain.core - INFO - Gradscaler enabled: `True`
+2025-04-24 02:19:00,159 - speechbrain.core - INFO - Using training precision: `--precision=fp16`
+2025-04-24 02:19:00,160 - speechbrain.core - INFO - Using evaluation precision: `--eval_precision=fp32`
+2025-04-24 02:19:00,160 - speechbrain.core - INFO - Separation Model Statistics:
+* Total Number of Trainable Parameters: 14.6M
+* Total Number of Parameters: 14.6M
+* Trainable Parameters represent 100.0000% of the total size.
+2025-04-24 02:19:11,470 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /notebooks/results/dprnn/1234/save/CKPT+2025-04-24+02-11-06+00
+2025-04-24 02:19:11,765 - speechbrain.utils.epoch_loop - INFO - Going into epoch 75
+2025-04-24 02:38:33,372 - speechbrain.utils.train_logger - INFO - epoch: 75, lr: 1.17e-06 - train si-snr: -2.24e+00 - valid si-snr: -2.40e+00
+2025-04-24 02:38:33,656 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-24+02-38-33+00
+2025-04-24 02:38:33,771 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /notebooks/results/dprnn/1234/save/CKPT+2025-04-24+02-11-06+00
+2025-04-24 02:38:33,782 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /notebooks/results/dprnn/1234/save/CKPT+2025-04-24+01-52-18+00
+2025-04-24 02:47:51,215 - speechbrain.utils.train_logger - INFO - Epoch loaded: 73 - test si-snr: -2.31e-02
+2025-04-24 02:58:05,083 - __main__ - INFO - Mean SISNR is 4.175531203548114
+2025-04-24 02:58:05,085 - __main__ - INFO - Mean SISNRi is 4.763912072166418
+2025-04-24 02:58:05,085 - __main__ - INFO - Mean SDR is 5.807801449677452
+2025-04-24 02:58:05,085 - __main__ - INFO - Mean SDRi is 5.380221721105533

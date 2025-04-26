@@ -1,0 +1,11 @@
+epoch: 1, lr: 1.50e-04 - train si-snr: 7.84 - valid si-snr: 6.28
+epoch: 2, lr: 1.50e-04 - train si-snr: 5.64 - valid si-snr: 6.18
+epoch: 3, lr: 1.50e-04 - train si-snr: 4.84 - valid si-snr: 5.92
+epoch: 4, lr: 1.50e-04 - train si-snr: 4.44 - valid si-snr: 5.41
+epoch: 5, lr: 1.50e-04 - train si-snr: 4.33 - valid si-snr: 5.48
+epoch: 6, lr: 1.50e-04 - train si-snr: 4.31 - valid si-snr: 5.25
+epoch: 7, lr: 1.50e-04 - train si-snr: 4.19 - valid si-snr: 5.16
+epoch: 8, lr: 1.50e-04 - train si-snr: 4.10 - valid si-snr: 4.99
+epoch: 9, lr: 1.50e-04 - train si-snr: 3.56 - valid si-snr: 5.06
+epoch: 10, lr: 1.50e-04 - train si-snr: 3.82 - valid si-snr: 5.20
+Epoch loaded: 8 - test si-snr: 7.16

@@ -1,0 +1,167 @@
+# Generated 2025-04-24 from:
+# /notebooks/dprnn-hparams.yaml
+# yamllint disable
+# ################################
+# Model: DPRNN for Music vocal separation
+# https://arxiv.org/abs/2010.13154
+# Dataset : MusDB
+# ################################
+# Basic parameters
+# Seed needs to be set at top of yaml, before objects with parameters are made
+
+
+seed: 1234
+__set_seed: !apply:speechbrain.utils.seed_everything [1234]
+
+# Data params
+
+data_folder: db_path
+result_file_path: /notebooks/metrics.csv
+
+experiment_name: dprnn
+output_folder: /notebooks/results/dprnn/1234
+train_log: /notebooks/results/dprnn/1234/train_log.txt
+save_folder: /notebooks/results/dprnn/1234/save
+train_data: /notebooks/results/dprnn/1234/train.json
+valid_data: /notebooks/results/dprnn/1234/valid.json
+test_data: /notebooks/results/dprnn/1234/test.json
+skip_prep: false
+db_path: /notebooks/data
+
+
+# Experiment params
+precision: fp16 # bf16, fp16 or fp32
+
+
+noprogressbar: false
+save_audio: true # Save estimated sources on disk
+sample_rate: 8000
+n_audio_to_save: 5
+chunk_size: 20
+
+####################### Training Parameters ####################################
+N_epochs: 75
+batch_size: 1
+lr: 0.00015
+clip_grad_norm: 5
+loss_upper_lim: 999999  # this is the upper limit for an acceptable loss
+num_sources: 2
+
+
+
+# loss thresholding -- this thresholds the training loss
+threshold_byloss: true
+threshold: -30
+
+# Encoder parameters
+N_encoder_out: 256
+out_channels: 256
+kernel_size: 16
+kernel_stride: 8
+
+# Dataloader options
+dataloader_opts:
+  batch_size: 1
+  num_workers: 3
+
+
+
+####################### WaveDrop Params ########################################
+
+use_wavedrop: true
+# Frequency drop: randomly drops a number of frequency bands to zero.
+drop_freq_low: 0  # Min frequency band dropout probability
+drop_freq_high: 1  # Max frequency band dropout probability
+drop_freq_count_low: 1  # Min number of frequency bands to drop
+drop_freq_count_high: 3  # Max number of frequency bands to drop
+drop_freq_width: 0.05  # Width of frequency bands to drop
+
+drop_freq: !new:speechbrain.augment.time_domain.DropFreq
+  drop_freq_low: 0
+  drop_freq_high: 1
+  drop_freq_count_low: 1
+  drop_freq_count_high: 3
+  drop_freq_width: 0.05
+
+# Time drop: randomly drops a number of temporal chunks.
+drop_chunk_count_low: 1  # Min number of audio chunks to drop
+drop_chunk_count_high: 3  # Max number of audio chunks to drop
+drop_chunk_length_low: 800  # Min length of audio chunks to drop
+drop_chunk_length_high: 1600  # Max length of audio chunks to drop
+
+drop_chunk: !new:speechbrain.augment.time_domain.DropChunk
+  drop_length_low: 800
+  drop_length_high: 1600
+  drop_count_low: 1
+  drop_count_high: 3
+
+########################## Network Definition #######################
+Encoder: &id003 !new:speechbrain.lobes.models.dual_path.Encoder
+  kernel_size: 16
+  out_channels: 256
+
+intra: &id001 !new:speechbrain.lobes.models.dual_path.SBRNNBlock
+  num_layers: 1
+  input_size: 256
+  hidden_channels: 256
+  dropout: 0
+  bidirectional: true
+
+inter: &id002 !new:speechbrain.lobes.models.dual_path.SBRNNBlock
+  num_layers: 1
+  input_size: 256
+  hidden_channels: 256
+  dropout: 0
+  bidirectional: true
+
+MaskNet: &id005 !new:speechbrain.lobes.models.dual_path.Dual_Path_Model
+
+  num_spks: 2
+  in_channels: 256
+  out_channels: 256
+  num_layers: 6
+  K: 250
+  intra_model: *id001
+  inter_model: *id002
+  norm: ln
+  linear_layer_after_inter_intra: true
+  skip_around_intra: true
+
+Decoder: &id004 !new:speechbrain.lobes.models.dual_path.Decoder
+  in_channels: 256
+  out_channels: 1
+  kernel_size: 16
+  stride: 8
+  bias: false
+
+##################### Other Params #########################
+
+optimizer: !name:torch.optim.Adam
+  lr: 0.00015
+  weight_decay: 0
+
+loss: !name:speechbrain.nnet.losses.get_si_snr_with_pitwrapper
+
+lr_scheduler: &id007 !new:speechbrain.nnet.schedulers.ReduceLROnPlateau
+
+  factor: 0.8
+  patience: 2
+  dont_halve_until_epoch: 75
+
+epoch_counter: &id006 !new:speechbrain.utils.epoch_loop.EpochCounter
+  limit: 75
+
+modules:
+  encoder: *id003
+  decoder: *id004
+  masknet: *id005
+checkpointer: !new:speechbrain.utils.checkpoints.Checkpointer
+  checkpoints_dir: /notebooks/results/dprnn/1234/save
+  recoverables:
+    encoder: *id003
+    decoder: *id004
+    masknet: *id005
+    counter: *id006
+    lr_scheduler: *id007
+train_logger: !new:speechbrain.utils.train_logger.FileTrainLogger
+  save_file: /notebooks/results/dprnn/1234/train_log.txt
